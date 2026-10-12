@@ -1,0 +1,74 @@
+{
+  "text_layer": true,
+  "ocr_applied": false,
+  "range_check": {
+    "contents": "ok: Contents start at the bottom of the title page p3 (i), the list of Tables ends on p8 (vi); Preface from p9",
+    "body": "ok: p9 Preface (vii) to p204 Appendix D (D-18); Glossary from p205",
+    "glossary": "ok: p205 Glossary-1 (start of Section I) to p211 Glossary-7 (last term 'urban operations'); p212 blank",
+    "index": "ok: p217 Index-1 (starts at A) to p222 Index-6 (ends at W 'wind'); p223 blank"
+  },
+  "index_layout": "3 columns; headings flush left in the column with a hanging indent (about 10pt), sub-entries indented about 13pt (continuation lines 23pt), no third level; references are paragraph numbers (e.g. 4-70, D-18, ranges with an en dash 3-6–3-9) and italic 'See …'/'See also …' cross-references, '<heading> (continued)' at the top of a column, alphabet letters centered. The Glossary is 1 column (Section I: bold abbreviation right-aligned + expansion in 2 columns; Section II: bold heading + indented definition).",
+  "counts": {
+    "contents": 186,
+    "glossary": 131,
+    "index": 546
+  },
+  "count_check": "(1) Compared with counts taken by hand on the rendered pages: Index p217 headings 41 = CSV 41, p220 38 = 38; Glossary p205 abbreviations 31 = 31. (2) pdf_page in contents.json verified: for all 172 entries with a printed_page, the title string is present in the body of that physical page (0 mismatches). (3) Alphabetical monotonicity: of 225 Index headings, 2 deviate from the document's own order; in the Glossary 1 abbreviation and 1 term; otherwise increasing (see notes). Row counts: contents 186, glossary 131 (abbreviation 54 + term 77), index 546 (level 1 225 + level 2 321).",
+  "blank_fields": [],
+  "notes": [
+    "contents.json: \"Chapter 1 INTELLIGENCE PREPARATION OF THE BATTLEFIELD FUNDAMENTALS1-1\" — printed with the page number attached to the title and no dot leader; title and printed_page split",
+    "contents.json: hierarchy — PART (1) > Chapter (2) > Section I/II (3) > section title (4); in chapters without Sections, section titles are 3. PREFACE, INTRODUCTION, GLOSSARY, REFERENCES, INDEX and Appendix A–D do not belong to a PART in the printed numbering, so they are level 1 (Appendices are printed in the same column as Chapters, but the numbering takes precedence).",
+    "contents.json: PART rows have no printed page number, so printed_page/pdf_page = null. The heads of the 'Figures' and 'Tables' lists are level 1, label = title = that heading, page null.",
+    "contents.json: 'Section I – Unified Action' and similar are split into label='Section I', title='Unified Action' (raw_line keeps the original).",
+    "contents.json: pdf_page is mapped by reading the printed page label in each body page footer (e.g. '3-1', 'Glossary-1'). Physical p10 and p12 (blank) have no footer.",
+    "glossary.csv: pdf_page 205 section head \"SECTION I – ACRONYMS AND ABBREVIATIONS\"",
+    "glossary.csv: pdf_page 206 section head \"SECTION II – TERMS\"",
+    "glossary.csv: pdf_page 207 \"decisive terrain\" — a period is printed after the source parenthesis \"(ADP 3-90).\"; excluded together with the parenthesis when extracting the source",
+    "glossary.csv: Section I (abbreviations) has entry_type=abbreviation and an empty source. Section II (terms) has entry_type=term.",
+    "glossary.csv: the '*' the document puts on terms it is the proponent of is kept in term (*intelligence preparation of the battlefield, *line of sight). These two entries have no printed source parenthesis, so source is empty.",
+    "glossary.csv: '(Army)' and '(joint)' at the start of a definition are kept as part of the definition.",
+    "glossary.csv: typo kept as printed — G-4 'assitant chief of staff, logistics' (p205).",
+    "glossary.csv: printed order anomalies kept — Section I 'PMESII-PT' before 'PIR' (p206); Section II 'situational understanding' before 'situation template' (p210).",
+    "index.csv: pdf_page 218 \"cyberspace electromagnetic activities (continued)\" — the (continued) column head is not a row; the term of the following sub-entries is filled with \"cyberspace electromagnetic activities\"",
+    "index.csv: pdf_page 219 \"HVT (continued)\" — the (continued) column head is not a row; the term of the following sub-entries is filled with \"HVT\"",
+    "index.csv: pdf_page 219 \"weather, and civil\" — the preceding sub-entry \"and the mission variables of enemy, terrain and\" ends with a conjunction and has no reference, so this is judged a continuation line set at sub-entry indent and joined to it",
+    "index.csv: pdf_page 219 \"IPB (continued)\" — the (continued) column head is not a row; the term of the following sub-entries is filled with \"IPB\"",
+    "index.csv: pdf_page 222 \"threat (continued)\" — the (continued) column head is not a row; the term of the following sub-entries is filled with \"threat\"",
+    "index.csv: the document has no third-level entries; level uses 1 and 2 only.",
+    "index.csv: a row with only 'See also …' printed in the sub-entry position has an empty sub_entry and the whole original text in reference (level 2).",
+    "index.csv: a heading row with sub-entries but no reference of its own has an empty reference (not printed in the document; not a blank_field).",
+    "index.csv: 'work aids. 4-68, 7-16, D-24. See also IPB products.' (p222, under weather effects) is printed separated by a period. sub_entry='work aids', reference='4-68, 7-16, D-24. See also IPB products.'",
+    "index.csv: 'infrastructure, analysis in 7-124–7-128, 7-138–7-141' (p222, under urban environment) has no comma printed before the reference. Split as sub_entry='infrastructure, analysis in'.",
+    "index.csv: typos and irregular notation kept as printed — 'decribed' (generate intelligence knowledge, p218), 'consideratons' (IPB, p219), 'of regular, irregular, and threats' (miscellaneous data, p220), reference '5-20–2-22' (threat > evaluating, p221), '5-37-5-39' (hyphen, p221), 'area of operations,1-16' and 'targeting,1-34' (no space after the comma).",
+    "index.csv: printed order anomalies kept — 'capabilities (ASCOPE characteristic)' followed by 'capabilities and limitations' (p217), 'EMS' followed by 'electromagnetic spectrum' (p218).",
+    "index.csv: alphabet letter heads (A, B, C …) are not rows.",
+    "general: the extraction order of the text layer was checked to match the column order by splitting columns on the x coordinate, and compared with the rendered pages (150 dpi)."
+  ],
+  "pages": {
+    "contents": [
+      3,
+      8
+    ],
+    "body": [
+      9,
+      204
+    ],
+    "glossary": [
+      205,
+      211
+    ],
+    "index": [
+      217,
+      222
+    ]
+  },
+  "unreadable_pages": [],
+  "source_sha256": "10a08e6ff0779c7d6c37b4d05f3ab813fcbd86f78d3eefc5348d19e42511827d",
+  "prepared_sha256": "72c11425920c1d1d3a6a0add0c3388bf9cfa6503301164d325bf9fe5f69ec96e",
+  "prepared_pages": 196,
+  "hand_checked": true,
+  "glossary_layout": "army",
+  "glossary_removed_terms": [],
+  "glossary_entries": 131,
+  "index_rows": 547
+}

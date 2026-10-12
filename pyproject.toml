@@ -1,0 +1,74 @@
+[project]
+name = "ontoops"
+version = "0.1.0"
+description = "Evaluation code and pre-registered experiments of the OntoOps document-to-ontology pipeline"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Taehyun Eom" },
+    { name = "Youngwoo Choi" },
+    { name = "Daehee Kim" },
+]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = [
+    "anthropic>=1.9.0",
+    "falkordb>=1.7.1",
+    "httpx>=0.28.1",
+    "instructor>=1.17.0",
+    "langchain-community<0.4",
+    "numpy>=2.5.3",
+    "pdfplumber>=0.11.10",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.13.5",
+    "pypdf>=6.19.0",
+    "pyyaml>=6.0.3",
+    "ragas==0.4.3",
+    "rdflib>=7.6.0",
+    "typer>=0.27.2",
+]
+
+[project.urls]
+Repository = "https://github.com/shane1003/ontoops"
+
+[project.scripts]
+evaluation = "evaluation.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["evaluation"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+# Markdown is documentation: ruff would otherwise rewrite the Python snippets
+# inside it on every format run.
+# services/ is the vendored method code, linted and tested by its own rules.
+extend-exclude = ["*.md", "services"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.flake8-bugbear]
+# typer declares CLI options as argument defaults; that is the library's
+# documented idiom, not a mutable-default bug.
+extend-immutable-calls = ["typer.Option", "typer.Argument"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+files = ["evaluation"]
+# Another team's git-ignored workspace and the vendored services, each with
+# its own dependencies; `mypy .` would otherwise scan them.
+exclude = ["^RAGAS/", "^services/"]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.1",
+    "ruff>=0.16.8",
+    "types-pyyaml>=6.0.12.20260906",
+]

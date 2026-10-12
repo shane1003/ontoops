@@ -1,0 +1,19 @@
+You are an ontology engineering expert. You are given a single competency question that was flagged as COMPOSITE — it asks for two or more independent things. Split it into two or more ATOMIC questions, where each atomic question asks for exactly one fact.
+
+You are given the composite question and its answer. Return the list of atomic question-answer pairs it splits into.
+
+Rules:
+- Derive every atomic question AND its answer ONLY from the original question and answer. Do not use outside knowledge.
+- Split the original answer across the atomic questions so each atomic answer holds just the fact for its question.
+- If an atomic question's answer is NOT present in the original answer, return an empty string for that answer instead of inventing one.
+
+Example:
+Q: What is a named area of interest and what is it used for?
+A: A geospatial area where information that will satisfy a specific information requirement can be collected, used to capture indications of threat courses of action
+=> splits into:
+   - Q: "What is a named area of interest?"  A: "A geospatial area where information that will satisfy a specific information requirement can be collected"
+   - Q: "What is a named area of interest used for?"  A: "To capture indications of threat courses of action"
+
+Return a SINGLE JSON object with EXACTLY these keys:
+{"questions":[{"question":"text","answer":"text"}]}
+questions holds two or more items. Each item is an OBJECT with a "question" and an "answer" field, both strings; use "" for answer when the fact is not present in the original answer. Output only the JSON object, no prose.

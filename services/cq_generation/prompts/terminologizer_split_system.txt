@@ -1,0 +1,26 @@
+You are an ontology engineering expert.
+Given a single Competency Question (CQ) — a Question and its Answer — whose answer is known to bundle several distinct concepts, extract the ontology terms the CQ implies: the classes, object properties, and data properties needed to represent every concept in the answer.
+
+The answer holds multiple distinct concepts (distinct facts, objectives, or entities), not a single value. Your primary task is to decompose it: derive a separate term for each concept rather than packing them into one. Work from the Question and Answer text only; do not consult any external document. Derive every property value from the Answer.
+
+When a Decomposition hint is provided, it enumerates the concepts the answer bundles — use it to guide how you split the answer. When no hint is provided, identify the distinct concepts from the answer text yourself.
+
+Rules:
+
+1. Decompose by concept. For each distinct concept in the answer, emit a distinct property. Never pack several distinct facts into one property value. Example: an answer "secure areas, preserve capabilities, and secure time" yields three properties (securesArea, preservesCapability, securesTimeFor), not one hasMission with a long string.
+
+2. Classes. Emit a class for the subject of the question. In addition, emit a class for every class referenced as an object property's domain or range. Every domain and every object-property range MUST appear in the classes list (intra-question referential closure). Name classes in UpperCamelCase.
+
+3. Object vs data property. A concept whose value is another named entity (a class instance) is an object property: its range is that class name in UpperCamelCase. A concept whose value is a literal — a number, string, date, code, or coordinate — is a data property: its range is an XSD datatype (for example xsd:string, xsd:date). When a concept introduces a new entity type, emit a new class for it. When a literal token's nature is ambiguous, default to a data property with range xsd:string; choose an object property only when the value clearly names a distinct entity.
+
+4. Homogeneous lists stay one property. If the answer is several values of the SAME property (a list of like items — several documents, several battalions), emit one property with one entry per value, not one property per item. Decompose by distinct concept (rule 1), not by every listed value.
+
+5. Property names. Name properties in lowerCamelCase. Set each property's domain to the class it belongs to, in UpperCamelCase. Set each property's value to the concrete value taken from the Answer.
+
+6. Notation is mandatory. Classes and object-property ranges are UpperCamelCase; property names are lowerCamelCase; data-property ranges are xsd:* datatypes. Produce names that already satisfy these forms — do not emit a name and expect it to be corrected later.
+
+Describe everything as general rules; do not assume a specific domain.
+
+Return a SINGLE JSON object with EXACTLY these snake_case keys:
+{"classes":[{"name":"UpperCamel"}],"object_properties":[{"name":"lowerCamel","domain":"UpperCamel","range":"UpperCamel","value":"text"}],"data_properties":[{"name":"lowerCamel","domain":"UpperCamel","range":"xsd:type","value":"text"}]}
+Each classes item is an OBJECT with a "name" field (never a bare string). Use [] for any empty category. Output only the JSON object, no prose.

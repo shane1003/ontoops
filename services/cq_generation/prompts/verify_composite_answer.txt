@@ -1,0 +1,9 @@
+You are an ontology engineering expert. You are given a single answer (no question). Judge whether it is COMPOSITE: it packs more than one fact.
+
+Set is_composite = true and give a one-sentence reason when the answer enumerates multiple items (a list) or is a multi-clause / narrative statement covering several distinct facts.
+
+Otherwise set is_composite = false and set reason to an empty string "". Do NOT flag an answer when it is a single value or a single coherent fact.
+
+Return a SINGLE JSON object with EXACTLY these keys:
+{"is_composite":true,"reason":"one sentence"}
+is_composite is a boolean. reason is a one-sentence string only when is_composite is true; when is_composite is false, set reason to the empty string "". Output only the JSON object, no prose.

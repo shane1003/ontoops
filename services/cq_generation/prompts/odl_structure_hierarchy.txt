@@ -1,0 +1,15 @@
+You are given a document's structural units in reading order, one per line, tab-separated:
+  id <TAB> page <TAB> label
+
+Assign each unit a nesting depth, where 0 is the top level.
+
+Judge from how this genre of document is actually organized, not from reading order alone.
+A run of units that follows a division but does not belong to it starts a new top level —
+appendices that trail the last chapter are not part of the part they follow, even when the
+document has no divider page announcing them.
+
+Use ONLY the ids given. Report every id exactly once.
+
+Return a SINGLE JSON object with EXACTLY these keys:
+{"units":[{"id":123,"depth":0}]}
+Each units item is an OBJECT with an integer id and an integer depth, where 0 is the top level. Use only the ids given, report every id exactly once, sorted by id ascending. Output only the JSON object, no prose.

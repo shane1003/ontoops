@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: OntoOps
+message: >-
+  If you use this software or its evaluation code, please cite it using
+  these metadata.
+type: software
+authors:
+  - given-names: Taehyun
+    family-names: Eom
+    affiliation: INFINIQ
+  - given-names: Youngwoo
+    family-names: Choi
+    affiliation: INFINIQ
+  - given-names: Daehee
+    family-names: Kim
+    affiliation: INFINIQ
+abstract: >-
+  Evaluation code and the three pre-registered experiments of the OntoOps
+  pipeline, which turns a document into competency questions and then into a
+  validated OWL TBox. The evaluation code runs the published pipeline services on a
+  Docker Compose stack, exports their output to files and scores the files.
+license: Apache-2.0
+repository-code: "https://github.com/shane1003/ontoops"
+version: 0.1.0
+keywords:
+  - ontology engineering
+  - competency questions
+  - OWL
+  - large language models

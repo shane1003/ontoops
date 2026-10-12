@@ -1,0 +1,42 @@
+# What an experiment ran against, frozen. Every run's manifest repeats these,
+# and the runner refuses to start when a running container's image digest
+# differs from the pin.
+#
+# services: the three services the stack is built from, copied under
+# services/<name>/ from the upstream commit below (`image` stays null while
+# the image is built locally; the manifest records the built image ID).
+# The copies differ from those commits only in documentation, naming and
+# unused code, except for what a re-run would notice:
+# - Prompt examples use this corpus (cq_generation's
+#   prompts/odl_structure_identify.txt and prompts/refine_split.txt,
+#   ontoagent's config/prompts/classifier.txt); the stored runs used the
+#   earlier example wording.
+# - Identifiers follow the paper's terms (cq_generation "conceptualizer" ->
+#   "terminologizer", ontoagent "cq2component" -> "conceptualizer"); older
+#   run files keep the old names, which the scorer still reads.
+# - ontoagent's /tbox/update answers 26 of its former ~75 fields; the stored
+#   runs' 20_tbox_response.json carry the full answer. Nothing is computed
+#   differently.
+#
+# stack: third-party images of the stack, by digest (docker-compose.yml uses
+# the same references).
+services:
+  cq_generation:
+    repo: cq-generation
+    commit: 5ace3d1c04eb2ceaaad8d360b854afd11b9dd90c
+    image: null
+  ontoagent:
+    repo: ontoagent
+    commit: c977af31c1600ef5765b6fadd02791914a6a324d
+    image: null
+  ontorouter:
+    repo: ontorouter
+    commit: 3cf2d3be8a7183489f82a283a370951a31b8d70b
+    image: null
+stack:
+  postgres:
+    image: pgvector/pgvector@sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f  # pg17
+  falkordb:
+    image: falkordb/falkordb@sha256:217bc520be076ce9e85b0ba426b2379ccbaebd17f2fe6e174288bd1b36d486bb  # v4.20.6
+  tei:
+    image: ghcr.io/huggingface/text-embeddings-inference@sha256:e3009cd99f63dbabd29346412e2d65224e4ab179e7559b0065f26e38fb7334c4  # hopper-1.9.3

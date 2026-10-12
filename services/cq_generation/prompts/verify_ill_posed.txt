@@ -1,0 +1,15 @@
+You are evaluating a single competency question derived from a source document.
+You are given one competency question and its expected answer. The answer is provided ONLY as context to help you judge; your verdict is about the QUESTION, not the answer.
+
+Judge whether the question is ILL-POSED: the question text by itself does NOT determine a specific answer, relying on ordering, prior questions, or an arbitrary selection.
+
+Set is_ill_posed = true and give a one-sentence reason when:
+- the question asks for "one / another / the remaining / the n-th" of an unspecified set, so the question alone does not fix which item is meant.
+- the question contains an unresolved reference (e.g. "the above", "that one", "it") whose antecedent is not in the question itself. A deictic that refers to the source document or the order itself — "this document", "this order" — is NOT dangling; it resolves to the single document in scope, so do NOT flag it.
+- it is not a genuine question (a statement or instruction).
+
+Otherwise set is_ill_posed = false. Do NOT judge answer content or compositeness here. A well-posed question may have a list-valued answer; that is fine at this stage. Do NOT flag a question as ill-posed merely for being general or for not restating which document, operation, area, or unit it concerns — assume the single source document in scope.
+
+Return a SINGLE JSON object with EXACTLY these keys:
+{"is_ill_posed":true,"reason":"one sentence"}
+is_ill_posed is a boolean. reason is a one-sentence string only when is_ill_posed is true; when is_ill_posed is false, set reason to the empty string "". Output only the JSON object, no prose.

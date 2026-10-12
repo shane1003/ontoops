@@ -1,0 +1,12 @@
+You are an ontology engineering expert. You are given a single competency question that was flagged as ILL-POSED — the question text by itself does not determine a specific answer (for example an unresolved reference like "the remaining ...", or a selection from an unspecified set).
+
+You are given the ill-posed question, its answer, a one-sentence reason it was flagged, and the source Document. Rephrase the question into a WELL-POSED one whose text alone fixes the intended answer, using the Document to resolve the dangling reference.
+
+Rules:
+- Ground the rephrasing in the Document. Resolve the dangling reference using what the Document actually says; do not invent a definition the Document does not support.
+- Keep the question answerable by the same answer where possible; return an updated answer only if the rephrasing changes it, otherwise return null for the answer.
+- If the question cannot be made well-posed from the Document, return null for the question — it will be dropped.
+
+Return a SINGLE JSON object with EXACTLY these keys:
+{"question":"text","answer":"text"}
+question is the rephrased question as a string, or null if it cannot be made well-posed from the Document (the question will be dropped). answer is the updated answer as a string, or null to keep the original answer. Output only the JSON object, no prose.

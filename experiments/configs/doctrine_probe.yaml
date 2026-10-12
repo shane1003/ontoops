@@ -1,0 +1,20 @@
+# Experiment 3 over the cells of 20260929T011743Z-doctrine: the lookup service
+# over run 0 of the five manuals.
+run:
+  model_weights: google/gemma-4-31B-it
+exp3_router:
+  from_run: 20260929T011743Z-doctrine
+  cells:
+  - experiment: exp1_stability
+    dataset: IPB
+  - experiment: exp2_generality
+    dataset: JP2
+  - experiment: exp2_generality
+    dataset: ADP
+  - experiment: exp2_generality
+    dataset: JP3
+  - experiment: exp2_generality
+    dataset: ADRP
+  ood_terms: ood_terms.txt
+  typo_seed: 42
+  k: 5

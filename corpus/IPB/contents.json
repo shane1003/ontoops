@@ -1,0 +1,1694 @@
+{
+  "source_file": "ATP_2-01.3 Intelligence_Preparation_of_the_Battlefield.pdf",
+  "entries": [
+    {
+      "level": 1,
+      "label": null,
+      "title": "PREFACE",
+      "printed_page": "vii",
+      "pdf_page": 9,
+      "raw_line": "PREFACE............................................................................................................. vii",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": null,
+      "title": "INTRODUCTION",
+      "printed_page": "xi",
+      "pdf_page": 13,
+      "raw_line": "INTRODUCTION ................................................................................................... xi",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": "PART ONE",
+      "title": "FUNDAMENTAL PRINCIPLES, PROCESS ACTIVITIES, AND RELATIONSHIPS",
+      "printed_page": null,
+      "pdf_page": null,
+      "raw_line": "PART ONE FUNDAMENTAL PRINCIPLES, PROCESS ACTIVITIES, AND RELATIONSHIPS",
+      "children": [
+        {
+          "level": 2,
+          "label": "Chapter 1",
+          "title": "INTELLIGENCE PREPARATION OF THE BATTLEFIELD FUNDAMENTALS",
+          "printed_page": "1-1",
+          "pdf_page": 15,
+          "raw_line": "Chapter 1 INTELLIGENCE PREPARATION OF THE BATTLEFIELD FUNDAMENTALS1-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "Intelligence Preparation of the Battlefield (IPB) Defined",
+              "printed_page": "1-1",
+              "pdf_page": 15,
+              "raw_line": "Intelligence Preparation of the Battlefield (IPB) Defined .................................... 1-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "IPB Process Activities",
+              "printed_page": "1-3",
+              "pdf_page": 17,
+              "raw_line": "IPB Process Activities ......................................................................................... 1-3",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Staff Collaboration",
+              "printed_page": "1-5",
+              "pdf_page": 19,
+              "raw_line": "Staff Collaboration .............................................................................................. 1-5",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Relationships",
+              "printed_page": "1-8",
+              "pdf_page": 22,
+              "raw_line": "Relationships ...................................................................................................... 1-8",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Multi-Domain Understanding of the Operational Environment",
+              "printed_page": "1-12",
+              "pdf_page": 26,
+              "raw_line": "Multi-Domain Understanding of the Operational Environment ......................... 1-12",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "IPB and the Army’s Strategic Roles",
+              "printed_page": "1-15",
+              "pdf_page": 29,
+              "raw_line": "IPB and the Army’s Strategic Roles ................................................................. 1-15",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "label": "Chapter 2",
+          "title": "IPB SUPPORT TO PLANNING AND DECISION MAKING",
+          "printed_page": "2-1",
+          "pdf_page": 31,
+          "raw_line": "Chapter 2 IPB SUPPORT TO PLANNING AND DECISION MAKING .............................. 2-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "IPB and Planning",
+              "printed_page": "2-1",
+              "pdf_page": 31,
+              "raw_line": "IPB and Planning ................................................................................................ 2-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "IPB and Decision Making",
+              "printed_page": "2-5",
+              "pdf_page": 35,
+              "raw_line": "IPB and Decision Making ................................................................................... 2-5",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "label": "PART TWO",
+      "title": "FUNDAMENTAL TASK TECHNIQUES",
+      "printed_page": null,
+      "pdf_page": null,
+      "raw_line": "PART TWO FUNDAMENTAL TASK TECHNIQUES",
+      "children": [
+        {
+          "level": 2,
+          "label": "Chapter 3",
+          "title": "STEP 1—DEFINE THE OPERATIONAL ENVIRONMENT",
+          "printed_page": "3-1",
+          "pdf_page": 37,
+          "raw_line": "Chapter 3 STEP 1—DEFINE THE OPERATIONAL ENVIRONMENT ............................... 3-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "What Is It?",
+              "printed_page": "3-1",
+              "pdf_page": 37,
+              "raw_line": "What Is It?........................................................................................................... 3-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "So What?",
+              "printed_page": "3-2",
+              "pdf_page": 38,
+              "raw_line": "So What? ............................................................................................................ 3-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "How to Do It: The Process",
+              "printed_page": "3-2",
+              "pdf_page": 38,
+              "raw_line": "How to Do It: The Process.................................................................................. 3-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Identify the Limits of the Commander’s Area of Operations",
+              "printed_page": "3-3",
+              "pdf_page": 39,
+              "raw_line": "Identify the Limits of the Commander’s Area of Operations ............................... 3-3",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Identify the Limits of the Commander’s Area of Interest",
+              "printed_page": "3-3",
+              "pdf_page": 39,
+              "raw_line": "Identify the Limits of the Commander’s Area of Interest .................................... 3-3",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Identify Significant Characteristics of the Area of Operations and Area of Interest for Further Analysis",
+              "printed_page": "3-5",
+              "pdf_page": 41,
+              "raw_line": "Identify Significant Characteristics of the Area of Operations and Area of Interest for Further Analysis ............................................................................... 3-5",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Evaluate Current Operations and Intelligence Holdings to Determine Additional Information Needed to Complete IPB",
+              "printed_page": "3-8",
+              "pdf_page": 44,
+              "raw_line": "Evaluate Current Operations and Intelligence Holdings to Determine Additional Information Needed to Complete IPB ................................................ 3-8",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Initiate Processes to Acquire the Information Needed to Complete IPB",
+              "printed_page": "3-8",
+              "pdf_page": 44,
+              "raw_line": "Initiate Processes to Acquire the Information Needed to Complete IPB ............ 3-8",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "label": "Chapter 4",
+          "title": "STEP 2—DESCRIBE ENVIRONMENTAL EFFECTS ON OPERATIONS",
+          "printed_page": "4-1",
+          "pdf_page": 45,
+          "raw_line": "Chapter 4 STEP 2—DESCRIBE ENVIRONMENTAL EFFECTS ON OPERATIONS ........ 4-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "What Is It?",
+              "printed_page": "4-1",
+              "pdf_page": 45,
+              "raw_line": "What Is It? ........................................................................................................... 4-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "So What?",
+              "printed_page": "4-1",
+              "pdf_page": 45,
+              "raw_line": "So What? ............................................................................................................ 4-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "How to Do It: The Process",
+              "printed_page": "4-2",
+              "pdf_page": 46,
+              "raw_line": "How to Do It: The Process .................................................................................. 4-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Describe How the Threat Can Affect Friendly Operations",
+              "printed_page": "4-2",
+              "pdf_page": 46,
+              "raw_line": "Describe How the Threat Can Affect Friendly Operations .................................. 4-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Describe How Terrain Can Affect Friendly and Threat Operations",
+              "printed_page": "4-5",
+              "pdf_page": 49,
+              "raw_line": "Describe How Terrain Can Affect Friendly and Threat Operations .................... 4-5",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Describe How Weather Can Affect Friendly and Threat Operations",
+              "printed_page": "4-19",
+              "pdf_page": 63,
+              "raw_line": "Describe How Weather Can Affect Friendly and Threat Operations ................ 4-19",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Describe How Civil Considerations Can Affect Friendly and Threat Operations",
+              "printed_page": "4-22",
+              "pdf_page": 66,
+              "raw_line": "Describe How Civil Considerations Can Affect Friendly and Threat Operations ......................................................................................................... 4-22",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "label": "Chapter 5",
+          "title": "STEP 3—EVALUATE THE THREAT",
+          "printed_page": "5-1",
+          "pdf_page": 75,
+          "raw_line": "Chapter 5 STEP 3—EVALUATE THE THREAT ................................................................. 5-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "What Is It?",
+              "printed_page": "5-1",
+              "pdf_page": 75,
+              "raw_line": "What Is It? ........................................................................................................... 5-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "So What?",
+              "printed_page": "5-3",
+              "pdf_page": 77,
+              "raw_line": "So What? ............................................................................................................ 5-3",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "How to Do It: The Process",
+              "printed_page": "5-4",
+              "pdf_page": 78,
+              "raw_line": "How to Do It: The Process .................................................................................. 5-4",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Identify Threat Characteristics",
+              "printed_page": "5-5",
+              "pdf_page": 79,
+              "raw_line": "Identify Threat Characteristics ............................................................................ 5-5",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Create or Refine Threat Models",
+              "printed_page": "5-9",
+              "pdf_page": 83,
+              "raw_line": "Create or Refine Threat Models .......................................................................... 5-9",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Identify Threat Capabilities",
+              "printed_page": "5-16",
+              "pdf_page": 90,
+              "raw_line": "Identify Threat Capabilities ............................................................................... 5-16",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Outputs from Step 3 of the IPB Process",
+              "printed_page": "5-18",
+              "pdf_page": 92,
+              "raw_line": "Outputs from Step 3 of the IPB Process ........................................................... 5-18",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "label": "Chapter 6",
+          "title": "STEP 4—DETERMINE THREAT COURSES OF ACTION",
+          "printed_page": "6-1",
+          "pdf_page": 97,
+          "raw_line": "Chapter 6 STEP 4—DETERMINE THREAT COURSES OF ACTION ............................... 6-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "What Is It?",
+              "printed_page": "6-1",
+              "pdf_page": 97,
+              "raw_line": "What Is It? ........................................................................................................... 6-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "So What?",
+              "printed_page": "6-1",
+              "pdf_page": 97,
+              "raw_line": "So What? ............................................................................................................ 6-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "How to Do It: The Process",
+              "printed_page": "6-2",
+              "pdf_page": 98,
+              "raw_line": "How to Do It: The Process .................................................................................. 6-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Develop Threat Courses of Action",
+              "printed_page": "6-2",
+              "pdf_page": 98,
+              "raw_line": "Develop Threat Courses of Action ...................................................................... 6-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Develop the Event Template and Matrix",
+              "printed_page": "6-20",
+              "pdf_page": 116,
+              "raw_line": "Develop the Event Template and Matrix ........................................................... 6-20",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "label": "PART THREE",
+      "title": "CONSIDERATIONS FOR OPERATIONS AND ENVIRONMENTS",
+      "printed_page": null,
+      "pdf_page": null,
+      "raw_line": "PART THREE CONSIDERATIONS FOR OPERATIONS AND ENVIRONMENTS",
+      "children": [
+        {
+          "level": 2,
+          "label": "Chapter 7",
+          "title": "IPB FOR UNIFIED ACTION AND UNIQUE ENVIRONMENTS",
+          "printed_page": "7-1",
+          "pdf_page": 121,
+          "raw_line": "Chapter 7 IPB FOR UNIFIED ACTION AND UNIQUE ENVIRONMENTS ......................... 7-1",
+          "children": [
+            {
+              "level": 3,
+              "label": "Section I",
+              "title": "Unified Action",
+              "printed_page": "7-1",
+              "pdf_page": 121,
+              "raw_line": "Section I – Unified Action ................................................................................. 7-1",
+              "children": [
+                {
+                  "level": 4,
+                  "label": null,
+                  "title": "Offensive Tasks",
+                  "printed_page": "7-1",
+                  "pdf_page": 121,
+                  "raw_line": "Offensive Tasks .................................................................................................. 7-1",
+                  "children": []
+                },
+                {
+                  "level": 4,
+                  "label": null,
+                  "title": "Defensive Tasks",
+                  "printed_page": "7-4",
+                  "pdf_page": 124,
+                  "raw_line": "Defensive Tasks .................................................................................................. 7-4",
+                  "children": []
+                },
+                {
+                  "level": 4,
+                  "label": null,
+                  "title": "Stability Tasks",
+                  "printed_page": "7-6",
+                  "pdf_page": 126,
+                  "raw_line": "Stability Tasks ..................................................................................................... 7-6",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "level": 3,
+              "label": "Section II",
+              "title": "Unique Environments",
+              "printed_page": "7-16",
+              "pdf_page": 136,
+              "raw_line": "Section II – Unique Environments ................................................................. 7-16",
+              "children": [
+                {
+                  "level": 4,
+                  "label": null,
+                  "title": "Littoral Environments",
+                  "printed_page": "7-16",
+                  "pdf_page": 136,
+                  "raw_line": "Littoral Environments ........................................................................................ 7-16",
+                  "children": []
+                },
+                {
+                  "level": 4,
+                  "label": null,
+                  "title": "Urban Environments",
+                  "printed_page": "7-19",
+                  "pdf_page": 139,
+                  "raw_line": "Urban Environments ......................................................................................... 7-19",
+                  "children": []
+                },
+                {
+                  "level": 4,
+                  "label": null,
+                  "title": "Subterranean Environments",
+                  "printed_page": "7-34",
+                  "pdf_page": 154,
+                  "raw_line": "Subterranean Environments ............................................................................. 7-34",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "label": "Chapter 8",
+          "title": "ADDITIONAL CONSIDERATIONS FOR OPERATIONAL ENVIRONMENTS",
+          "printed_page": "8-1",
+          "pdf_page": 159,
+          "raw_line": "Chapter 8 ADDITIONAL CONSIDERATIONS FOR OPERATIONAL ENVIRONMENTS .. 8-1",
+          "children": [
+            {
+              "level": 3,
+              "label": null,
+              "title": "The Operational Environment",
+              "printed_page": "8-1",
+              "pdf_page": 159,
+              "raw_line": "The Operational Environment ............................................................................. 8-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Air Domain",
+              "printed_page": "8-1",
+              "pdf_page": 159,
+              "raw_line": "Air Domain .......................................................................................................... 8-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Land Domain",
+              "printed_page": "8-1",
+              "pdf_page": 159,
+              "raw_line": "Land Domain ....................................................................................................... 8-1",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Maritime Domain",
+              "printed_page": "8-2",
+              "pdf_page": 160,
+              "raw_line": "Maritime Domain ................................................................................................. 8-2",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Space Domain",
+              "printed_page": "8-3",
+              "pdf_page": 161,
+              "raw_line": "Space Domain ..................................................................................................... 8-3",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "Cyberspace Domain",
+              "printed_page": "8-6",
+              "pdf_page": 164,
+              "raw_line": "Cyberspace Domain............................................................................................ 8-6",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "The Information Environment",
+              "printed_page": "8-6",
+              "pdf_page": 164,
+              "raw_line": "The Information Environment .............................................................................. 8-6",
+              "children": []
+            },
+            {
+              "level": 3,
+              "label": null,
+              "title": "The Electromagnetic Spectrum",
+              "printed_page": "8-7",
+              "pdf_page": 165,
+              "raw_line": "The Electromagnetic Spectrum ........................................................................... 8-7",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "label": "Appendix A",
+      "title": "INTELLIGENCE STAFF OFFICER IPB CHECKLIST",
+      "printed_page": "A-1",
+      "pdf_page": 167,
+      "raw_line": "Appendix A INTELLIGENCE STAFF OFFICER IPB CHECKLIST ...................................... A-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": "Appendix B",
+      "title": "TOOLS FOR USE DURING IPB",
+      "printed_page": "B-1",
+      "pdf_page": 169,
+      "raw_line": "Appendix B TOOLS FOR USE DURING IPB ....................................................................... B-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": "Appendix C",
+      "title": "THREAT CHARACTERISTICS FOR REGULAR, IRREGULAR, AND HYBRID THREATS",
+      "printed_page": "C-1",
+      "pdf_page": 179,
+      "raw_line": "Appendix C THREAT CHARACTERISTICS FOR REGULAR, IRREGULAR, AND HYBRID THREATS ........................................................................................................... C-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": "Appendix D",
+      "title": "IPB CYBERSPACE CONSIDERATIONS",
+      "printed_page": "D-1",
+      "pdf_page": 187,
+      "raw_line": "Appendix D IPB CYBERSPACE CONSIDERATIONS .......................................................... D-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": null,
+      "title": "GLOSSARY",
+      "printed_page": "Glossary-1",
+      "pdf_page": 205,
+      "raw_line": "GLOSSARY .......................................................................................... Glossary-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": null,
+      "title": "REFERENCES",
+      "printed_page": "References-1",
+      "pdf_page": 213,
+      "raw_line": "REFERENCES .................................................................................. References-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": null,
+      "title": "INDEX",
+      "printed_page": "Index-1",
+      "pdf_page": 217,
+      "raw_line": "INDEX .......................................................................................................... Index-1",
+      "children": []
+    },
+    {
+      "level": 1,
+      "label": "Figures",
+      "title": "Figures",
+      "printed_page": null,
+      "pdf_page": null,
+      "raw_line": "Figures",
+      "children": [
+        {
+          "level": 2,
+          "label": "Introductory figure",
+          "title": "Products of the IPB process",
+          "printed_page": "xi",
+          "pdf_page": 13,
+          "raw_line": "Introductory figure. Products of the IPB process ....................................................................... xi",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 2-1",
+          "title": "IPB and the MDMP steps",
+          "printed_page": "2-2",
+          "pdf_page": 32,
+          "raw_line": "Figure 2-1. IPB and the MDMP steps ..................................................................................... 2-2",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 3-1",
+          "title": "Substeps and outputs of step 1 of the IPB process",
+          "printed_page": "3-2",
+          "pdf_page": 38,
+          "raw_line": "Figure 3-1. Substeps and outputs of step 1 of the IPB process ............................................. 3-2",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 3-2",
+          "title": "Area of operations examples",
+          "printed_page": "3-3",
+          "pdf_page": 39,
+          "raw_line": "Figure 3-2. Area of operations examples ............................................................................... 3-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-1",
+          "title": "Substeps and outputs of step 2 of the IPB process",
+          "printed_page": "4-2",
+          "pdf_page": 46,
+          "raw_line": "Figure 4-1. Substeps and outputs of step 2 of the IPB process ............................................. 4-2",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-2",
+          "title": "Threat overlay example",
+          "printed_page": "4-3",
+          "pdf_page": 47,
+          "raw_line": "Figure 4-2. Threat overlay example ....................................................................................... 4-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-3",
+          "title": "The focus of natural and complex terrain analysis",
+          "printed_page": "4-5",
+          "pdf_page": 49,
+          "raw_line": "Figure 4-3. The focus of natural and complex terrain analysis .............................................. 4-5",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-4",
+          "title": "Intervisibility line example",
+          "printed_page": "4-6",
+          "pdf_page": 50,
+          "raw_line": "Figure 4-4. Intervisibility line example .................................................................................... 4-6",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-5",
+          "title": "Observation and fields of fire (complex terrain) example",
+          "printed_page": "4-8",
+          "pdf_page": 52,
+          "raw_line": "Figure 4-5. Observation and fields of fire (complex terrain) example .................................... 4-8",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-6",
+          "title": "Avenues of approach with mobility corridors (natural terrain) example",
+          "printed_page": "4-9",
+          "pdf_page": 53,
+          "raw_line": "Figure 4-6. Avenues of approach with mobility corridors (natural terrain) example ............... 4-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-7",
+          "title": "Key terrain (natural terrain) example",
+          "printed_page": "4-10",
+          "pdf_page": 54,
+          "raw_line": "Figure 4-7. Key terrain (natural terrain) example ................................................................. 4-10",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-8",
+          "title": "Cover and concealment (natural terrain) and line of sight analysis examples",
+          "printed_page": "4-13",
+          "pdf_page": 57,
+          "raw_line": "Figure 4-8. Cover and concealment (natural terrain) and line of sight analysis examples ........................................................................................................... 4-13",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-9",
+          "title": "Modified combined obstacle overlay example",
+          "printed_page": "4-14",
+          "pdf_page": 58,
+          "raw_line": "Figure 4-9. Modified combined obstacle overlay example ................................................... 4-14",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-10",
+          "title": "Modified combined obstacle overlay example for an urban area",
+          "printed_page": "4-15",
+          "pdf_page": 59,
+          "raw_line": "Figure 4-10. Modified combined obstacle overlay example for an urban area .................... 4-15",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-11",
+          "title": "Concentric ring technique example",
+          "printed_page": "4-17",
+          "pdf_page": 61,
+          "raw_line": "Figure 4-11. Concentric ring technique example.................................................................. 4-17",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-12",
+          "title": "Belt technique example",
+          "printed_page": "4-18",
+          "pdf_page": 62,
+          "raw_line": "Figure 4-12. Belt technique example .................................................................................... 4-18",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-13",
+          "title": "Avenue-in-depth technique example",
+          "printed_page": "4-18",
+          "pdf_page": 62,
+          "raw_line": "Figure 4-13. Avenue-in-depth technique example ............................................................... 4-18",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 4-14",
+          "title": "Box technique example",
+          "printed_page": "4-19",
+          "pdf_page": 63,
+          "raw_line": "Figure 4-14. Box technique example .................................................................................... 4-19",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-1",
+          "title": "Substeps and outputs of step 3 of the IPB process",
+          "printed_page": "5-4",
+          "pdf_page": 78,
+          "raw_line": "Figure 5-1. Substeps and outputs of step 3 of the IPB process ............................................. 5-4",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-2",
+          "title": "Regular threat organizational chart example",
+          "printed_page": "5-5",
+          "pdf_page": 79,
+          "raw_line": "Figure 5-2. Regular threat organizational chart example ....................................................... 5-5",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-3",
+          "title": "Irregular threat organizational chart example",
+          "printed_page": "5-6",
+          "pdf_page": 80,
+          "raw_line": "Figure 5-3. Irregular threat organizational chart example ...................................................... 5-6",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-4",
+          "title": "Threat model example",
+          "printed_page": "5-10",
+          "pdf_page": 84,
+          "raw_line": "Figure 5-4. Threat model example ....................................................................................... 5-10",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-5",
+          "title": "Time event chart example",
+          "printed_page": "5-15",
+          "pdf_page": 89,
+          "raw_line": "Figure 5-5. Time event chart example .................................................................................. 5-15",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-6",
+          "title": "Threat template example",
+          "printed_page": "5-19",
+          "pdf_page": 93,
+          "raw_line": "Figure 5-6. Threat template example ................................................................................... 5-19",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-7",
+          "title": "High-value target list developed during step 3 of IPB (example)",
+          "printed_page": "5-20",
+          "pdf_page": 94,
+          "raw_line": "Figure 5-7. High-value target list developed during step 3 of IPB (example) ....................... 5-20",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-8",
+          "title": "Threat capability statement example (narrative format)",
+          "printed_page": "5-20",
+          "pdf_page": 94,
+          "raw_line": "Figure 5-8. Threat capability statement example (narrative format) .................................... 5-20",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 5-9",
+          "title": "Threat capability statement example (table format)",
+          "printed_page": "5-21",
+          "pdf_page": 95,
+          "raw_line": "Figure 5-9. Threat capability statement example (table format) ........................................... 5-21",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-1",
+          "title": "Substeps and outputs of step 4 of the IPB process",
+          "printed_page": "6-2",
+          "pdf_page": 98,
+          "raw_line": "Figure 6-1. Substeps and outputs of step 4 of the IPB process ............................................. 6-2",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-2",
+          "title": "Developing a situation template",
+          "printed_page": "6-9",
+          "pdf_page": 105,
+          "raw_line": "Figure 6-2. Developing a situation template ........................................................................... 6-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-3",
+          "title": "Completed situation template example",
+          "printed_page": "6-10",
+          "pdf_page": 106,
+          "raw_line": "Figure 6-3. Completed situation template example .............................................................. 6-10",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-4",
+          "title": "Situation template in a matrix format example",
+          "printed_page": "6-10",
+          "pdf_page": 106,
+          "raw_line": "Figure 6-4. Situation template in a matrix format example ................................................... 6-10",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-5",
+          "title": "Situation template as an overlay depicting the enemy in offensive tasks",
+          "printed_page": "6-12",
+          "pdf_page": 108,
+          "raw_line": "Figure 6-5. Situation template as an overlay depicting the enemy in offensive tasks ......... 6-12",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-6",
+          "title": "Situation template as an overlay depicting the enemy defense",
+          "printed_page": "6-14",
+          "pdf_page": 110,
+          "raw_line": "Figure 6-6. Situation template as an overlay depicting the enemy defense ........................ 6-14",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-7",
+          "title": "Situation template as an overlay depicting irregular forces",
+          "printed_page": "6-15",
+          "pdf_page": 111,
+          "raw_line": "Figure 6-7. Situation template as an overlay depicting irregular forces ............................... 6-15",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-8",
+          "title": "Threat course of action statement example",
+          "printed_page": "6-16",
+          "pdf_page": 112,
+          "raw_line": "Figure 6-8. Threat course of action statement example ...................................................... 6-16",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-9",
+          "title": "High-value target list developed during step 4 of IPB (example)",
+          "printed_page": "6-17",
+          "pdf_page": 113,
+          "raw_line": "Figure 6-9. High-value target list developed during step 4 of IPB (example) ...................... 6-17",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-10",
+          "title": "High-payoff target list developed during step 3 of the MDMP (example)",
+          "printed_page": "6-17",
+          "pdf_page": 113,
+          "raw_line": "Figure 6-10. High-payoff target list developed during step 3 of the MDMP (example) ........ 6-17",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-11",
+          "title": "Developing an event template",
+          "printed_page": "6-21",
+          "pdf_page": 117,
+          "raw_line": "Figure 6-11. Developing an event template ......................................................................... 6-21",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-12",
+          "title": "Completed event template example",
+          "printed_page": "6-21",
+          "pdf_page": 117,
+          "raw_line": "Figure 6-12. Completed event template example ................................................................ 6-21",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-13",
+          "title": "Completed event template and its associated event matrix example",
+          "printed_page": "6-22",
+          "pdf_page": 118,
+          "raw_line": "Figure 6-13. Completed event template and its associated event matrix example ............. 6-22",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-14",
+          "title": "Decision support template and matrix example",
+          "printed_page": "6-23",
+          "pdf_page": 119,
+          "raw_line": "Figure 6-14. Decision support template and matrix example .............................................. 6-23",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 6-15",
+          "title": "Information collection matrix example",
+          "printed_page": "6-24",
+          "pdf_page": 120,
+          "raw_line": "Figure 6-15. Information collection matrix example ............................................................. 6-24",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-1",
+          "title": "Types of seas and land masses encompassing littoral areas",
+          "printed_page": "7-17",
+          "pdf_page": 137,
+          "raw_line": "Figure 7-1. Types of seas and land masses encompassing littoral areas ........................... 7-17",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-2",
+          "title": "Interaction among key components of the urban environment",
+          "printed_page": "7-19",
+          "pdf_page": 139,
+          "raw_line": "Figure 7-2. Interaction among key components of the urban environment ......................... 7-19",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-3",
+          "title": "Urban environment surface area example",
+          "printed_page": "7-22",
+          "pdf_page": 142,
+          "raw_line": "Figure 7-3. Urban environment surface area example ........................................................ 7-22",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-4",
+          "title": "Urban area modified combined obstacle overlay example",
+          "printed_page": "7-23",
+          "pdf_page": 143,
+          "raw_line": "Figure 7-4. Urban area modified combined obstacle overlay example ............................... 7-23",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-5",
+          "title": "Gridded reference graphic example",
+          "printed_page": "7-24",
+          "pdf_page": 144,
+          "raw_line": "Figure 7-5. Gridded reference graphic example .................................................................. 7-24",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-6",
+          "title": "Urban look-down angle example",
+          "printed_page": "7-25",
+          "pdf_page": 145,
+          "raw_line": "Figure 7-6. Urban look-down angle example ....................................................................... 7-25",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-7",
+          "title": "Urban environment air and maritime avenues of approach",
+          "printed_page": "7-26",
+          "pdf_page": 146,
+          "raw_line": "Figure 7-7. Urban environment air and maritime avenues of approach .............................. 7-26",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-8",
+          "title": "Urban pattern examples",
+          "printed_page": "7-27",
+          "pdf_page": 147,
+          "raw_line": "Figure 7-8. Urban pattern examples .................................................................................... 7-27",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-9",
+          "title": "Street pattern and urban layout examples",
+          "printed_page": "7-27",
+          "pdf_page": 147,
+          "raw_line": "Figure 7-9. Street pattern and urban layout examples ........................................................ 7-27",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-10",
+          "title": "Urban environment obstacles to ground mobility",
+          "printed_page": "7-28",
+          "pdf_page": 148,
+          "raw_line": "Figure 7-10. Urban environment obstacles to ground mobility ............................................ 7-28",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-11",
+          "title": "Urban environment cover and concealment examples",
+          "printed_page": "7-29",
+          "pdf_page": 149,
+          "raw_line": "Figure 7-11. Urban environment cover and concealment examples ................................... 7-29",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-12",
+          "title": "Modification of urban infrastructure to permit ground mobility",
+          "printed_page": "7-31",
+          "pdf_page": 151,
+          "raw_line": "Figure 7-12. Modification of urban infrastructure to permit ground mobility ........................ 7-31",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 7-13",
+          "title": "Use of supersurfaces for weapons employment",
+          "printed_page": "7-32",
+          "pdf_page": 152,
+          "raw_line": "Figure 7-13. Use of supersurfaces for weapons employment ............................................. 7-32",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure 8-1",
+          "title": "Layers of the Earth’s atmosphere",
+          "printed_page": "8-4",
+          "pdf_page": 162,
+          "raw_line": "Figure 8-1. Layers of the Earth’s atmosphere ....................................................................... 8-4",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-1",
+          "title": "Single versus multiple cyber-personas",
+          "printed_page": "D-3",
+          "pdf_page": 189,
+          "raw_line": "Figure D-1. Single versus multiple cyber-personas ............................................................... D-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-2",
+          "title": "Area of operations and area of influence example",
+          "printed_page": "D-4",
+          "pdf_page": 190,
+          "raw_line": "Figure D-2. Area of operations and area of influence example ............................................. D-4",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-3",
+          "title": "Threat overlay with cyberspace components example",
+          "printed_page": "D-6",
+          "pdf_page": 192,
+          "raw_line": "Figure D-3. Threat overlay with cyberspace components example ....................................... D-6",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-4",
+          "title": "MCOO, physical network and cyber-persona layers example",
+          "printed_page": "D-8",
+          "pdf_page": 194,
+          "raw_line": "Figure D-4. MCOO, physical network and cyber-persona layers example ............................ D-8",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-5",
+          "title": "MCOO, physical network, logical network, and cyber-persona layers example",
+          "printed_page": "D-8",
+          "pdf_page": 194,
+          "raw_line": "Figure D-5. MCOO, physical network, logical network, and cyber-persona layers example .............................................................................................................. D-8",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-6",
+          "title": "Threat template with cyberspace considerations example",
+          "printed_page": "D-12",
+          "pdf_page": 198,
+          "raw_line": "Figure D-6. Threat template with cyberspace considerations example ............................... D-12",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-7",
+          "title": "Threat situation template with cyberspace considerations, example 1",
+          "printed_page": "D-15",
+          "pdf_page": 201,
+          "raw_line": "Figure D-7. Threat situation template with cyberspace considerations, example 1 ............ D-15",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-8",
+          "title": "Threat situation template with cyberspace considerations, example 2",
+          "printed_page": "D-16",
+          "pdf_page": 202,
+          "raw_line": "Figure D-8. Threat situation template with cyberspace considerations, example 2 ............ D-16",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-9",
+          "title": "Event template with cyberspace considerations, example 1",
+          "printed_page": "D-17",
+          "pdf_page": 203,
+          "raw_line": "Figure D-9. Event template with cyberspace considerations, example 1 ............................ D-17",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Figure D-10",
+          "title": "Event template with cyberspace considerations, example 2",
+          "printed_page": "D-17",
+          "pdf_page": 203,
+          "raw_line": "Figure D-10. Event template with cyberspace considerations, example 2 .......................... D-17",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "label": "Tables",
+      "title": "Tables",
+      "printed_page": null,
+      "pdf_page": null,
+      "raw_line": "Tables",
+      "children": [
+        {
+          "level": 2,
+          "label": "Table 1-1",
+          "title": "IPB and intelligence analysis support to operational framework considerations",
+          "printed_page": "1-14",
+          "pdf_page": 28,
+          "raw_line": "Table 1-1. IPB and intelligence analysis support to operational framework considerations ................................................................................................... 1-14",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 1-2",
+          "title": "IPB and the Army’s strategic roles",
+          "printed_page": "1-16",
+          "pdf_page": 30,
+          "raw_line": "Table 1-2. IPB and the Army’s strategic roles ...................................................................... 1-16",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 4-1",
+          "title": "Threat description table example",
+          "printed_page": "4-4",
+          "pdf_page": 48,
+          "raw_line": "Table 4-1. Threat description table example .......................................................................... 4-4",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 4-2",
+          "title": "Maximum distances between and typical widths of mobility corridors",
+          "printed_page": "4-9",
+          "pdf_page": 53,
+          "raw_line": "Table 4-2. Maximum distances between and typical widths of mobility corridors .................. 4-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 4-3",
+          "title": "Tactical obstacle effects",
+          "printed_page": "4-11",
+          "pdf_page": 55,
+          "raw_line": "Table 4-3. Tactical obstacle effects ...................................................................................... 4-11",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 4-4",
+          "title": "Typical color control measures for modified combined obstacle overlays",
+          "printed_page": "4-14",
+          "pdf_page": 58,
+          "raw_line": "Table 4-4. Typical color control measures for modified combined obstacle overlays .......... 4-14",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 4-5",
+          "title": "Terrain effects matrix example",
+          "printed_page": "4-16",
+          "pdf_page": 60,
+          "raw_line": "Table 4-5. Terrain effects matrix example ............................................................................ 4-16",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 4-6",
+          "title": "Crosswalk of civil considerations (ASCOPE) with operational variables (PMESII)",
+          "printed_page": "4-23",
+          "pdf_page": 67,
+          "raw_line": "Table 4-6. Crosswalk of civil considerations (ASCOPE) with operational variables (PMESII) ............................................................................................................ 4-23",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 5-1",
+          "title": "High-value targets by threat element and cyberspace",
+          "printed_page": "5-12",
+          "pdf_page": 86,
+          "raw_line": "Table 5-1. High-value targets by threat element and cyberspace........................................ 5-12",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 5-2",
+          "title": "CARVER matrix tool",
+          "printed_page": "5-16",
+          "pdf_page": 90,
+          "raw_line": "Table 5-2. CARVER matrix tool ............................................................................................ 5-16",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 6-1",
+          "title": "Offensive indicators",
+          "printed_page": "6-18",
+          "pdf_page": 114,
+          "raw_line": "Table 6-1. Offensive indicators ............................................................................................. 6-18",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 6-2",
+          "title": "Defensive indicators",
+          "printed_page": "6-19",
+          "pdf_page": 115,
+          "raw_line": "Table 6-2. Defensive indicators ............................................................................................ 6-19",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-1",
+          "title": "Civil security intelligence requirements",
+          "printed_page": "7-7",
+          "pdf_page": 127,
+          "raw_line": "Table 7-1. Civil security intelligence requirements ................................................................. 7-7",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-2",
+          "title": "Evaluating external threat organizations",
+          "printed_page": "7-8",
+          "pdf_page": 128,
+          "raw_line": "Table 7-2. Evaluating external threat organizations ............................................................... 7-8",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-3",
+          "title": "Evaluating internal threat organizations",
+          "printed_page": "7-10",
+          "pdf_page": 130,
+          "raw_line": "Table 7-3. Evaluating internal threat organizations .............................................................. 7-10",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-4",
+          "title": "Evaluating the general population’s role in a conflict",
+          "printed_page": "7-11",
+          "pdf_page": 131,
+          "raw_line": "Table 7-4. Evaluating the general population’s role in a conflict .......................................... 7-11",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-5",
+          "title": "Information sources for supporting economic developments",
+          "printed_page": "7-15",
+          "pdf_page": 135,
+          "raw_line": "Table 7-5. Information sources for supporting economic developments ............................. 7-15",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-6",
+          "title": "Framework for determining relevant aspects of littoral environments",
+          "printed_page": "7-16",
+          "pdf_page": 136,
+          "raw_line": "Table 7-6. Framework for determining relevant aspects of littoral environments ................ 7-16",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-7",
+          "title": "Example framework for identifying relevant aspects of urban environments",
+          "printed_page": "7-21",
+          "pdf_page": 141,
+          "raw_line": "Table 7-7. Example framework for identifying relevant aspects of urban environments...... 7-21",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-8",
+          "title": "Subterranean environment categories",
+          "printed_page": "7-34",
+          "pdf_page": 154,
+          "raw_line": "Table 7-8. Subterranean environment categories ................................................................ 7-34",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-9",
+          "title": "Subterranean terrain features",
+          "printed_page": "7-35",
+          "pdf_page": 155,
+          "raw_line": "Table 7-9. Subterranean terrain features ............................................................................. 7-35",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 7-10",
+          "title": "Terrain effects matrix for a subterranean environment example",
+          "printed_page": "7-37",
+          "pdf_page": 157,
+          "raw_line": "Table 7-10. Terrain effects matrix for a subterranean environment example ...................... 7-37",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table 8-1",
+          "title": "IPB considerations for the information environment",
+          "printed_page": "8-7",
+          "pdf_page": 165,
+          "raw_line": "Table 8-1. IPB considerations for the information environment ............................................. 8-7",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table A-1",
+          "title": "Intelligence staff officer IPB checklist",
+          "printed_page": "A-1",
+          "pdf_page": 167,
+          "raw_line": "Table A-1. Intelligence staff officer IPB checklist ...................................................................A-1",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-1",
+          "title": "Height of eye versus horizon range",
+          "printed_page": "B-1",
+          "pdf_page": 169,
+          "raw_line": "Table B-1. Height of eye versus horizon range ......................................................................B-1",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-2",
+          "title": "Terrain types for mechanized or armored forces",
+          "printed_page": "B-2",
+          "pdf_page": 170,
+          "raw_line": "Table B-2. Terrain types for mechanized or armored forces ..................................................B-2",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-3",
+          "title": "Cover from flat trajectory weapons",
+          "printed_page": "B-3",
+          "pdf_page": 171,
+          "raw_line": "Table B-3. Cover from flat trajectory weapons .......................................................................B-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-4",
+          "title": "Concealment from aerial detection and percentage of roof coverage",
+          "printed_page": "B-3",
+          "pdf_page": 171,
+          "raw_line": "Table B-4. Concealment from aerial detection and percentage of roof coverage ..................B-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-5",
+          "title": "Port categories",
+          "printed_page": "B-3",
+          "pdf_page": 171,
+          "raw_line": "Table B-5. Port categories ......................................................................................................B-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-6",
+          "title": "Minimum helipad and heliport requirements",
+          "printed_page": "B-3",
+          "pdf_page": 171,
+          "raw_line": "Table B-6. Minimum helipad and heliport requirements .........................................................B-3",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-7",
+          "title": "Factors of foot marches for typical dismounted units",
+          "printed_page": "B-4",
+          "pdf_page": 172,
+          "raw_line": "Table B-7. Factors of foot marches for typical dismounted units ...........................................B-4",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-8",
+          "title": "Unopposed movement planning speeds for U.S. and opposition forces",
+          "printed_page": "B-5",
+          "pdf_page": 173,
+          "raw_line": "Table B-8. Unopposed movement planning speeds for U.S. and opposition forces ..............B-5",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-9",
+          "title": "Movement conversion",
+          "printed_page": "B-5",
+          "pdf_page": 173,
+          "raw_line": "Table B-9. Movement conversion ...........................................................................................B-5",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-10",
+          "title": "Example of typical Soviet style frontages and depths for units (defense)",
+          "printed_page": "B-6",
+          "pdf_page": 174,
+          "raw_line": "Table B-10. Example of typical Soviet style frontages and depths for units (defense) ..........B-6",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-11",
+          "title": "Example of typical Soviet style frontages and depths of objectives (offense)",
+          "printed_page": "B-6",
+          "pdf_page": 174,
+          "raw_line": "Table B-11. Example of typical Soviet style frontages and depths of objectives (offense) ..............................................................................................................B-6",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-12",
+          "title": "Environmental mission-limiting thresholds",
+          "printed_page": "B-6",
+          "pdf_page": 174,
+          "raw_line": "Table B-12. Environmental mission-limiting thresholds .........................................................B-6",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-13",
+          "title": "Maximum ranges for the identification of select targets",
+          "printed_page": "B-8",
+          "pdf_page": 176,
+          "raw_line": "Table B-13. Maximum ranges for the identification of select targets .....................................B-8",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-14",
+          "title": "Minimum airfield requirements",
+          "printed_page": "B-8",
+          "pdf_page": 176,
+          "raw_line": "Table B-14. Minimum airfield requirements ........................................................................... B-8",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-15",
+          "title": "Typical planning force ratios",
+          "printed_page": "B-9",
+          "pdf_page": 177,
+          "raw_line": "Table B-15. Typical planning force ratios............................................................................... B-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-16",
+          "title": "Traffic flow capability based on route width",
+          "printed_page": "B-9",
+          "pdf_page": 177,
+          "raw_line": "Table B-16. Traffic flow capability based on route width ....................................................... B-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table B-17",
+          "title": "Metric conversion chart",
+          "printed_page": "B-9",
+          "pdf_page": 177,
+          "raw_line": "Table B-17. Metric conversion chart ...................................................................................... B-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table C-1",
+          "title": "Description of potential irregular threats",
+          "printed_page": "C-1",
+          "pdf_page": 179,
+          "raw_line": "Table C-1. Description of potential irregular threats .............................................................. C-1",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table D-1",
+          "title": "Terrain analysis and corresponding cyberspace considerations",
+          "printed_page": "D-5",
+          "pdf_page": 191,
+          "raw_line": "Table D-1. Terrain analysis and corresponding cyberspace considerations ......................... D-5",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table D-2",
+          "title": "Threat description table with cyberspace considerations example",
+          "printed_page": "D-7",
+          "pdf_page": 193,
+          "raw_line": "Table D-2. Threat description table with cyberspace considerations example...................... D-7",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table D-3",
+          "title": "Terrain effects matrix with cyberspace considerations example",
+          "printed_page": "D-9",
+          "pdf_page": 195,
+          "raw_line": "Table D-3. Terrain effects matrix with cyberspace considerations example ......................... D-9",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table D-4",
+          "title": "Cyberspace considerations for the warfighting functions",
+          "printed_page": "D-10",
+          "pdf_page": 196,
+          "raw_line": "Table D-4. Cyberspace considerations for the warfighting functions .................................. D-10",
+          "children": []
+        },
+        {
+          "level": 2,
+          "label": "Table D-5",
+          "title": "Event matrix with cyberspace considerations example",
+          "printed_page": "D-18",
+          "pdf_page": 204,
+          "raw_line": "Table D-5. Event matrix with cyberspace considerations example ..................................... D-18",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

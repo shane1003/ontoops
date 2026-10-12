@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "contents": [
+      3,
+      4
+    ],
+    "body": [
+      5,
+      62
+    ],
+    "glossary": [
+      63,
+      71
+    ],
+    "index": [
+      77,
+      79
+    ]
+  },
+  "unreadable_pages": [],
+  "source_sha256": "cd6ecc0b5065e761b7e64b7a3f005b070e01184688db1d69392eba4f8d2458c9",
+  "prepared_sha256": "eb78580244747eaa0e6762f1037199f21dbe173b1555c64ab9b77b2b75e59d04",
+  "prepared_pages": 58,
+  "hand_checked": false,
+  "glossary_layout": "army",
+  "glossary_removed_terms": [],
+  "glossary_entries": 121,
+  "index_rows": 395
+}

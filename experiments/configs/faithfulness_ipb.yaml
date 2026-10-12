@@ -1,0 +1,16 @@
+# Experiment 4: RAGAS Faithfulness of the CQ answers of IPB run 0 of
+# 20260929T011743Z-doctrine, judged by Claude Sonnet 5.5. Added after the
+# three pre-registered experiments had been reported. Nothing is re-generated: the
+# judge reads the cell's exported CQs and paragraphs. The judge model and
+# RAGAS version are those of the external evaluation in
+# experiments/results/external/, so the two can be compared.
+run:
+  model_weights: google/gemma-4-31B-it
+exp4_faithfulness:
+  from_run: 20260929T011743Z-doctrine
+  cells:
+  - experiment: exp1_stability
+    dataset: IPB
+    run_index: 0
+  judge_model: claude-sonnet-5-5
+  concurrency: 8

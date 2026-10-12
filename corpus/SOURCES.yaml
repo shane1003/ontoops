@@ -1,0 +1,43 @@
+# The doctrine corpus: every manual the experiments run on, identified by
+# file name, edition and SHA-256. The PDFs are public but not redistributed
+# from this repository; place them under corpus/pdf/ (the file names
+# below) and `uv run evaluation prep` checks every hash before it reads a page.
+#
+# slug        directory under corpus/ and dataset name of the cells
+# url         placeholder only (https://ontoops.example.org/<file name>); the manuals
+#             are public, obtain them by title and edition and check the SHA-256
+# index_run_in  the index prints a heading's first sub-entry on the heading line
+# hand_checked  glossary.csv / index.csv / contents.json were checked by hand
+#               against the rendered pages; `evaluation prep` never overwrites them
+documents:
+  - slug: IPB
+    file: "ATP_2-01.3 Intelligence_Preparation_of_the_Battlefield.pdf"
+    title: "ATP 2-01.3 Intelligence Preparation of the Battlefield"
+    edition: "2019-03 (Change 1)"
+    sha256: 10a08e6ff0779c7d6c37b4d05f3ab813fcbd86f78d3eefc5348d19e42511827d
+    url: "https://ontoops.example.org/ATP_2-01.3_Intelligence_Preparation_of_the_Battlefield.pdf"
+    hand_checked: true
+  - slug: JP2
+    file: "JP 2_01_3_Joint Intelligence Preparation of the Operational Environment.pdf"
+    title: "JP 2-01.3 Joint Intelligence Preparation of the Operational Environment"
+    edition: "2014-05"
+    sha256: 5ad9ebcb2405f32fb544dcf6ddd82212f0643a9675d39b2f302c2025c2737614
+    url: "https://ontoops.example.org/JP_2_01_3_Joint_Intelligence_Preparation_of_the_Operational_Environment.pdf"
+  - slug: ADP
+    file: "adp_3-90 Offense and Defense.pdf"
+    title: "ADP 3-90 Offense and Defense"
+    edition: "2019-07"
+    sha256: 50754147e1ba85188b8f88b635646896db323a0254c9a9ace4b1af416e7cfdfb
+    url: "https://ontoops.example.org/adp_3-90_Offense_and_Defense.pdf"
+  - slug: JP3
+    file: "jp3_0 Joint Operations.pdf"
+    title: "JP 3-0 Joint Operations"
+    edition: "2017-01 (Change 1, 2018-10)"
+    sha256: c54cf86518caa0d43f6cbeabea255b8cb800a6d204a93268a9c8078bd54120a1
+    url: "https://ontoops.example.org/jp3_0_Joint_Operations.pdf"
+  - slug: ADRP
+    file: "ADRP3_0_OPERATIONS.pdf"
+    title: "ADRP 3-0 Operations"
+    edition: "2016-11 (Change 1, 2017-10)"
+    sha256: cd6ecc0b5065e761b7e64b7a3f005b070e01184688db1d69392eba4f8d2458c9
+    url: "https://ontoops.example.org/ADRP3_0_OPERATIONS.pdf"

@@ -1,0 +1,47 @@
+# Working process, not results: agent settings, working agreement, design and
+# decision notes, internal leak patterns (kept locally, never committed)
+.claude/
+CLAUDE.md
+docs/internal/
+scripts/internal/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Local merge-request drafts
+MR.md
+
+# Ouroboros session state (local SQLite, regenerated per session)
+.ouroboros/
+
+# Run artifacts (kept locally; their scored rows are in experiments/results/)
+experiments/runs/
+
+# Public snapshot export target
+release/
+
+# Model caches
+.hf_cache/
+
+# The manuals and the body PDFs cut from them: identified by file name,
+# edition and checksum (corpus/SOURCES.yaml), never redistributed here. The
+# scorer assets beside them (corpus/<manual>/) stay tracked.
+corpus/pdf/
+corpus/prepared/
+# Earlier local data folder (database dumps).
+data_source/
+
+# Local environment (endpoints, keys): never commit
+.env
+
+# Paper drafts and repository notes for the journal submission (local only)
+paper/
+
+# Another team's evaluation workspace (internal addresses, dumps, notebooks).
+# The rows the paper cites are copied to experiments/results/external/.
+RAGAS/

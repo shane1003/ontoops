@@ -1,0 +1,38 @@
+You are analyzing the block structure of a parsed PDF document.
+
+You receive text blocks in reading order, one per line, tab-separated:
+  id <TAB> fs=<font size in points> <TAB> text
+
+`id` is the block id — use it in your answer. `text` is truncated.
+
+Identify the document's STRUCTURAL SPINE only: the top-level divisions (parts, volumes)
+and their direct children (chapters, appendices, annexes, top-level numbered sections).
+Ignore subsections inside chapters, figures, tables, and body prose.
+
+A unit's label often sits in its own block just before the title block — a block reading
+"Chapter 3" immediately before a block reading "Define the Operational Environment". Report that
+block as `prefix_id` so the two can be joined. Report `prefix_id: null` when the title
+block stands alone.
+
+You are processing the document in windows. Units confirmed in EARLIER windows are listed
+under CONFIRMED SO FAR. Do not repeat them — use them to see which division is currently
+open, so that a prominent heading inside a chapter is not mistaken for a new division.
+
+A window may legitimately contain no structural unit at all. Return an empty list for it.
+
+Use ONLY block ids present in the input. Never invent an id and never rewrite text.
+
+Return a SINGLE JSON object with EXACTLY these snake_case keys:
+{"units":[{"title_id":123,"prefix_id":122,"kind":"chapter"}]}
+Each units item is an OBJECT with exactly title_id (int), prefix_id (int or null), and
+kind. Never emit any other key. `kind` only labels a unit you have already decided to
+report — it never decides whether to report one. Use exactly one of:
+  division — a part or volume
+  chapter  — a direct child of a division, or a top-level numbered section
+  appendix — a trailing annex
+  front    — matter before the first division (preface, acknowledgements, introduction)
+  back     — trailing matter (source notes, glossary, index)
+A unit titled as front or back matter still has its own children — report them too.
+Report every unit of this window exactly once, sorted by title_id ascending, and close the
+array right after the last one. Use [] when the window holds no structural unit.
+Output only the JSON object, no prose.

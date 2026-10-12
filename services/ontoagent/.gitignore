@@ -1,0 +1,30 @@
+# Environment variables / secrets
+.env
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# uv
+.uv/
+
+# Dev Container
+.devcontainer/
+
+# Generated artifacts (keep only .gitkeep)
+data/intermediate/*
+!data/intermediate/.gitkeep
+data/output/*
+!data/output/.gitkeep
+
+# Stage 1/2 review artifacts (regenerable, kept locally)
+data/review_*/
+
+# Reasoner jars etc. (keep only .gitkeep)
+lib/*
+!lib/.gitkeep

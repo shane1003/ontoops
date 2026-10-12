@@ -1,0 +1,30 @@
+[project]
+name = "cq-generation"
+version = "0.1.0"
+description = "Competency question generation service for document-to-ontology pipelines"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-multipart>=0.0.9",
+    "pydantic-settings>=2.0.0",
+    "langfuse>=4.6.1",
+    "langgraph>=1.2.0",
+    "langchain-openai>=1.2.1",
+    "langchain-anthropic>=0.3.0",
+    "langchain>=1.3.1",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "opendataloader-pdf>=2.4.7",
+    "psycopg[binary]>=3.3.4",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.409",
+    "pytest>=9.1.1",
+    "ruff>=0.15.13",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

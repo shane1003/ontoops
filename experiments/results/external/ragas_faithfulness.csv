@@ -1,0 +1,6 @@
+doc,stage,term_type,n,mean,median,share_eq_1,share_lt_0.5,errors
+ipb,A:paragraph->cq,ALL,2501,0.9655,1.0,0.9566,0.0311,0
+ipb,B:cq->term,ALL,2505,0.8155,1.0,0.6259,0.1094,0
+ipb,B:cq->term (statement),CLASS,5879,0.8915,,,,0
+ipb,B:cq->term (statement),DATA_PROP,1241,0.7534,,,,0
+ipb,B:cq->term (statement),OBJECT_PROP,2840,0.8613,,,,0

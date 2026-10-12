@@ -1,0 +1,27 @@
+# Minimize the build context
+.git
+.venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.ruff_cache
+.pytest_cache
+.ruff_cache
+.mypy_cache
+.idea
+.vscode
+**/.coverage
+htmlcov
+dist
+build
+*.egg-info
+node_modules
+.DS_Store
+# Runtime artifacts and input data (the image is stateless: only config/src)
+data/output
+data/intermediate
+data/cq
+tests
+.devcontainer
+.claude
+.env

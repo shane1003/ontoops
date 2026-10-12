@@ -1,0 +1,207 @@
+# The OntoOps service stack the experiments run on, isolated from any other
+# deployment on the machine: its own Postgres+pgvector, FalkorDB and embedding
+# server, and the three services built from their sources vendored under
+# services/ (exact copies of the upstream commits in experiments/pins.yaml).
+#
+# Every value a person sets comes from .env (template: .env.example): the
+# machine's addresses and the production settings the experiments run with.
+# What stays literal here is wiring between the containers (DSNs, host names,
+# disabled tracing). The LLM servers stay outside the stack. Service ports
+# bind to 127.0.0.1 only; the evaluation code talks to them from the host.
+#
+#   SETUP.md               # tools, Python env, .env, manuals, checks
+#
+#   uv run evaluation up      # build images, start, apply schemas, wait healthy
+#   uv run evaluation down
+name: ontoops-exp
+
+x-llm-hosts: &llm-hosts
+  # Lets a container reach an LLM server published on the host.
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
+
+services:
+  postgres:
+    image: pgvector/pgvector@sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f
+    environment:
+      POSTGRES_USER: ontoops
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ontoops
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ontoops -d ontoops"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  falkordb:
+    image: falkordb/falkordb@sha256:217bc520be076ce9e85b0ba426b2379ccbaebd17f2fe6e174288bd1b36d486bb
+    ports:
+      - "127.0.0.1:${FALKORDB_PORT:-56379}:6379"
+    volumes:
+      - falkordata:/var/lib/falkordb/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  tei:
+    # Same image and arguments as the production embedding server. The hopper
+    # build needs an H100-class GPU; see SETUP.md for other hardware.
+    image: ghcr.io/huggingface/text-embeddings-inference@sha256:e3009cd99f63dbabd29346412e2d65224e4ab179e7559b0065f26e38fb7334c4
+    command:
+      ["--model-id", "${EMBEDDING_MODEL_ID:?set EMBEDDING_MODEL_ID in .env}",
+       "--revision", "${EMBEDDING_REVISION:?set EMBEDDING_REVISION in .env}",
+       "--dtype", "${EMBEDDING_DTYPE:?set EMBEDDING_DTYPE in .env}"]
+    volumes:
+      - teicache:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["${TEI_GPU:-0}"]
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:80/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+
+  tbox-schema:
+    # One-shot: the TBox schema is applied by hand in production, so here too.
+    image: pgvector/pgvector@sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f
+    environment:
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./services/ontoagent/app/tboxcraft/db/schema:/schema:ro
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        set -e
+        for f in /schema/*.sql; do
+          psql -h postgres -U ontoops -d ontoops -v ON_ERROR_STOP=1 -q -f "$$f"
+        done
+    depends_on:
+      # Its views join CQ generation's `cq` table, which that service creates
+      # on start, so the TBox schema comes after it.
+      cq-generation:
+        condition: service_healthy
+    restart: "no"
+
+  abox-migrate:
+    # One-shot: the ABox schema and its migrations, through the service's own CLI.
+    build: ./services/ontoagent
+    command: ["python", "-m", "app.aboxmapper.cli.migrate", "--wait", "60"]
+    environment:
+      TBOXCRAFT_DATABASE_URL: postgresql://ontoops:${POSTGRES_PASSWORD}@postgres:5432/ontoops
+    depends_on:
+      tbox-schema:
+        condition: service_completed_successfully
+    restart: "no"
+
+  cq-generation:
+    <<: *llm-hosts
+    build: ./services/cq_generation
+    environment:
+      LLM_PROVIDER: local
+      VLLM_BASE_URL: ${CQGEN_LLM_BASE_URL:?set CQGEN_LLM_BASE_URL in .env}
+      VLLM_MODEL: ${CQGEN_LLM_MODEL:?set CQGEN_LLM_MODEL in .env}
+      POSTGRES_DSN: postgresql://ontoops:${POSTGRES_PASSWORD}@postgres:5432/ontoops
+      CQ_CHUNK_CHAR_BUDGET: ${CQ_CHUNK_CHAR_BUDGET:?set CQ_CHUNK_CHAR_BUDGET in .env}
+      # A deliberate deviation from production; the reason is in .env.example.
+      CQ_GENERATOR_MAX_TOKENS: ${CQ_GENERATOR_MAX_TOKENS:?set CQ_GENERATOR_MAX_TOKENS in .env}
+      LANGFUSE_SECRET_KEY: ""
+      LANGFUSE_PUBLIC_KEY: ""
+      LANGFUSE_HOST: ""
+    ports:
+      - "127.0.0.1:${CQGEN_PORT:-8081}:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/docs')"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  ontoagent:
+    <<: *llm-hosts
+    build: ./services/ontoagent
+    environment:
+      # Component extraction (OpenAI-compatible client, /v1 included).
+      OPENAI_BASE_URL: ${ONTOAGENT_LLM_BASE_URL:?set ONTOAGENT_LLM_BASE_URL in .env}
+      OPENAI_API_KEY: local
+      CONCEPTUALIZER_OPENAI_MODEL: ${ONTOAGENT_LLM_MODEL:?set ONTOAGENT_LLM_MODEL in .env}
+      CONCEPTUALIZER_OPENAI_FAST_MODEL: ${ONTOAGENT_LLM_MODEL}
+      CONCEPTUALIZER_DOMAIN: ${CONCEPTUALIZER_DOMAIN:?set CONCEPTUALIZER_DOMAIN in .env}
+      CONCEPTUALIZER_CHUNK_CONCURRENCY: ${CONCEPTUALIZER_CHUNK_CONCURRENCY:?set CONCEPTUALIZER_CHUNK_CONCURRENCY in .env}
+      TBOXCRAFT_VERIFY_CONCURRENCY: ${TBOXCRAFT_VERIFY_CONCURRENCY:?set TBOXCRAFT_VERIFY_CONCURRENCY in .env}
+      # TBox construction.
+      TBOXCRAFT_DATABASE_URL: postgresql://ontoops:${POSTGRES_PASSWORD}@postgres:5432/ontoops
+      TBOXCRAFT_EMBEDDING_PROVIDER: remote_e5
+      TBOXCRAFT_EMBEDDING_URL: http://tei:80
+      TBOXCRAFT_EMBEDDING_REVISION: ${EMBEDDING_REVISION:?set EMBEDDING_REVISION in .env}
+      # Domain-term verification talks to the same server without the /v1.
+      TBOXCRAFT_LLM_PROVIDER: local
+      TBOXCRAFT_LLM_URL: ${ONTOAGENT_LLM_ROOT_URL:?set ONTOAGENT_LLM_ROOT_URL in .env}
+      TBOXCRAFT_LLM_MODEL: ${ONTOAGENT_LLM_MODEL}
+      TBOXCRAFT_REASONER_ENABLED: ${TBOXCRAFT_REASONER_ENABLED:?set TBOXCRAFT_REASONER_ENABLED in .env}
+      TBOXCRAFT_OOPS_ENABLED: ${TBOXCRAFT_OOPS_ENABLED:?set TBOXCRAFT_OOPS_ENABLED in .env}
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      # ABox and graph.
+      FALKORDB_HOST: falkordb
+      FALKORDB_PORT: "6379"
+      LANGFUSE_PUBLIC_KEY: ""
+      LANGFUSE_SECRET_KEY: ""
+      LANGFUSE_BASE_URL: ""
+      LANGFUSE_HOST: ""
+    ports:
+      - "127.0.0.1:${ONTOAGENT_PORT:-8082}:8602"
+    depends_on:
+      abox-migrate:
+        condition: service_completed_successfully
+      falkordb:
+        condition: service_healthy
+      tei:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8602/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  ontorouter:
+    build: ./services/ontorouter
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_DBNAME: ontoops
+      POSTGRES_USER: ontoops
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      # The semantic tier stays off, as in production: lexical matching
+      # replaced it for typo correction.
+      PORT: "8000"
+      # A deliberate deviation from production; the reason is in .env.example.
+      KEY_INDEX_REFRESH_INTERVAL_S: ${KEY_INDEX_REFRESH_INTERVAL_S:?set KEY_INDEX_REFRESH_INTERVAL_S in .env}
+    ports:
+      - "127.0.0.1:${ONTOROUTER_PORT:-8083}:8000"
+    depends_on:
+      tbox-schema:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/docs')"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  pgdata:
+  falkordata:
+  teicache:

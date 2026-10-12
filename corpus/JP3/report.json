@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "contents": [
+      7,
+      9
+    ],
+    "body": [
+      10,
+      204
+    ],
+    "glossary": [
+      205,
+      222
+    ],
+    "index": null
+  },
+  "unreadable_pages": [
+    1
+  ],
+  "source_sha256": "c54cf86518caa0d43f6cbeabea255b8cb800a6d204a93268a9c8078bd54120a1",
+  "prepared_sha256": "f73e9f312a086f57acb7764d3c530724804a53208187d51236f102e6eb2134f9",
+  "prepared_pages": 195,
+  "hand_checked": false,
+  "glossary_layout": "joint",
+  "glossary_removed_terms": [
+    "essential element of friendly information"
+  ],
+  "glossary_entries": 286
+}

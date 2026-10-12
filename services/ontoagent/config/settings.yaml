@@ -1,0 +1,30 @@
+# Pipeline-wide settings
+llm:
+  # Local LLM (OpenAI-compatible server) only. Every value can be overridden by env
+  # (CONCEPTUALIZER_OPENAI_MODEL / CONCEPTUALIZER_OPENAI_FAST_MODEL,
+  #  env > this file > code default).
+  # The server address is given by OPENAI_BASE_URL (the openai SDK reads it as a fallback;
+  # no code change needed).
+  # OPENAI_API_KEY **must not be empty, even if a dummy** (empty makes client creation
+  # raise RuntimeError).
+  openai_model: local-model
+  openai_fast_model: local-model
+
+  temperature: 0.0
+
+paths:
+  intermediate_dir: data/intermediate
+  prompts_dir: config/prompts
+
+# A large CQList is split into chunk_size units; classifier reads fan out/fan in and are
+# merged back. Keep it small so the classifier JSON response fits in max_tokens (8192):
+# beyond that the response is truncated -> parse failure -> degrade -> verdicts lost -> 0
+# individuals. Lower it further when CQs carry many components.
+extraction:
+  chunk_size: 10
+
+# The domain is a property of the corpus (deployment unit); the CONCEPTUALIZER_DOMAIN env
+# overrides this value.
+agents:
+  # Domain (e.g. military, medical, legal ...)
+  domain: military

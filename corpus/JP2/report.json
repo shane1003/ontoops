@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "contents": [
+      6,
+      11
+    ],
+    "body": [
+      12,
+      277
+    ],
+    "glossary": [
+      278,
+      285
+    ],
+    "index": null
+  },
+  "unreadable_pages": [],
+  "source_sha256": "5ad9ebcb2405f32fb544dcf6ddd82212f0643a9675d39b2f302c2025c2737614",
+  "prepared_sha256": "d297de8c5439d0780d2219e2d7e3ab069c4ffdb565766e096ae2e5753273cc90",
+  "prepared_pages": 266,
+  "hand_checked": false,
+  "glossary_layout": "joint",
+  "glossary_removed_terms": [
+    "beach photography",
+    "beach survey",
+    "beach width",
+    "critical point",
+    "enemy capabilities",
+    "first light",
+    "military geography"
+  ],
+  "glossary_entries": 146
+}

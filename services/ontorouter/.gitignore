@@ -1,0 +1,14 @@
+# Claude Code personal settings (per-developer, never commit)
+.claude/settings.local.json
+
+# Env files carry real credentials; keep only the *.example templates.
+.env.*
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/

@@ -1,0 +1,37 @@
+OntoOps
+Copyright 2026 INFINIQ
+
+This product includes software developed at INFINIQ (https://www.infiniq.co.kr/en).
+
+Licensed under the Apache License, Version 2.0; see LICENSE for the terms.
+
+The three OntoOps services under services/ (CQ generation, ontoagent and
+ontorouter) are part of this work and are licensed under the same terms.
+
+Third-party components the service images install at build time (not
+redistributed in this repository; versions are fixed by each service's
+uv.lock):
+
+- psycopg, psycopg-binary, psycopg-pool (LGPL-3.0), used unmodified as
+  dynamically loaded libraries by all three services.
+- owlready2 (LGPL-3.0-or-later), used by ontoagent. Its wheel bundles the
+  HermiT reasoner (LGPL), which ontoagent calls for consistency checks, and
+  the Pellet reasoner with its dependencies (Pellet: AGPL-3.0), which
+  ontoagent never invokes; the jars are present in the image only because
+  they ship inside the owlready2 wheel.
+- opendataloader-pdf (Apache-2.0), used by CQ generation. It bundles a Java
+  command-line jar with its own third-party notices, kept in the installed
+  package under opendataloader_pdf/THIRD_PARTY/.
+- OpenJDK (GPL-2.0 with the Classpath Exception), the Java runtime installed
+  from Debian in the CQ generation and ontoagent images to run the two jars
+  above.
+- Other Python dependencies under permissive licences (MIT, BSD, Apache-2.0),
+  among them FastAPI, pydantic, LangChain, the OpenAI and Langfuse clients,
+  rdflib, falkordb, numpy and rapidfuzz.
+
+The experiments run these services on a Docker Compose stack that pulls
+third-party images carrying their own licences, also not redistributed here:
+PostgreSQL with pgvector (PostgreSQL License), FalkorDB (Server Side Public
+License v1; used as a local store, never offered as a service), and Hugging
+Face text-embeddings-inference (Apache-2.0). The language models are served
+outside the stack; their weights are not distributed here.
