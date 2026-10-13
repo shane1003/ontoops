@@ -12,7 +12,7 @@ exp1_stability:
   document:
     slug: IPB
     name: Intelligence_Preparation_of_the_Battlefield
-    pdf: ../../data_source/docs_prepared/IPB.pdf
+    pdf: ../../../corpus/prepared/IPB.pdf
     purpose: Build a process ontology of Intelligence Preparation of the Battlefield (IPB) from ATP 2-01.3
       so that an intelligence-support or planning-automation system can answer, for each IPB step and
       substep, what it is, what its inputs and outputs (products) are, who is responsible, which techniques
@@ -30,14 +30,14 @@ exp1_stability:
       and threat-characteristic categories for regular, irregular, and hybrid threats given in the appendices.
       OUT OF SCOPE: specific threat-nation order of battle, collection-asset technical data, and joint-level
       JIPOE procedures beyond what this document restates.'
-    glossary: ../../data_source/docs_data/IPB/glossary.csv
-    index: ../../data_source/docs_data/IPB/index.csv
+    glossary: ../../../corpus/IPB/glossary.csv
+    index: ../../../corpus/IPB/index.csv
     n_runs: 3
 exp2_generality:
   documents:
   - slug: JP2
     name: Joint_Intelligence_Preparation_of_the_Operational_Environment
-    pdf: ../../data_source/docs_prepared/JP2.pdf
+    pdf: ../../../corpus/prepared/JP2.pdf
     purpose: Build a joint-level process ontology of Joint Intelligence Preparation of the Operational
       Environment (JIPOE) from JP 2-01.3, enabling a joint-planning support system to answer, for each
       JIPOE step, substep, product, and organizational role, what it is, what its purpose is, who performs
@@ -53,11 +53,11 @@ exp2_generality:
       for irregular warfare, countering asymmetric approaches, and domestic operations; the case-study
       appendix and glossary definitions. OUT OF SCOPE: service-specific IPB techniques covered only in
       ATP 2-01.3, collection management procedures, and specific adversary intelligence.'
-    glossary: ../../data_source/docs_data/JP2/glossary.csv
+    glossary: ../../../corpus/JP2/glossary.csv
     n_runs: 1
   - slug: ADP
     name: Offense_and_Defense
-    pdf: ../../data_source/docs_prepared/ADP.pdf
+    pdf: ../../../corpus/prepared/ADP.pdf
     purpose: Build a tactical-doctrine ontology of land-force offensive, defensive, and enabling operations
       as defined in ADP 3-90. The ontology must let a planning or wargaming system answer, for any named
       tactical concept, what it is, what purpose it serves, what its characteristics and defining criteria
@@ -74,12 +74,12 @@ exp2_generality:
       troop movement, relief in place, passage of lines); doctrinal definitions, and graphic-control-measure
       names that the document defines or references. OUT OF SCOPE: unit-specific TTPs, weapon-system data,
       staff-process step details covered by other publications, and any content not stated in this document.'
-    glossary: ../../data_source/docs_data/ADP/glossary.csv
-    index: ../../data_source/docs_data/ADP/index.csv
+    glossary: ../../../corpus/ADP/glossary.csv
+    index: ../../../corpus/ADP/index.csv
     n_runs: 1
   - slug: JP3
     name: Joint_Operations
-    pdf: ../../data_source/docs_prepared/JP3.pdf
+    pdf: ../../../corpus/prepared/JP3.pdf
     purpose: Build a joint-operations doctrine ontology from JP 3-0 that captures the fundamental concepts,
       functions, organizations, and operation types of the U.S. joint force. The ontology must answer,
       for each doctrinal concept, what it is defined as, what purpose it serves, what its components or
@@ -97,11 +97,11 @@ exp2_generality:
       large-scale combat operations — offensive, defensive, and stability considerations; glossary terms
       and definitions. OUT OF SCOPE: detailed joint planning process steps (JP 5-0), service-specific
       tactics, and individual operation plans.'
-    glossary: ../../data_source/docs_data/JP3/glossary.csv
+    glossary: ../../../corpus/JP3/glossary.csv
     n_runs: 1
   - slug: ADRP
     name: Operations
-    pdf: ../../data_source/docs_prepared/ADRP.pdf
+    pdf: ../../../corpus/prepared/ADRP.pdf
     purpose: Build a foundational operations-doctrine ontology from ADRP 3-0 that captures the Army's
       operational concept (unified land operations) and the conceptual vocabulary used to describe any
       military operation. The ontology must answer, for each doctrinal concept, what it is defined as,
@@ -119,8 +119,8 @@ exp2_generality:
       main and supporting efforts); combat power and its elements; all definitions and lists the document
       states. OUT OF SCOPE: detailed tactics, procedures, unit organization, and material found only in
       subordinate publications.'
-    glossary: ../../data_source/docs_data/ADRP/glossary.csv
-    index: ../../data_source/docs_data/ADRP/index.csv
+    glossary: ../../../corpus/ADRP/glossary.csv
+    index: ../../../corpus/ADRP/index.csv
     n_runs: 1
 exp3_router:
   cells:
