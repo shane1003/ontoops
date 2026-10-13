@@ -1,0 +1,10 @@
+[
+ {
+  "experiment": "exp4_faithfulness",
+  "run_type": "pipeline",
+  "dataset": "IPB",
+  "run_index": 0,
+  "kind": "faithfulness",
+  "dir": "exp4_faithfulness/IPB/pipeline/0"
+ }
+]

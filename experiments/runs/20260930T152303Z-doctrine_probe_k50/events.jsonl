@@ -1,0 +1,3 @@
+{"ts": "2026-09-30T15:23:04.028535+00:00", "event": "run_started", "detail": "0 cells + router probe, commit 4641205036, tag v0.4.9-exp, dirty 0"}
+{"ts": "2026-09-30T15:24:33.472355+00:00", "event": "probe_finished", "detail": "queries {'overlap': 2473, 'glossary': 871, 'typo': 485, 'ood': 50}"}
+{"ts": "2026-09-30T15:24:34.287668+00:00", "event": "run_finished", "detail": "1.5 min"}

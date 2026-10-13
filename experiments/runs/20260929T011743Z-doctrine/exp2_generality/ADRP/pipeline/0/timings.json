@@ -1,0 +1,16 @@
+{
+ "register": 0.067,
+ "parser_odl": 2.454,
+ "structure_odl": 6.108,
+ "chunk_odl": 0.033,
+ "generate": 75.277,
+ "refine": 49.5,
+ "promote": 0.058,
+ "conceptualize": 112.807,
+ "preflight": 0.061,
+ "extract": 329.328,
+ "tbox_update": 479.022,
+ "abox_load": 0.355,
+ "graph_upload": 1.717,
+ "export": 0.961
+}

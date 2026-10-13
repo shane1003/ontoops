@@ -19,9 +19,6 @@ MR.md
 # Ouroboros session state (local SQLite, regenerated per session)
 .ouroboros/
 
-# Run artifacts (kept locally; their scored rows are in experiments/results/)
-experiments/runs/
-
 # Public snapshot export target
 release/
 

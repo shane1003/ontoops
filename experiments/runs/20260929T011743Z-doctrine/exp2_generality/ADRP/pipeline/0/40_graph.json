@@ -1,0 +1,9 @@
+{
+ "graph": "doctrine/Operations_20260929T011743Z_r0",
+ "graph_source": "request",
+ "classes": 808,
+ "subclass_edges": 139,
+ "object_edges": 1359,
+ "skipped_props": 0,
+ "statements": 2306
+}

@@ -1,0 +1,1000 @@
+{
+ "base_iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#",
+ "base_iri_source": "request",
+ "base_iri_pieces": {
+  "root": "http://example.org",
+  "domain": "doctrine",
+  "document": "Operations_20260929T011743Z_r0"
+ },
+ "individuals": 2044,
+ "individuals_upserted": 1368,
+ "individuals_deduped": 156,
+ "individuals_dropped": 0,
+ "individuals_skipped": 520,
+ "assertions_built": 698,
+ "assertions_inserted": 669,
+ "assertions_deduped": 29,
+ "assertions_dropped": 0,
+ "object_assertions_received": 1236,
+ "object_assertions_skipped": 1236,
+ "miss": 58,
+ "ambiguous": 0,
+ "skip_counts": {
+  "empty": 520,
+  "miss": 58
+ },
+ "skips": [
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "DoctrinePublication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "DoctrinePublication",
+   "source_id": "doc:cq:01c60541-78a1-473f-a135-15cd8323ce62"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:09b3290f-eebb-465d-a166-2b6cfa0551ef"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:0dd16716-5c71-49c2-b14d-a27398677a36"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:1fb96172-9ac6-40ae-8b12-199fc8b08f40"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:989f336d-fed3-41b2-b816-a54c4b45a948"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ServiceMember",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ServiceMember",
+   "source_id": "doc:cq:9dccdea2-06f6-4b8f-9872-fbffde5c46c9"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:b2681dcf-d548-4737-851d-32a6290d6662"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ArmyDoctrine",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ArmyDoctrine",
+   "source_id": "doc:cq:b95061c8-3a1f-4dfa-8551-acbe37c37836"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "MilitaryPersonnel",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "MilitaryPersonnel",
+   "source_id": "doc:cq:de8b503f-3b82-41a2-9c4b-4943a4da3126"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:dfef1d4e-b5af-4d87-8e01-37b8240e7131"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:e9bbf1a6-19b3-4a41-8a40-126c8cc484b0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:0ffbd912-21f7-4c2c-a6c8-910de5be95ab"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Glossary",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Glossary",
+   "source_id": "doc:cq:b614a72a-9624-488d-89ec-32197041eeba"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalVariable",
+   "source_id": "doc:cq:8accf4e0-69b0-4478-a93d-48cce5c711ac"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalVariable",
+   "source_id": "doc:cq:8accf4e0-69b0-4478-a93d-48cce5c711ac"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalVariable",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalVariable",
+   "source_id": "doc:cq:8accf4e0-69b0-4478-a93d-48cce5c711ac"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalVariable",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalVariable",
+   "source_id": "doc:cq:f716f2b8-65aa-43c5-a592-63d6a653734a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MissionVariable",
+   "source_id": "doc:cq:7e18050d-f276-47a5-a01b-08e3ab1ca264"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ArmyLeader",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ArmyLeader",
+   "source_id": "doc:cq:91e4afdc-e2b5-4467-a075-d5472f3845f7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PeerThreat",
+   "source_id": "doc:cq:0d08256f-124d-4b64-997b-54bfa603f4e1"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Threat",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:36a9e5ac-ba89-4928-ad45-e36621fdffa4"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Hazard",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Hazard",
+   "source_id": "doc:cq:52dd6fed-a432-42ce-866b-0d963fab9b57"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:53fba70f-103c-44bb-86da-e05e059748d5"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Enemy",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Enemy",
+   "source_id": "doc:cq:85a164fe-3c79-4a17-a0d3-622cfd303f41"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "employsMethod",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PeerThreat",
+   "source_id": "doc:cq:85dc12f9-7041-499f-831c-d0549afc7968"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "PeerThreat",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "PeerThreat",
+   "source_id": "doc:cq:85dc12f9-7041-499f-831c-d0549afc7968"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Threat",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:883f3c04-4017-4ce4-adc4-3161f53a518e"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "EnemyAdversary",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "EnemyAdversary",
+   "source_id": "doc:cq:896886e2-c26a-4f9f-8030-55d593f9b09b"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "HybridThreat",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "HybridThreat",
+   "source_id": "doc:cq:bd002e15-27f5-4db4-901b-16cd9973a276"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "composedOf",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:c84b9459-e3b1-440e-b98e-ba35c789cf0c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:c84b9459-e3b1-440e-b98e-ba35c789cf0c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "NationState",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "NationState",
+   "source_id": "doc:cq:e426deba-67f1-4133-86a8-8ba471a8dd56"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "NonstateActor",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "NonstateActor",
+   "source_id": "doc:cq:e426deba-67f1-4133-86a8-8ba471a8dd56"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ViolentExtremistOrganization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ViolentExtremistOrganization",
+   "source_id": "doc:cq:e9f290fa-0cf9-4390-a400-e4307ed9b9c9"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Threat",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:ea4d7d02-b97b-4902-b72e-5f9e8b198121"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ViolentExtremistOrganization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ViolentExtremistOrganization",
+   "source_id": "doc:cq:f7063926-2650-45c7-bd2f-81872e8a5d9b"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "MilitaryForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "MilitaryForce",
+   "source_id": "doc:cq:170bc015-98af-4732-8581-90b56098aee6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "USForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "USForce",
+   "source_id": "doc:cq:1853bff4-0d15-4930-9778-efa800a995c0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "MilitaryCapability",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "MilitaryCapability",
+   "source_id": "doc:cq:21ec43e6-aeb2-43c1-85c3-74ce34611e39"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "CombatOperation",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "CombatOperation",
+   "source_id": "doc:cq:2dbf889f-1cdc-473f-8abd-1907d836b864"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AuthorityRole",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "AuthorityRole",
+   "source_id": "doc:cq:4ec27149-f6f0-419a-8f74-954fbf67f984"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "WarSuccess",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "WarSuccess",
+   "source_id": "doc:cq:570b209d-0a27-4ecf-8bfc-1a73c1b191a1"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "MilitaryForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "MilitaryForce",
+   "source_id": "doc:cq:9b88d6de-dd76-4881-8bef-e56eab6d5201"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "HumanContext",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "HumanContext",
+   "source_id": "doc:cq:9f7d9856-7da3-468e-820c-f65ae7a994f5"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ArmyForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ArmyForce",
+   "source_id": "doc:cq:c2d73fac-247c-484b-879f-dd206c925827"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Term",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Term",
+   "source_id": "doc:cq:1b39f76f-c073-4d77-be23-99638155c22f"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Organization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Organization",
+   "source_id": "doc:cq:43a4a536-ec9a-4e94-b3c9-f37b3f960ced"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ArmyForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ArmyForce",
+   "source_id": "doc:cq:5093a3db-2801-4ca5-b149-62932d4d1024"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ContractedSupport",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ContractedSupport",
+   "source_id": "doc:cq:5aa3e031-4425-41dc-b27d-5b795659df68"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "CivilianOrganization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "CivilianOrganization",
+   "source_id": "doc:cq:d15717c4-56d0-4a9d-8442-a91e2a5275ea"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntergovernmentalOrganization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntergovernmentalOrganization",
+   "source_id": "doc:cq:d75b29f8-41e7-437d-95b4-0b811d53dfc8"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "NongovernmentalOrganization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "NongovernmentalOrganization",
+   "source_id": "doc:cq:e359ca6b-6207-49e7-9b4d-94d278995f04"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ContractorEmployee",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ContractorEmployee",
+   "source_id": "doc:cq:e63fac4f-a537-4021-8a41-472cd2fab5cf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Entity",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Entity",
+   "source_id": "doc:cq:fb23e39a-7749-4868-82a1-3cfbe7fff6e6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "NationForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "NationForce",
+   "source_id": "doc:cq:04cca30c-13fe-4ea1-978d-e6e5805f260d"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ArmyTheaterSustainmentCommand",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ArmyTheaterSustainmentCommand",
+   "source_id": "doc:cq:05de496b-0dec-49ae-b952-2c885e7000cc"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "MultinationalOperation",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "MultinationalOperation",
+   "source_id": "doc:cq:1c8096d1-f900-43fd-895e-70a6f2a8ec79"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ArmyForce",
+   "source_id": "doc:cq:b4981617-71a9-46ff-89ab-3ed4d97bee6c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "UnitTraining",
+   "source_id": "doc:cq:2c3fe793-ee00-4045-aafc-bcb0e50ecabc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "provides",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalApproach",
+   "source_id": "doc:cq:99f0fd9e-5874-43c9-99ea-87d2cdad4a77"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DesignMethodology",
+   "source_id": "doc:cq:d219716d-4dd5-40c2-a71a-08f525657db1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "setsConditionsFor",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "StabilityMechanism",
+   "source_id": "doc:cq:7cb0f22e-a284-4cba-8b6a-721336d3ed4b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:086155c5-e484-4461-ad72-5b7f177b714c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasOrientation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LineOfEffort",
+   "source_id": "doc:cq:37147e6b-888f-40ba-b5c8-0d3ab74a0799"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:c6e246a0-d088-4a15-b3f9-127d8284d067"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:856ce85a-6ff0-4518-add2-e60d668de50c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "achievesEndState",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TempoMaintenance",
+   "source_id": "doc:cq:fb41df12-bafd-4a3f-b466-ffa20b3bc0d5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "concentratesCombatPower",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Phase",
+   "source_id": "doc:cq:f54e82e0-2ba8-4d80-897b-44867f936e3f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "contributesTo",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Protection",
+   "source_id": "doc:cq:222c9d0a-d24a-4268-a770-822bb9a5d487"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "retainsInitiative",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MomentumSource",
+   "source_id": "doc:cq:44184cdc-5337-46e5-9e98-900fa0c688b6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "locatedIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Base",
+   "source_id": "doc:cq:6f013802-5330-496b-b146-f4f38b344dc2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OffensiveTask",
+   "source_id": "doc:cq:15934fba-4585-4298-8252-52e9d1997da7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "StabilityTask",
+   "source_id": "doc:cq:2989ade6-98c6-4099-9543-82fba1cbb6ca"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "StabilityTask",
+   "source_id": "doc:cq:f371bcd9-4ae8-46cb-9c7d-7e623c7f75f8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "requiresPlanning",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TaskTransition",
+   "source_id": "doc:cq:7ae76b57-9ea1-457d-90fb-8bcbe831fabf"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "reframesProblemDueTo",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:b1fd0c3b-10b0-415b-ae2f-d5ace9960d84"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Transition",
+   "source_id": "doc:cq:b8b0558b-e1e9-4a39-a159-fd2195f24867"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesSecurity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ArmyForce",
+   "source_id": "doc:cq:17004618-2de4-4b1f-b903-752a30237a8a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ConsolidateGains",
+   "source_id": "doc:cq:198fd2ce-cb8d-4c3a-a257-02a1743967d4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Task",
+   "source_id": "doc:cq:5495625c-e189-4f75-81dc-dd50f35ab3a9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCulture",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Population",
+   "source_id": "doc:cq:0f79c8b8-ff26-436d-9f32-00aae205b62f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:b39d36ef-1461-43d8-bf3a-6a54d597a23e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "achievesEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CombinedArms",
+   "source_id": "doc:cq:7cdf3342-a45b-472e-aeba-8c73fdee70dc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ComplementaryCapability",
+   "source_id": "doc:cq:b23eef97-4f60-475e-b0d5-8ef24ae5904e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SimultaneousOperation",
+   "source_id": "doc:cq:5fc134d8-9a20-47c0-a3f8-8e14f14ff4af"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "conductedIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:6f6bf12e-d65d-4e65-93cd-065c3940e5f9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CapabilityApplication",
+   "source_id": "doc:cq:a810c1b4-216f-4ae9-a639-da95f71cd8bd"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "balancesMomentum",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:827d8f6c-815b-4628-b8b5-f538b85bed72"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "contributesTo",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationInDepth",
+   "source_id": "doc:cq:fed71e2b-44dc-41f6-862e-58398d82f459"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TroopLeadingProcedure",
+   "source_id": "doc:cq:e8832c5a-e24a-494c-a994-2f9a6ea9cb53"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:1c3743c9-d672-4612-a67f-8faad9f625cf"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "exploits",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ConsolidationArea",
+   "source_id": "doc:cq:9c2485fa-0ff8-4d3d-b3f7-a30e87efa994"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "enables",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ConsolidationArea",
+   "source_id": "doc:cq:9c2485fa-0ff8-4d3d-b3f7-a30e87efa994"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "preventsEmploymentOf",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:b734e654-b1d7-4fb8-a20a-87c936cec24c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PlanChange",
+   "source_id": "doc:cq:05d0652b-4f5b-4d69-a5f5-239685f043b9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:28651093-2ef7-4bbd-bdcf-99a107b41d91"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PlanChange",
+   "source_id": "doc:cq:5f1f2115-59ab-49ad-ae74-bad49d3b8f38"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Branch",
+   "source_id": "doc:cq:6d332488-8bdd-4355-92d2-daf3fc556663"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Sequel",
+   "source_id": "doc:cq:77196c99-c7ec-4e8b-94f3-27c1062c55d0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "supports",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspaceElectromagneticActivity",
+   "source_id": "doc:cq:585105f8-6983-4055-9cfa-e462c479ad99"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformationManagement",
+   "source_id": "doc:cq:f301dd37-93d3-42f3-acd8-216d9a397e5d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WarfightingFunction",
+   "source_id": "doc:cq:7027e573-6ead-4e49-8a61-b617da3dc6d4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceWarfightingFunction",
+   "source_id": "doc:cq:9cc8bffe-f662-4a7c-8f03-7590e1867b34"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "maintains",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MilitaryOperation",
+   "source_id": "doc:cq:4b381a94-50f8-4dc8-a4ea-dbc312f9bf9b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "prevents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ForceHealthProtectionMeasure",
+   "source_id": "doc:cq:e28ffb09-4005-4500-9523-b0be01afa833"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Protection",
+   "source_id": "doc:cq:93289bb1-22ab-46d0-aa7f-37e17d23f383"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "provides",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Ability",
+   "source_id": "doc:cq:5337bec4-f403-4171-92fa-9faf5ff30439"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TaskOrganizing",
+   "source_id": "doc:cq:808674b2-ccbc-4370-ad19-747c7c155cd1"
+  }
+ ]
+}

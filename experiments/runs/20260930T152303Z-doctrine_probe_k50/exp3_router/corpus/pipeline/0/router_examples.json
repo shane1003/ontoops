@@ -1,0 +1,169 @@
+{
+ "overlap_examples": [
+  {
+   "label": "Medical Treatment Service",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#MedicalTreatmentService",
+     "paragraph": "TRANSITION TO STABILITY OPERATIONS 3-123. At some point during an operation, units transition from one phase of the major operation or campaign plan to another and begin executing a sequel to their pr"
+    },
+    {
+     "dataset": "ADRP",
+     "iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#MedicalTreatmentService",
+     "paragraph": "Civilian Presence 1-53. Land operations affect civilians by disrupting routine life patterns and potentially placing civilians in harm’s way. Additionally, land combat often impacts civilian access to"
+    }
+   ]
+  },
+  {
+   "label": "Operation",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#Operation",
+     "paragraph": "TRANSITION TO STABILITY 4-127. A force may transition from defensive operations to stability operations. This generally occurs if the force reaches and establishes a defense along a LOA. Then, there m"
+    },
+    {
+     "dataset": "ADRP",
+     "iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#Operation",
+     "paragraph": "MAIN AND SUPPORTING EFFORTS 4-44. Commanders designate main and supporting efforts to establish clear priorities of support and resources among subordinate units. The main effort is a designated subor"
+    },
+    {
+     "dataset": "IPB",
+     "iri": "http://example.org/doctrine/Intelligence_Preparation_of_the_Battlefield_20260929T011743Z_r0#Operation",
+     "paragraph": "SECTION I – UNIFIED ACTION 7-1. Unified action is the synchronization, coordination, and/or integration of the activities of governmental and nongovernmental entities with military operations to achie"
+    }
+   ]
+  },
+  {
+   "label": "associated With Phase",
+   "owners": [
+    {
+     "dataset": "JP2",
+     "iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#associatedWithPhase",
+     "paragraph": "14. Dominate Phase During the dominate phase, operations should be designed to: support the JFC’s objectives; obtain the highest probability of success; mitigate risk to the force and mission to an ac"
+    },
+    {
+     "dataset": "JP3",
+     "iri": "http://example.org/doctrine/Joint_Operations_20260929T011743Z_r0#associatedWithPhase",
+     "paragraph": "(d) JFCs may choose to employ interdiction as a principal means to achieve an objective (with other components supporting the component leading the interdiction effort). For example, one of the JFC’s "
+    }
+   ]
+  },
+  {
+   "label": "has Reference Identifier",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#hasReferenceIdentifier",
+     "paragraph": "Preface ADP 3-90 augments the land operations doctrine established in ADP 3-0 and FM 3-0. It provides additional information on the basic concepts and control measures associated with the art and scie"
+    },
+    {
+     "dataset": "JP2",
+     "iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#hasReferenceIdentifier",
+     "paragraph": "cc. JP 3-60, Joint Targeting. dd. JP 3-61, Public Affairs. ee. JP 3-68, Noncombatant Evacuation Operations. ff. JP 4-0, Joint Logistics. gg. JP 4-02, Health Services. hh. JP 5-0, Joint Operation Plann"
+    }
+   ]
+  },
+  {
+   "label": "Security Force",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#SecurityForce",
+     "paragraph": "BATTLE HANDOVER LINE 3-25. The battle handover line is a designated phase line where responsibility transitions from the stationary force to the moving force and vice versa. The common higher echelon "
+    },
+    {
+     "dataset": "JP2",
+     "iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#SecurityForce",
+     "paragraph": "(1) COA 1. The Iraqi population would embrace US forces as liberating heroes. US forces would be “greeted with flowers” by a grateful Iraqi population after the overthrow of Saddam Hussein’s regime; I"
+    },
+    {
+     "dataset": "JP3",
+     "iri": "http://example.org/doctrine/Joint_Operations_20260929T011743Z_r0#SecurityForce",
+     "paragraph": "Peace Conflict Continuum War Figure V-2. Notional Operations Across the Conflict Continuum fixed and could shift within that range. For instance, security cooperation activities may be satisfying inte"
+    }
+   ]
+  },
+  {
+   "label": "reflects Effect On",
+   "owners": [
+    {
+     "dataset": "IPB",
+     "iri": "http://example.org/doctrine/Intelligence_Preparation_of_the_Battlefield_20260929T011743Z_r0#reflectsEffectOn",
+     "paragraph": "Figure 4-9. Modified combined obstacle overlay example Table 4-4. Typical color control measures for modified combined obstacle overlays 4-47. Terrain mobility classifications are not absolute but ref"
+    },
+    {
+     "dataset": "JP2",
+     "iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#reflectsEffectOn",
+     "paragraph": "(b) The combined obstacle overlay is used to depict areas where mobility can be categorized as unrestricted, restricted, or severely restricted. Unrestricted areas are free of any obstacles or restric"
+    }
+   ]
+  },
+  {
+   "label": "Narrative",
+   "owners": [
+    {
+     "dataset": "JP2",
+     "iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#Narrative",
+     "paragraph": "(f) Narratives. Narratives are the means through which ideologies are expressed and absorbed by members of a society. The most important cultural form for counterinsurgents to understand is the narrat"
+    },
+    {
+     "dataset": "JP3",
+     "iri": "http://example.org/doctrine/Joint_Operations_20260929T011743Z_r0#Narrative",
+     "paragraph": "i. Building Shared Understanding. Unified and synchronized actions, narratives, and messaging are the most important products of the C2 function because they guide the force toward objectives and miss"
+    }
+   ]
+  },
+  {
+   "label": "Information Operations",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#InformationOperation",
+     "paragraph": "Army Indirect Fires and Joint Fires in the Offense 3-88. The use of preparation fires, counterfires, suppression and destruction fires, information operations, cyberspace operations, and electronic wa"
+    },
+    {
+     "dataset": "ADRP",
+     "iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#InformationOperation",
+     "paragraph": "INTELLIGENCE WARFIGHTING FUNCTION 5-19. The intelligence warfighting function is the related tasks and systems that facilitate understanding the enemy, terrain, weather, civil considerations, and othe"
+    }
+   ]
+  },
+  {
+   "label": "provides Shelter",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#providesShelter",
+     "paragraph": "Minimum-Essential Stability Tasks 2-43. Combat places civilians in harm’s way. It often affects their access to necessary items, such as food, water, shelter, and emergency medical care. Generally, th"
+    },
+    {
+     "dataset": "ADRP",
+     "iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#providesShelter",
+     "paragraph": "Civilian Presence 1-53. Land operations affect civilians by disrupting routine life patterns and potentially placing civilians in harm’s way. Additionally, land combat often impacts civilian access to"
+    }
+   ]
+  },
+  {
+   "label": "Joint Operation Principle",
+   "owners": [
+    {
+     "dataset": "ADP",
+     "iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#JointOperationPrinciple",
+     "paragraph": "PRINCIPLES OF JOINT OPERATIONS 2-2. JP 3-0 defines the twelve principles of joint operations and provides general guidance for conducting military operations. The joint principles originate from Army "
+    },
+    {
+     "dataset": "ADRP",
+     "iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#JointOperationPrinciple",
+     "paragraph": "Table 2-1. Principles of joint operations  Objective: Direct every military operation toward a clearly defined, decisive, and achievable goal.  Offensive: Seize, retain, and exploit the initiative. "
+    },
+    {
+     "dataset": "JP3",
+     "iri": "http://example.org/doctrine/Joint_Operations_20260929T011743Z_r0#JointOperationPrinciple",
+     "paragraph": "(7) Manage risk."
+    }
+   ]
+  }
+ ]
+}

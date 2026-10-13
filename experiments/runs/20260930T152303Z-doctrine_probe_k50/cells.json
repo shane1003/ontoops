@@ -1,0 +1,10 @@
+[
+ {
+  "experiment": "exp3_router",
+  "run_type": "pipeline",
+  "dataset": "corpus",
+  "run_index": 0,
+  "kind": "router",
+  "dir": "exp3_router/corpus/pipeline/0"
+ }
+]

@@ -1,0 +1,139 @@
+# The pre-registered experiments on the doctrine corpus.
+#   exp1_stability:  ATP 2-01.3 three times (stability, coverage, accounting)
+#   exp2_generality: ADP 3-90, ADRP 3-0, JP 2-01.3 and JP 3-0, once each
+#                    (coverage, accounting)
+#   exp3_router:     the lookup service over run 0 of all five
+# Prepare the manuals first: uv run harness prep
+# purpose/scope: written per manual by the authors (2026-09-29); they are
+# inputs of CQ generation, so changing them is a method change.
+run:
+  model_weights: google/gemma-4-31B-it
+exp1_stability:
+  document:
+    slug: IPB
+    name: Intelligence_Preparation_of_the_Battlefield
+    pdf: ../../data_source/docs_prepared/IPB.pdf
+    purpose: Build a process ontology of Intelligence Preparation of the Battlefield (IPB) from ATP 2-01.3
+      so that an intelligence-support or planning-automation system can answer, for each IPB step and
+      substep, what it is, what its inputs and outputs (products) are, who is responsible, which techniques
+      and tools are used, and how it feeds the military decision-making process. The ontology must also
+      capture the analytic constructs IPB produces (area of operations/interest, terrain and weather effects,
+      threat characteristics, threat models, courses of action, event templates) as first-class concepts
+      with their defining properties.
+    scope: 'IN SCOPE: IPB fundamentals, purpose, and staff relationships; IPB support to planning and
+      decision making (MDMP, targeting, information collection); the four IPB steps and their substeps
+      — define the operational environment, describe environmental effects on operations (terrain via
+      OAKOC, weather, civil considerations via ASCOPE/PMESII-PT), evaluate the threat (threat characteristics,
+      threat models, high-value targets), determine threat courses of action (situation templates, event
+      templates and matrices, decision support); IPB products and their components; considerations for
+      unified action and unique environments (urban, subterranean, cyberspace, etc.); checklists, tools,
+      and threat-characteristic categories for regular, irregular, and hybrid threats given in the appendices.
+      OUT OF SCOPE: specific threat-nation order of battle, collection-asset technical data, and joint-level
+      JIPOE procedures beyond what this document restates.'
+    glossary: ../../data_source/docs_data/IPB/glossary.csv
+    index: ../../data_source/docs_data/IPB/index.csv
+    n_runs: 3
+exp2_generality:
+  documents:
+  - slug: JP2
+    name: Joint_Intelligence_Preparation_of_the_Operational_Environment
+    pdf: ../../data_source/docs_prepared/JP2.pdf
+    purpose: Build a joint-level process ontology of Joint Intelligence Preparation of the Operational
+      Environment (JIPOE) from JP 2-01.3, enabling a joint-planning support system to answer, for each
+      JIPOE step, substep, product, and organizational role, what it is, what its purpose is, who performs
+      it, what inputs it uses and outputs it produces, and how it supports joint operation planning, execution,
+      and assessment. The ontology must also represent the analytic constructs JIPOE defines (operational
+      environment dimensions, systems perspective/PMESII, adversary and relevant-actor models, courses
+      of action, indicators) and their defining properties.
+    scope: 'IN SCOPE: JIPOE overview — definition, purpose, principles, and relationship to service IPB
+      and the joint intelligence process; roles and responsibilities of joint staff elements and intelligence
+      organizations; the four JIPOE steps — define the operational environment, describe its impact, evaluate
+      the adversary and other relevant actors, determine their courses of action — with their substeps,
+      products, and templates; JIPOE support to planning (JPP), execution, and assessment; special considerations
+      for irregular warfare, countering asymmetric approaches, and domestic operations; the case-study
+      appendix and glossary definitions. OUT OF SCOPE: service-specific IPB techniques covered only in
+      ATP 2-01.3, collection management procedures, and specific adversary intelligence.'
+    glossary: ../../data_source/docs_data/JP2/glossary.csv
+    n_runs: 1
+  - slug: ADP
+    name: Offense_and_Defense
+    pdf: ../../data_source/docs_prepared/ADP.pdf
+    purpose: Build a tactical-doctrine ontology of land-force offensive, defensive, and enabling operations
+      as defined in ADP 3-90. The ontology must let a planning or wargaming system answer, for any named
+      tactical concept, what it is, what purpose it serves, what its characteristics and defining criteria
+      are, how it is classified (type, form, variation), which echelon or formation typically executes
+      it, and how it relates to other concepts (e.g., which forms of maneuver belong to the offense, which
+      control measures apply to a defensive technique). It is intended to ground automated mission-analysis,
+      COA-development, and doctrinal-term normalization tools.
+    scope: 'IN SCOPE: the art and science of tactics; tactical fundamentals and the tactical level of
+      warfare; common tactical concepts (areas of operations, control measures, forms of contact, combat
+      formations, echelons and their roles); the offense — purposes, characteristics, types of offensive
+      operations (movement to contact, attack, exploitation, pursuit), forms of maneuver, attack variations,
+      organization of forces; the defense — purposes, characteristics, types of defensive operations (area,
+      mobile, retrograde) and their forms and techniques; enabling operations (reconnaissance, security,
+      troop movement, relief in place, passage of lines); doctrinal definitions, and graphic-control-measure
+      names that the document defines or references. OUT OF SCOPE: unit-specific TTPs, weapon-system data,
+      staff-process step details covered by other publications, and any content not stated in this document.'
+    glossary: ../../data_source/docs_data/ADP/glossary.csv
+    index: ../../data_source/docs_data/ADP/index.csv
+    n_runs: 1
+  - slug: JP3
+    name: Joint_Operations
+    pdf: ../../data_source/docs_prepared/JP3.pdf
+    purpose: Build a joint-operations doctrine ontology from JP 3-0 that captures the fundamental concepts,
+      functions, organizations, and operation types of the U.S. joint force. The ontology must answer,
+      for each doctrinal concept, what it is defined as, what purpose it serves, what its components or
+      subordinate elements are, which principle, function, or operation category it belongs to, and how
+      it relates to other concepts (e.g., which tasks fall under each joint function, which activities
+      characterize each range of operations, which command relationships exist). It serves as the top-level
+      reference vocabulary for joint planning and command-and-control automation.
+    scope: 'IN SCOPE: fundamentals of joint operations — strategic context, levels of warfare, principles
+      of joint operations, instruments of national power, unified action; the art of joint command — command
+      relationships, authorities, mission command, and decision-making; joint functions (C2, intelligence,
+      fires, movement and maneuver, protection, sustainment, information) and their tasks; organizing
+      for joint operations (joint force organization, JTF, components, staff); operations across the conflict
+      continuum, including phasing models and operational design elements; military engagement, security
+      cooperation, and deterrence; crisis response and limited contingency operations and their types;
+      large-scale combat operations — offensive, defensive, and stability considerations; glossary terms
+      and definitions. OUT OF SCOPE: detailed joint planning process steps (JP 5-0), service-specific
+      tactics, and individual operation plans.'
+    glossary: ../../data_source/docs_data/JP3/glossary.csv
+    n_runs: 1
+  - slug: ADRP
+    name: Operations
+    pdf: ../../data_source/docs_prepared/ADRP.pdf
+    purpose: Build a foundational operations-doctrine ontology from ADRP 3-0 that captures the Army's
+      operational concept (unified land operations) and the conceptual vocabulary used to describe any
+      military operation. The ontology must answer, for each doctrinal concept, what it is defined as,
+      what its components or elements are, what purpose it serves, which higher concept it belongs to,
+      and how it relates to other concepts (e.g., which elements make up combat power, which variables
+      describe an operational environment, which tenets characterize unified land operations). It underpins
+      consistent term usage across other doctrine-derived ontologies.
+    scope: 'IN SCOPE: the nature of military operations and the operational environment (operational and
+      mission variables); the range of military operations and levels of warfare; operational art — its
+      elements (end state, center of gravity, decisive points, lines of operations/effort, tempo, phasing,
+      culmination, operational reach, risk), defeat and stability mechanisms; the Army''s operational
+      concept — unified land operations, decisive action and its tasks (offense, defense, stability, defense
+      support of civil authorities), tenets, mission command philosophy; the operations structure — operations
+      process, warfighting functions, operational framework (deep/close/support areas, decisive/shaping/sustaining,
+      main and supporting efforts); combat power and its elements; all definitions and lists the document
+      states. OUT OF SCOPE: detailed tactics, procedures, unit organization, and material found only in
+      subordinate publications.'
+    glossary: ../../data_source/docs_data/ADRP/glossary.csv
+    index: ../../data_source/docs_data/ADRP/index.csv
+    n_runs: 1
+exp3_router:
+  cells:
+  - experiment: exp1_stability
+    dataset: IPB
+  - experiment: exp2_generality
+    dataset: JP2
+  - experiment: exp2_generality
+    dataset: ADP
+  - experiment: exp2_generality
+    dataset: JP3
+  - experiment: exp2_generality
+    dataset: ADRP
+  ood_terms: ood_terms.txt
+  typo_seed: 42
+  k: 5

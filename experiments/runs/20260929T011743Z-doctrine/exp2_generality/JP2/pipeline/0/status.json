@@ -1,0 +1,9 @@
+{
+ "status": "ok",
+ "stage": null,
+ "reason": "",
+ "elapsed_s": 3855.515,
+ "run_id": "Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0",
+ "base_iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#",
+ "graph": "doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0"
+}

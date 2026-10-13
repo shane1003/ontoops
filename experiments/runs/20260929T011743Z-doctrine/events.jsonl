@@ -1,0 +1,15 @@
+{"ts": "2026-09-29T01:17:43.885636+00:00", "event": "run_started", "detail": "7 cells + router probe, commit c5f1995ef7, tag v0.4.2-exp, dirty 0"}
+{"ts": "2026-09-29T01:17:44.931200+00:00", "event": "cell_started", "detail": "1/7 exp1_stability IPB r0"}
+{"ts": "2026-09-29T02:02:04.562602+00:00", "event": "cell_finished", "detail": "1/7 IPB r0: ok, 44.3 min; paragraphs 241, generate failed 2, CQs 2194, TBox terms 5887, individuals 3331"}
+{"ts": "2026-09-29T02:02:05.436182+00:00", "event": "cell_started", "detail": "2/7 exp1_stability IPB r1"}
+{"ts": "2026-09-29T02:44:44.550480+00:00", "event": "cell_finished", "detail": "2/7 IPB r1: ok, 42.6 min; paragraphs 241, generate failed 2, CQs 2196, TBox terms 5867, individuals 3316"}
+{"ts": "2026-09-29T02:44:45.542009+00:00", "event": "cell_started", "detail": "3/7 exp1_stability IPB r2"}
+{"ts": "2026-09-29T03:27:32.991010+00:00", "event": "cell_finished", "detail": "3/7 IPB r2: ok, 42.8 min; paragraphs 241, generate failed 1, CQs 2200, TBox terms 5910, individuals 3313"}
+{"ts": "2026-09-29T03:27:34.221884+00:00", "event": "cell_started", "detail": "4/7 exp2_generality JP2 r0"}
+{"ts": "2026-09-29T04:31:50.525377+00:00", "event": "cell_finished", "detail": "4/7 JP2 r0: ok, 64.3 min; paragraphs 817, generate failed 3, CQs 3928, TBox terms 8710, individuals 5257"}
+{"ts": "2026-09-29T04:31:51.465910+00:00", "event": "cell_started", "detail": "5/7 exp2_generality ADP r0"}
+{"ts": "2026-09-29T05:03:07.710056+00:00", "event": "cell_finished", "detail": "5/7 ADP r0: ok, 31.3 min; paragraphs 164, generate failed 0, CQs 1635, TBox terms 4107, individuals 2410"}
+{"ts": "2026-09-29T05:03:08.647146+00:00", "event": "cell_started", "detail": "6/7 exp2_generality JP3 r0"}
+{"ts": "2026-09-29T06:08:06.734940+00:00", "event": "cell_finished", "detail": "6/7 JP3 r0: ok, 65.0 min; paragraphs 675, generate failed 3, CQs 3823, TBox terms 8288, individuals 5028"}
+{"ts": "2026-09-29T06:08:10.513107+00:00", "event": "cell_started", "detail": "7/7 exp2_generality ADRP r0"}
+{"ts": "2026-09-29T06:25:49.275486+00:00", "event": "cell_finished", "detail": "7/7 ADRP r0: ok, 17.6 min; paragraphs 76, generate failed 1, CQs 882, TBox terms 2484, individuals 1368"}

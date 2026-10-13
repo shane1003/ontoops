@@ -1,0 +1,37 @@
+{
+ "cells": {
+  "IPB": {
+   "base_iri": "http://example.org/doctrine/Intelligence_Preparation_of_the_Battlefield_20260929T011743Z_r0#",
+   "graph": "doctrine/Intelligence_Preparation_of_the_Battlefield_20260929T011743Z_r0",
+   "dir": "../../../../../20260929T011743Z-doctrine/exp1_stability/IPB/pipeline/0"
+  },
+  "JP2": {
+   "base_iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#",
+   "graph": "doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0",
+   "dir": "../../../../../20260929T011743Z-doctrine/exp2_generality/JP2/pipeline/0"
+  },
+  "ADP": {
+   "base_iri": "http://example.org/doctrine/Offense_and_Defense_20260929T011743Z_r0#",
+   "graph": "doctrine/Offense_and_Defense_20260929T011743Z_r0",
+   "dir": "../../../../../20260929T011743Z-doctrine/exp2_generality/ADP/pipeline/0"
+  },
+  "JP3": {
+   "base_iri": "http://example.org/doctrine/Joint_Operations_20260929T011743Z_r0#",
+   "graph": "doctrine/Joint_Operations_20260929T011743Z_r0",
+   "dir": "../../../../../20260929T011743Z-doctrine/exp2_generality/JP3/pipeline/0"
+  },
+  "ADRP": {
+   "base_iri": "http://example.org/doctrine/Operations_20260929T011743Z_r0#",
+   "graph": "doctrine/Operations_20260929T011743Z_r0",
+   "dir": "../../../../../20260929T011743Z-doctrine/exp2_generality/ADRP/pipeline/0"
+  }
+ },
+ "seed": 42,
+ "k": 50,
+ "queries": {
+  "overlap": 2473,
+  "glossary": 871,
+  "typo": 485,
+  "ood": 50
+ }
+}

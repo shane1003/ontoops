@@ -1,0 +1,3 @@
+{"ts": "2026-09-30T10:34:49.223031+00:00", "event": "run_started", "detail": "0 cells + faithfulness, commit 23532af2ad, tag v0.4.8-exp, dirty 0"}
+{"ts": "2026-09-30T11:27:32.923146+00:00", "event": "faithfulness_finished", "detail": "IPB r0: 2185/2194 CQs judged, 9 errors, 52.7 min"}
+{"ts": "2026-09-30T11:27:33.733566+00:00", "event": "run_finished", "detail": "52.7 min"}

@@ -32,13 +32,19 @@ uv run evaluation aggregate --results experiments/results/results_probe_k50.json
     --out experiments/results/aggregates_probe_k50.jsonl
 ```
 
-The run directories themselves (every service response and exported table)
-are not part of this repository. A run you make yourself (see below) is
-scored from its files alone:
+The paper's `doctrine.yaml` run is included,
+`experiments/runs/20260929T011743Z-doctrine/`: its manifest, cell list and,
+for every experiment 1 and 2 cell, every service response and exported table.
+Rescoring it from its files alone gives the experiment 1 and 2 rows of
+`results.jsonl` exactly:
 
 ```sh
-uv run evaluation score experiments/runs/<run_id>
+uv run evaluation score experiments/runs/20260929T011743Z-doctrine --results /tmp/rescored.jsonl
 ```
+
+The experiment 3 and 4 rows come from the probe and judge runs that read
+this run (`doctrine_probe*.yaml`, `faithfulness_ipb.yaml`), included beside
+it under `experiments/runs/`; each is rescored the same way.
 
 ## Experiments
 
@@ -77,7 +83,7 @@ Experiment 4 judges that run with an external model and needs
 |---|---|
 | `services/` | The method: CQ generation, ontoagent (conceptualizer, TBox, ABox) and the lookup service |
 | `evaluation/` | Runs the services on the stack, exports what each run stored, and scores the exported files (`scoring/` reads files only) |
-| `experiments/` | Configs, `pins.yaml` (the service sources and image digests every run records) and the scored results |
+| `experiments/` | Configs, `pins.yaml` (the service sources and image digests every run records), the scored results and the paper's run snapshot |
 | `corpus/` | `SOURCES.yaml` (file, edition and SHA-256 of each manual) and each manual's glossary and index |
 | `docker-compose.yml`, `.env.example` | The stack and its single configuration file |
 

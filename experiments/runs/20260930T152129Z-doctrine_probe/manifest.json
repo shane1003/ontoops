@@ -1,0 +1,122 @@
+{
+ "run_id": "20260930T152129Z-doctrine_probe",
+ "started": "2026-09-30T15:21:29.999214+00:00",
+ "config": "doctrine_probe.yaml",
+ "config_sha256": "00595011e5cb32919818a157e4bd960ac2ade97d3605492c2a484c7e78d35494",
+ "git": {
+  "commit": "46412050367da762e40ee1093ea5a4cd4fa786a1",
+  "tag": "v0.4.9-exp",
+  "dirty": []
+ },
+ "pins": {
+  "services": {
+   "cq_generation": {
+    "repo": "ontology-cq-generation",
+    "commit": "5ace3d1c04eb2ceaaad8d360b854afd11b9dd90c",
+    "image": null
+   },
+   "ontoagent": {
+    "repo": "ontology-ontoagent",
+    "commit": "c977af31c1600ef5765b6fadd02791914a6a324d",
+    "image": null
+   },
+   "ontorouter": {
+    "repo": "ontology-ontorouter",
+    "commit": "3cf2d3be8a7183489f82a283a370951a31b8d70b",
+    "image": null
+   }
+  },
+  "stack": {
+   "postgres": {
+    "image": "pgvector/pgvector@sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f"
+   },
+   "falkordb": {
+    "image": "falkordb/falkordb@sha256:217bc520be076ce9e85b0ba426b2379ccbaebd17f2fe6e174288bd1b36d486bb"
+   },
+   "tei": {
+    "image": "ghcr.io/huggingface/text-embeddings-inference@sha256:e3009cd99f63dbabd29346412e2d65224e4ab179e7559b0065f26e38fb7334c4"
+   }
+  }
+ },
+ "images": [
+  {
+   "ContainerName": "ontoops-exp-tbox-schema-1",
+   "Repository": "pgvector/pgvector",
+   "Tag": "",
+   "ID": "sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f"
+  },
+  {
+   "ContainerName": "ontoops-exp-cq-generation-1",
+   "Repository": "ontoops-exp-cq-generation",
+   "Tag": "latest",
+   "ID": "sha256:d7413aa0d0ae00eba6ae7ee2922542e1a5a4f031fc723f31f967b35d8520fc8d"
+  },
+  {
+   "ContainerName": "ontoops-exp-ontorouter-1",
+   "Repository": "ontoops-exp-ontorouter",
+   "Tag": "latest",
+   "ID": "sha256:4c6ac1a71acf1dac7102cb61cdbf74e5e205fc7b3809a8d8de104fa71cbee119"
+  },
+  {
+   "ContainerName": "ontoops-exp-tei-1",
+   "Repository": "ghcr.io/huggingface/text-embeddings-inference",
+   "Tag": "",
+   "ID": "sha256:e3009cd99f63dbabd29346412e2d65224e4ab179e7559b0065f26e38fb7334c4"
+  },
+  {
+   "ContainerName": "ontoops-exp-ontoagent-1",
+   "Repository": "ontoops-exp-ontoagent",
+   "Tag": "latest",
+   "ID": "sha256:20583214a1687ff234cb2cc367d1ca993b319e6f34f120f3f9d034cc4c323730"
+  },
+  {
+   "ContainerName": "ontoops-exp-abox-migrate-1",
+   "Repository": "ontoops-exp-abox-migrate",
+   "Tag": "latest",
+   "ID": "sha256:5ce2f7d29930ac8d1da6a5144c981323d45387040462adba873b520b0e163772"
+  },
+  {
+   "ContainerName": "ontoops-exp-falkordb-1",
+   "Repository": "falkordb/falkordb",
+   "Tag": "",
+   "ID": "sha256:217bc520be076ce9e85b0ba426b2379ccbaebd17f2fe6e174288bd1b36d486bb"
+  },
+  {
+   "ContainerName": "ontoops-exp-postgres-1",
+   "Repository": "pgvector/pgvector",
+   "Tag": "",
+   "ID": "sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f"
+  }
+ ],
+ "llm_models": {
+  "llm_cq_generation": [
+   {
+    "id": "google/gemma-4-31B-it",
+    "root": "google/gemma-4-31B-it",
+    "max_model_len": 16384
+   }
+  ],
+  "llm_ontoagent": [
+   {
+    "id": "local-model",
+    "root": "google/gemma-4-31B-it",
+    "max_model_len": 32768
+   }
+  ]
+ },
+ "run_settings": {
+  "model_weights": "google/gemma-4-31B-it",
+  "cq_generation_url": "http://localhost:8081",
+  "ontoagent_url": "http://localhost:8082",
+  "ontorouter_url": "http://localhost:8083",
+  "timeout_s": 10800,
+  "components_chunk_size": 4,
+  "chunk_budget": 1500,
+  "iri_root": "http://example.org",
+  "iri_domain": "doctrine",
+  "domain": "military",
+  "cq_concurrency": 72
+ },
+ "harness": "0.1.0",
+ "python": "3.12.3"
+}

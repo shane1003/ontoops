@@ -1,0 +1,58 @@
+[
+ {
+  "experiment": "exp1_stability",
+  "run_type": "pipeline",
+  "dataset": "IPB",
+  "run_index": 0,
+  "kind": "doc2onto",
+  "dir": "exp1_stability/IPB/pipeline/0"
+ },
+ {
+  "experiment": "exp1_stability",
+  "run_type": "pipeline",
+  "dataset": "IPB",
+  "run_index": 1,
+  "kind": "doc2onto",
+  "dir": "exp1_stability/IPB/pipeline/1"
+ },
+ {
+  "experiment": "exp1_stability",
+  "run_type": "pipeline",
+  "dataset": "IPB",
+  "run_index": 2,
+  "kind": "doc2onto",
+  "dir": "exp1_stability/IPB/pipeline/2"
+ },
+ {
+  "experiment": "exp2_generality",
+  "run_type": "pipeline",
+  "dataset": "JP2",
+  "run_index": 0,
+  "kind": "doc2onto",
+  "dir": "exp2_generality/JP2/pipeline/0"
+ },
+ {
+  "experiment": "exp2_generality",
+  "run_type": "pipeline",
+  "dataset": "ADP",
+  "run_index": 0,
+  "kind": "doc2onto",
+  "dir": "exp2_generality/ADP/pipeline/0"
+ },
+ {
+  "experiment": "exp2_generality",
+  "run_type": "pipeline",
+  "dataset": "JP3",
+  "run_index": 0,
+  "kind": "doc2onto",
+  "dir": "exp2_generality/JP3/pipeline/0"
+ },
+ {
+  "experiment": "exp2_generality",
+  "run_type": "pipeline",
+  "dataset": "ADRP",
+  "run_index": 0,
+  "kind": "doc2onto",
+  "dir": "exp2_generality/ADRP/pipeline/0"
+ }
+]

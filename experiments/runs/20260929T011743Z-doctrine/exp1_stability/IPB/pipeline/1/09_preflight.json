@@ -1,0 +1,33 @@
+{
+ "/health": {
+  "status": "ok"
+ },
+ "/target": {
+  "default_domain": "military"
+ },
+ "/tbox/target": {
+  "postgres": {
+   "host": "postgres",
+   "port": 5432,
+   "dbname": "ontoops",
+   "user": "ontoops"
+  },
+  "default_base_iri": "http://example.org/military",
+  "default_base_iri_source": "built-in",
+  "domain_description": "specialized-domain"
+ },
+ "/abox/ready": {
+  "status": "ready"
+ },
+ "/abox/target": {
+  "postgres": {
+   "host": "postgres",
+   "port": 5432,
+   "dbname": "ontoops",
+   "user": "ontoops"
+  },
+  "falkordb": null,
+  "default_base_iri": null,
+  "default_base_iri_source": null
+ }
+}

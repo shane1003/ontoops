@@ -1,0 +1,15 @@
+{
+ "judge": {
+  "model": "claude-sonnet-5-5",
+  "ragas": "0.4.3",
+  "metric": "faithfulness",
+  "max_tokens": "8192",
+  "sampling": "model default (the model accepts no temperature)"
+ },
+ "dataset": "IPB",
+ "source": "../../../../../20260929T011743Z-doctrine/exp1_stability/IPB/pipeline/0",
+ "n_cq": 2194,
+ "n_judged": 2185,
+ "n_errors": 9,
+ "elapsed_s": 3162.4
+}

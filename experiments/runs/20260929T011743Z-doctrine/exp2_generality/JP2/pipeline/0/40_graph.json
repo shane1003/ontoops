@@ -1,0 +1,9 @@
+{
+ "graph": "doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0",
+ "graph_source": "request",
+ "classes": 2846,
+ "subclass_edges": 627,
+ "object_edges": 5922,
+ "skipped_props": 0,
+ "statements": 9395
+}

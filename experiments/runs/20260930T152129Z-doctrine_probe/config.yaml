@@ -1,0 +1,23 @@
+# Experiment 3 over the finished cells of 20260929T011743Z-doctrine (v0.4.2-exp).
+# That run's probe aborted because JP 5-0 never started: its body PDF (61.6 MB,
+# a page scan under an OCR text layer) exceeds cq-generation's 20 MB upload
+# limit, which production shares. JP 5-0 is dropped (2026-09-29, user decision)
+# and the probe runs here over the five manuals whose cells finished.
+run:
+  model_weights: google/gemma-4-31B-it
+exp3_router:
+  from_run: 20260929T011743Z-doctrine
+  cells:
+  - experiment: exp1_stability
+    dataset: IPB
+  - experiment: exp2_generality
+    dataset: JP2
+  - experiment: exp2_generality
+    dataset: ADP
+  - experiment: exp2_generality
+    dataset: JP3
+  - experiment: exp2_generality
+    dataset: ADRP
+  ood_terms: ood_terms.txt
+  typo_seed: 42
+  k: 5

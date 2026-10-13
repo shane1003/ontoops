@@ -1,0 +1,78 @@
+{
+ "delta": {
+  "cq_generation": {
+   "available": true,
+   "vllm:prompt_tokens_total": 1533437.0,
+   "vllm:generation_tokens_total": 179279.0,
+   "vllm:request_success_total": 3684.0,
+   "vllm:request_success_total:stop": 3684.0,
+   "vllm:request_success_total:length": 0.0,
+   "vllm:request_success_total:abort": 0.0,
+   "vllm:request_success_total:error": 0.0,
+   "vllm:request_success_total:repetition": 0.0
+  },
+  "ontoagent": {
+   "available": true,
+   "vllm:prompt_tokens_total": 1238263.0,
+   "vllm:generation_tokens_total": 556993.0,
+   "vllm:request_success_total": 532.0,
+   "vllm:request_success_total:stop": 532.0,
+   "vllm:request_success_total:length": 0.0,
+   "vllm:request_success_total:abort": 0.0,
+   "vllm:request_success_total:error": 0.0,
+   "vllm:request_success_total:repetition": 0.0
+  }
+ },
+ "queues": {
+  "start": {
+   "cq_generation": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   },
+   "ontoagent": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   }
+  },
+  "after_chunk": {
+   "cq_generation": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   },
+   "ontoagent": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   }
+  },
+  "after_generate": {
+   "cq_generation": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   },
+   "ontoagent": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   }
+  },
+  "after_cq_stage": {
+   "cq_generation": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   },
+   "ontoagent": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   }
+  },
+  "end": {
+   "cq_generation": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   },
+   "ontoagent": {
+    "vllm:num_requests_running": 0.0,
+    "vllm:num_requests_waiting": 0.0
+   }
+  }
+ }
+}

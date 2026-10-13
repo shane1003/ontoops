@@ -1,0 +1,4379 @@
+{
+ "base_iri": "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#",
+ "base_iri_source": "request",
+ "base_iri_pieces": {
+  "root": "http://example.org",
+  "domain": "doctrine",
+  "document": "Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0"
+ },
+ "individuals": 8479,
+ "individuals_upserted": 5257,
+ "individuals_deduped": 712,
+ "individuals_dropped": 0,
+ "individuals_skipped": 2510,
+ "assertions_built": 2468,
+ "assertions_inserted": 2402,
+ "assertions_deduped": 66,
+ "assertions_dropped": 0,
+ "object_assertions_received": 4785,
+ "object_assertions_skipped": 4785,
+ "miss": 372,
+ "ambiguous": 46,
+ "skip_counts": {
+  "miss": 372,
+  "empty": 2464,
+  "ambiguous": 46
+ },
+ "skips": [
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:0ed1dc0f-6e72-4111-bdca-4f62a5911819"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Process",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:0ed1dc0f-6e72-4111-bdca-4f62a5911819"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProcess",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProcess",
+   "source_id": "doc:cq:4129eb0b-19e4-4c34-9fb3-defa2cdf3b78"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalEnvironment",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:613dc6db-a6e4-4a24-865f-3ee7e01aec9b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "definesOperationalEnvironment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeProcess",
+   "source_id": "doc:cq:974bad28-aa2e-4168-8c13-226e044cd522"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "CommandersOverview",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "CommandersOverview",
+   "source_id": "doc:cq:b0375bd4-5b39-48c4-9b2c-fdd19751ddaf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JointForceCommander",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JointForceCommander",
+   "source_id": "doc:cq:e1a86e61-33bd-4754-9c58-02956e6b5af6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalEnvironment",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:feaf73e9-0562-426b-a31f-0ef5003d06c2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Actor",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Actor",
+   "source_id": "doc:cq:feaf73e9-0562-426b-a31f-0ef5003d06c2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:9b5e667c-dcbd-4385-9220-5432484f06da"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "DocumentSection",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "DocumentSection",
+   "source_id": "doc:cq:459cf4cb-e571-4a37-b66a-7b8b3a42287c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:f4876910-a219-464e-b8e1-28a236b8af08"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:24e71a6a-7825-400a-bc86-05bd9c02ab19"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:24e71a6a-7825-400a-bc86-05bd9c02ab19"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFocus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:fb2b521e-decc-4b8b-a52e-0f127045d196"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:fb2b521e-decc-4b8b-a52e-0f127045d196"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "SystemsPerspective",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "SystemsPerspective",
+   "source_id": "doc:cq:59a07119-248a-4cf3-924b-6b4065c4808c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Analysis",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Analysis",
+   "source_id": "doc:cq:6b31bf02-841c-4197-8925-0633fead75b4"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "CommandOE",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "CommandOE",
+   "source_id": "doc:cq:77d4a1f2-f581-4be6-958d-d671051191cf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProcess",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProcess",
+   "source_id": "doc:cq:8d59f7ed-b4a6-4fa3-a713-7a3ebfbf27a8"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ProcessStep",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:9620a401-3e40-42e5-a946-741dfc9ac0b2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProcessStep",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProcessStep",
+   "source_id": "doc:cq:d67fc200-756a-429c-8b9a-6d64cbd894a1"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "SystemsPerspectiveDeveloper",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "SystemsPerspectiveDeveloper",
+   "source_id": "doc:cq:0261ad27-34a0-4d7d-b632-58d9cfef87d8"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "VisualizationProcess",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "VisualizationProcess",
+   "source_id": "doc:cq:21a3d85c-84e9-4f84-acac-cd1a4842661c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "MilitaryAction",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "MilitaryAction",
+   "source_id": "doc:cq:31be5798-7015-4bc7-b036-b6f96c5896a5"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:6bcdbebe-949b-43b6-aa01-d6a16d50e929"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Prioritization",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Prioritization",
+   "source_id": "doc:cq:6bcdbebe-949b-43b6-aa01-d6a16d50e929"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFinalResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:6bcdbebe-949b-43b6-aa01-d6a16d50e929"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntegratedAssessmentProduct",
+   "source_id": "doc:cq:9304df0d-b815-4bba-a74b-0fbcc5253288"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntegratedAssessmentProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntegratedAssessmentProduct",
+   "source_id": "doc:cq:9304df0d-b815-4bba-a74b-0fbcc5253288"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntegratedAssessment",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntegratedAssessment",
+   "source_id": "doc:cq:a58fe67c-f914-4999-98ad-cabd2c72e6c5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFocus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntegratedAssessment",
+   "source_id": "doc:cq:cc4bd2af-2061-4886-b34b-80dc30f37438"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntegratedAssessment",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntegratedAssessment",
+   "source_id": "doc:cq:cc4bd2af-2061-4886-b34b-80dc30f37438"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCapability",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "AdversaryCapability",
+   "source_id": "doc:cq:0a16c4de-4d51-4285-a52e-3d90b614276a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JointForceCommander",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JointForceCommander",
+   "source_id": "doc:cq:2d27f167-3481-468c-9204-a1ef5ebe5059"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Step",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:94b805b0-e6d7-4262-80fa-01de8b4f141c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:22acdf49-1e0e-46a2-aea5-dedcd9c3eeb1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesignation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Area",
+   "source_id": "doc:cq:2385c9e8-99e0-4c1d-8aa2-dbfaaf4ed946"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Area",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Area",
+   "source_id": "doc:cq:2385c9e8-99e0-4c1d-8aa2-dbfaaf4ed946"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:2ca8851f-bae5-4b0c-931a-5b4f23a61942"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:545e492e-cfc8-467e-8c9a-c23d639e72a1"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntelligenceCollectionRequirement",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntelligenceCollectionRequirement",
+   "source_id": "doc:cq:845314e5-7f9b-4157-bf33-324e2e9132cb"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:955b9111-2796-4b15-98fd-decaf83b3058"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:c547192e-f57e-4aa7-8f49-2df5dc4bbd58"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "PrioritizedListOfAdversaryCOAs",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "PrioritizedListOfAdversaryCOAs",
+   "source_id": "doc:cq:c547192e-f57e-4aa7-8f49-2df5dc4bbd58"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeStep",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeStep",
+   "source_id": "doc:cq:fa4852e1-4037-4275-abf0-ce00badc58b5"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeEffort",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeEffort",
+   "source_id": "doc:cq:083a88d0-2a8c-42cc-bb1d-32446ef54a8b"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JointForceStaff",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JointForceStaff",
+   "source_id": "doc:cq:0d79d0dd-a01c-445f-8c36-6847df85d1fa"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProduct",
+   "source_id": "doc:cq:1785c598-b8e8-439b-97c3-567938c05073"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeAnalyst",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:41d9e727-161a-409c-9b03-77672237b43a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "PlanningJipoe",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "PlanningJipoe",
+   "source_id": "doc:cq:44e8af7d-e56f-4882-ab77-0994d19e7a5a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeAnalyst",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:4696dbdd-58af-4ba3-b92c-206d9ca0f68f"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeAnalyst",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:6de0a650-eb45-4272-ae85-c307e2a28216"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeProduct",
+   "source_id": "doc:cq:b44a1393-96f8-4495-8cb9-919ba09ddbce"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProduct",
+   "source_id": "doc:cq:b44a1393-96f8-4495-8cb9-919ba09ddbce"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeEffort",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeEffort",
+   "source_id": "doc:cq:d0644dc0-32a9-4b08-8139-8618b72da872"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "facilitates",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeEffort",
+   "source_id": "doc:cq:df704efe-0739-498a-a526-576ebe57a2a7"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeEffort",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeEffort",
+   "source_id": "doc:cq:df704efe-0739-498a-a526-576ebe57a2a7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CcmdRedTeam",
+   "source_id": "doc:cq:ee70d202-819b-4e9f-80cc-bc8c307b9fdf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "CcmdRedTeam",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "CcmdRedTeam",
+   "source_id": "doc:cq:ee70d202-819b-4e9f-80cc-bc8c307b9fdf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeAnalyst",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:f1161597-32d5-4ee2-81fa-b1527f765ca6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JFC",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JFC",
+   "source_id": "doc:cq:fed0ff0f-0588-4fb1-a695-417f7487a297"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Effort",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Effort",
+   "source_id": "doc:cq:7540f4f7-8916-44e8-8d22-0668fa54a8b0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "SocioculturalAnalysis",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "SocioculturalAnalysis",
+   "source_id": "doc:cq:8cd10fce-3a52-46f7-b5af-d823b8083abc"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProduct",
+   "source_id": "doc:cq:918cdb38-0dc9-47f3-924b-2498e86e94bf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalEnvironment",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:a883517c-700f-4324-b2c2-6596d84b461f"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "JipoeProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "JipoeProduct",
+   "source_id": "doc:cq:d8d8f8cc-6b6a-4495-a68f-2d9b372848b0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Coordination",
+   "source_id": "doc:cq:d78a6da0-daa9-445f-bc21-f9722d0123fa"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:63de1a56-23e3-420f-92a0-28f9af640f87"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Actor",
+   "source_id": "doc:cq:84528764-e11d-4593-a059-c9f5120ee4c8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "constrainsOrShapes",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:978e00b0-d52a-4e77-8793-306a36e51a99"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Effort",
+   "source_id": "doc:cq:0c0c88c9-5294-4d5e-80a4-482c8bb99578"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Effort",
+   "source_id": "doc:cq:36b8acd9-b7a1-419c-b4ce-7000ed9e4bf2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:38be69d9-7ac1-4f2e-af51-1d142b86eac7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Effort",
+   "source_id": "doc:cq:4a0b8034-df83-4c99-9a84-0dd99c4d01eb"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Effort",
+   "source_id": "doc:cq:a6c03bdd-878f-47e6-89f9-5746d1dc417d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Combination",
+   "source_id": "doc:cq:6d3c8ca0-a085-4abb-bd21-cda728a7c0ac"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesCriticalFactor",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SystemsPerspective",
+   "source_id": "doc:cq:9b6bde72-6db2-4fa7-bef1-5836dbc32a59"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesDecisivePoint",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SystemsPerspective",
+   "source_id": "doc:cq:9b6bde72-6db2-4fa7-bef1-5836dbc32a59"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:86ae8ed5-ff37-4222-a074-24d11ee08fe3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Tool",
+   "source_id": "doc:cq:0dce46e9-feff-4e41-bf80-3daa10cea772"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AnticipatedActivity",
+   "source_id": "doc:cq:822a798e-7839-488b-af98-2090c12c251a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCoa",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCoa",
+   "source_id": "doc:cq:e8a9e160-ee8f-41ca-93c9-5369203dc6b2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "provides",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:2fdc0477-d9cf-43ef-8b95-15836024e173"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalArea",
+   "source_id": "doc:cq:1740979e-8020-47ac-8ebb-176d0e78b767"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Section",
+   "source_id": "doc:cq:0cc2df7d-2477-4998-b68d-d51c2bd566da"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Section",
+   "source_id": "doc:cq:a4324032-a2a0-4593-a62d-a4b8d2a7a03f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasMission",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:c9393454-baea-4540-aab5-fe5e937d2792"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesInformation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceEstimate",
+   "source_id": "doc:cq:649e8bad-218f-44d8-b923-d9d1b909e110"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "provides",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceEstimate",
+   "source_id": "doc:cq:bab9fbdc-3adc-4de4-aac6-44404092c199"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Staff",
+   "source_id": "doc:cq:0afdfb4e-6e42-49c9-bbed-4d4bb009a688"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceProduct",
+   "source_id": "doc:cq:cf95b649-8457-4db0-b623-87c98d8b065c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResponsibility",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Service",
+   "source_id": "doc:cq:a926189c-4aa4-424f-a044-28614bc3ae5e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JointStaffJ2",
+   "source_id": "doc:cq:e8e63e28-3ea1-4e77-8c35-1f712967ef32"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStructure",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:4aaf3b3d-858f-4691-b1ce-e61edcf570e0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "performsAnalysis",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CCMDJ2JIOC",
+   "source_id": "doc:cq:b622db9b-870c-4b33-aaa8-3f9945e97b00"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceOrganization",
+   "source_id": "doc:cq:c97bb444-53d1-4103-b5fc-dfbeddfc8084"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesGuidance",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SubordinateJFC",
+   "source_id": "doc:cq:d4cbf0b8-4f82-4ce9-a6e6-4e505a2f09f4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JointGEOINTCell",
+   "source_id": "doc:cq:f2db80f3-e51b-46c4-870e-d690d59576e3"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:7f180105-6dc5-41d2-ade8-45222e5ad539"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:ba21a828-5efd-4b3f-8bda-9839ae5a7a52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Representative",
+   "source_id": "doc:cq:09fe12db-eca2-4a52-8842-a40877f24202"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesInformation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Representative",
+   "source_id": "doc:cq:9e0c02dd-8264-49af-b173-faad0b198245"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MedicalRepresentative",
+   "source_id": "doc:cq:e2bdf09a-3719-4274-8295-6d8289418bb6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Representative",
+   "source_id": "doc:cq:64016509-84c4-4343-982a-cd8c230dcb54"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CbrnRepresentative",
+   "source_id": "doc:cq:13b888c9-3edf-400c-a18f-4a69bf6cc467"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CsaLiaisonOfficer",
+   "source_id": "doc:cq:44f2d3d8-3d33-4033-a6ce-ac9f40eb621a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "performsActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EngineerRepresentative",
+   "source_id": "doc:cq:e13452cb-000c-43a2-aafa-59e803bd93fa"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesSupport",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformationExchange",
+   "source_id": "doc:cq:51d7357c-718d-4b45-b949-0cb7fa6d54ce"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PerceptionOfIntelligence",
+   "source_id": "doc:cq:717b5507-afcc-43ba-8c2c-3c32f76c8476"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:beb62527-f4cc-4c00-bc85-525760fa3659"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:83ec6663-35af-4830-872b-43506c45a993"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Determination",
+   "source_id": "doc:cq:834bbe36-cbcf-4acd-a1d0-fc19e32c0e48"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Condition",
+   "source_id": "doc:cq:49f55fb3-5e98-4c36-89e1-f1d4fa4604a7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasComposition",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OrderOfBattleFactor",
+   "source_id": "doc:cq:e3499435-c54f-43a5-829e-2aed42e2cbf8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStrength",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OrderOfBattleFactor",
+   "source_id": "doc:cq:e3499435-c54f-43a5-829e-2aed42e2cbf8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasTTP",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OrderOfBattleFactor",
+   "source_id": "doc:cq:e3499435-c54f-43a5-829e-2aed42e2cbf8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:caecd3e8-1f7c-4a97-b2f9-ab8152612088"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeProcess",
+   "source_id": "doc:cq:560029df-ffc8-412d-8afe-b638b53f38ec"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InitialSurvey",
+   "source_id": "doc:cq:128a0d10-f345-43cb-8b48-14b4988fbcea"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "analyzesMission",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AnalysisProcess",
+   "source_id": "doc:cq:7a6c0c48-08a4-41ce-a89e-cb7d743ede42"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "leadsToOutcome",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FailureToIdentifyCharacteristics",
+   "source_id": "doc:cq:312fb82c-29f7-45ef-a472-e5420478e3c7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CriticalResource",
+   "source_id": "doc:cq:6eff9d03-b1a3-4024-a661-5b40dee7358c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Force",
+   "source_id": "doc:cq:6eff9d03-b1a3-4024-a661-5b40dee7358c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "mentionsInfrastructure",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:c73a6988-e951-4ad1-a887-85477d75082d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasForceType",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:ccb77224-8424-4945-8f86-1edbaff41a18"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasValue",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryDecisionMaking",
+   "source_id": "doc:cq:678b5a9f-6669-480d-8297-00eb75868d66"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAttitudeToward",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LocalPopulationNeutralActorNetwork",
+   "source_id": "doc:cq:0230d567-7348-45be-89c4-d4f2794a4a95"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPerceptionOf",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LocalPopulationNeutralActorNetwork",
+   "source_id": "doc:cq:0230d567-7348-45be-89c4-d4f2794a4a95"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAttitudeToward",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LocalPopulationNeutralActorNetwork",
+   "source_id": "doc:cq:3173e7d7-0aa8-4f4b-b018-ad5143db520b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPerceptionOf",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LocalPopulationNeutralActorNetwork",
+   "source_id": "doc:cq:3173e7d7-0aa8-4f4b-b018-ad5143db520b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AreaOfInfluence",
+   "source_id": "doc:cq:8d79c799-45cf-4704-897e-4716ef659349"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Adversary",
+   "source_id": "doc:cq:d6be4dbd-bf50-40a1-b894-7565d4172758"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:e2dba3cc-2655-46a9-9045-c3076a7cf2c6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isDepictedBy",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RestrictedArea",
+   "source_id": "doc:cq:480d4a44-f296-49a9-aee5-e576a2399ae2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isDepictedBy",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RestrictedArea",
+   "source_id": "doc:cq:f7399e0b-c78f-430e-97d7-f70414352ad0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerrainEvaluationIntegration",
+   "source_id": "doc:cq:b6c4554f-a51a-4bcb-9cc3-2da85a9dad75"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObservationCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "KeyTerrain",
+   "source_id": "doc:cq:0d0a7dc7-403a-4dde-a9c6-93a1357d0281"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesConcealment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerrainPreference",
+   "source_id": "doc:cq:cace5fde-d819-42e3-8023-14f45f63b1fe"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesCover",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerrainPreference",
+   "source_id": "doc:cq:cace5fde-d819-42e3-8023-14f45f63b1fe"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesConcealment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MobilityCorridor",
+   "source_id": "doc:cq:dba7f436-e82d-4529-ad8d-9ec850eb6522"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesCover",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MobilityCorridor",
+   "source_id": "doc:cq:dba7f436-e82d-4529-ad8d-9ec850eb6522"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesConcealment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MobilityCorridor",
+   "source_id": "doc:cq:ddece528-b955-41b1-b01e-f3bfe9583329"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesCover",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MobilityCorridor",
+   "source_id": "doc:cq:ddece528-b955-41b1-b01e-f3bfe9583329"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentStep",
+   "source_id": "doc:cq:ced20746-8e27-41fd-879c-b393b83c50cc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentStep",
+   "source_id": "doc:cq:c1bba80e-8746-49a4-9056-a0c6cdf18a99"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OceanSurfaceEnvironment",
+   "source_id": "doc:cq:18b302d2-16dd-412c-9e12-e590bc2fd180"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MaritimeDomainEvaluation",
+   "source_id": "doc:cq:3c62543d-dbfd-4048-beee-53c5e8cfb5ab"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCourseOfAction",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCourseOfAction",
+   "source_id": "doc:cq:3f0032f4-3f0c-4935-9764-f632bb137063"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Obstacle",
+   "source_id": "doc:cq:1d4aabfc-27a2-4358-85a0-6f5a34ebc175"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SupportInfrastructure",
+   "source_id": "doc:cq:8f4d68dd-e3a7-449c-b975-4690b2b7ebec"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SpaceSystem",
+   "source_id": "doc:cq:2fb6bb3e-0847-4126-8178-3cb057f7a648"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:f56d9663-0238-41da-b3f3-b27fc2629746"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryForce",
+   "source_id": "doc:cq:49228be0-d9ee-4d04-886a-c6511fac6c71"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FriendlyForce",
+   "source_id": "doc:cq:dc4034d8-d230-4600-a66d-31dc08e06952"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PhysicalDimension",
+   "source_id": "doc:cq:19226948-b662-43f3-9f4e-c45ca2c7e92a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LegendItem",
+   "source_id": "doc:cq:01c254da-325d-409c-a45b-2fa6ab287baa"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LegendItem",
+   "source_id": "doc:cq:16f6ba2c-4d20-4ab1-bb04-425ffeed3722"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LegendItem",
+   "source_id": "doc:cq:3182d6df-7ff3-42e4-8080-5b7f2921b057"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Symbol",
+   "source_id": "doc:cq:60d4314e-e350-46a6-b244-71d880953e93"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PsychologicalProfile",
+   "source_id": "doc:cq:04f9598b-3bb5-40ef-ba8a-555b7517d6c1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFunction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PhysicalNetworkLayer",
+   "source_id": "doc:cq:782d771d-f7c1-44f9-9ef7-dfa56dffeb7e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LogicalLayer",
+   "source_id": "doc:cq:f193d0aa-a064-4a2f-9fab-8c71637fe81b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "understandsApplicationOf",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:67887106-60af-47fe-ba63-5bbb6c93c759"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Surface",
+   "source_id": "doc:cq:0bc3c6b6-c0d9-44db-8df0-bd73e5d79f59"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "indicates",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Legend",
+   "source_id": "doc:cq:03fad148-2e6d-4dd7-8c65-39300995b3b8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "indicates",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Legend",
+   "source_id": "doc:cq:4e53ef47-a873-479f-a160-bc506302fb16"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResponsibility",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MetocPersonnel",
+   "source_id": "doc:cq:4fe2c56a-ccb2-4e1d-af57-3f2665e87469"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WindCondition",
+   "source_id": "doc:cq:14058daf-bd1e-414f-ba8c-46cc39d10bcf"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HeavyRain",
+   "source_id": "doc:cq:e54cb0f2-1f0b-40a0-925f-e14dbb69d579"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "causesEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AtmosphericInstability",
+   "source_id": "doc:cq:5a3a6d06-a3fb-4c97-9d4b-55a3761d6421"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumidityExtreme",
+   "source_id": "doc:cq:f7bbbf32-8630-4596-b6c9-af0fc007b678"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Plan",
+   "source_id": "doc:cq:c865096b-05a1-45ff-b397-b678fd1ecfc4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasOrigin",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentItem",
+   "source_id": "doc:cq:543d7eb2-6e19-44e4-bec9-03cb5c791eb0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:584ce79a-5c27-440c-ab63-8bf465edfd27"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:7917d505-483b-4ce3-b609-621a7b98d650"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasValue",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:7b13dcfa-d83b-44da-be28-b121f98ad3dd"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:a6568de9-4ac2-4793-921c-b33a54649ec1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasOrigin",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PoliticalParty",
+   "source_id": "doc:cq:96863f18-2bca-4411-bc31-1de6bae82fec"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCulture",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SecurityForce",
+   "source_id": "doc:cq:f082ac9e-58bb-4320-b47e-f7d3f7c8904a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasValue",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:d7ce4c50-3881-47ba-9441-014ced19eb3e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDimension",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:52581c04-4cf3-4897-afaf-6bc7b2964cee"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEducation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IdentityBase",
+   "source_id": "doc:cq:5bc24dc5-768a-40ea-9294-7209bf4049ae"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdeology",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IdentityBase",
+   "source_id": "doc:cq:5bc24dc5-768a-40ea-9294-7209bf4049ae"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasConsideration",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformationCharacteristic",
+   "source_id": "doc:cq:d7a75313-21ed-45d1-973a-5753359b5ad8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:7796535d-956a-4fef-bbc8-4820a6c657a8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:78c10608-0b31-430f-9540-e10c6a6a6436"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Link",
+   "source_id": "doc:cq:d893f12f-6723-4697-b528-34d165d55f23"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isViewedAs",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ArmoredCorps",
+   "source_id": "doc:cq:13917ce8-a965-4746-9cf0-4db4e1d5e79b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "System",
+   "source_id": "doc:cq:5678b991-f90c-4d6e-8df9-e450a449a48d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "characterizes",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AssociationMatrixFormat",
+   "source_id": "doc:cq:818ae217-7673-4483-b3c3-b7a0600c9c7e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Link",
+   "source_id": "doc:cq:3510e56f-dd06-4015-9e9e-ecf634e0dea9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Network",
+   "source_id": "doc:cq:c0b765af-d271-40a9-8f08-7b81dd0729d0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:33174c41-5db6-49d2-9a85-a844bb06db0c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesignation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:04a97558-7d80-4fb6-bce3-893b21cd37cd"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:325413df-3dd4-4b17-95ac-4f59764612a8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAirAvenueOfApproach",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntegratedAssessment",
+   "source_id": "doc:cq:389fcd3e-5c40-4fcb-a043-2de128cd853e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeProcessStep",
+   "source_id": "doc:cq:4d807ca9-d7ca-43e3-9f29-a0b8288931c5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAbility",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Adversary",
+   "source_id": "doc:cq:5a192abe-fc76-47b6-abbb-cbdb78835a31"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCourseOfAction",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCourseOfAction",
+   "source_id": "doc:cq:0699492b-7369-4894-9d44-31945866da82"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Legend",
+   "source_id": "doc:cq:d98864ab-1a67-4372-a73f-86b38ff1cb83"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Organization",
+   "source_id": "doc:cq:e9649416-b2ab-447f-b0d0-6814d0cbc613"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryForcePart",
+   "source_id": "doc:cq:4c4134d7-6994-4981-886b-b40f74359130"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TimeEventMatrix",
+   "source_id": "doc:cq:f71dbdff-1c3f-4232-a66d-c7cd644c8c31"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:5daf14b3-064e-4277-9dd9-b4cb68eeb686"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasComposition",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:9b3cf6d8-8539-4970-91c3-44d7ead735b3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesCenterOfGravity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:f6841e1a-1835-4222-b95d-9fdb821ededa"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesDecisivePoint",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:f6841e1a-1835-4222-b95d-9fdb821ededa"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasVulnerability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RadarSystem",
+   "source_id": "doc:cq:10523806-d92e-48f0-81bd-ba884e0405c7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DecisivePoint",
+   "source_id": "doc:cq:c5f1d1e6-a86d-4fc8-b6fa-43c727b2f7a9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:9a897afa-b993-4268-9de4-03b3eeb390da"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProcessStep",
+   "source_id": "doc:cq:526a5757-126c-499a-a602-2b91bd3c5d75"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:15c8af9d-23ef-4156-9f75-1ba382f140c9"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:af5d056f-f570-4502-8b1d-f2374d10717c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:fec999f1-01f0-4a9b-bf3e-6f837f259fa5"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:e135310b-7dca-45aa-8300-5e2536865229"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:b673e52c-c7a0-4f31-9e94-5d981906d435"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:5f3363c6-fb6e-4f73-b6d8-c76a546bb7a2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "usesMethod",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Adversary",
+   "source_id": "doc:cq:0fce76b2-cc2e-41f8-8598-8654f74bb025"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:01cdde75-236a-4192-88d8-91d7365557cb"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "guardsAgainst",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Analyst",
+   "source_id": "doc:cq:0def7162-f43a-4079-976e-47009c20e0fe"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:2ff272b7-92c7-4f6e-a838-40eab982d732"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:336b6b19-8363-4ed4-a92f-5525b3dd7fed"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:84ab5249-12ac-4bdf-b87a-8436b4d002ed"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:1eb82934-e160-43a9-aaf0-ce8fa3102c20"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:2cf52518-536a-45a9-b97b-87202b83fc35"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:33893df8-55cb-4903-899a-08746bf6e941"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:3c9ad842-45ad-4c5b-95a7-ba60e6e77fee"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:4b239583-d005-496c-a92c-d4e2ad39f62a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:88c10259-fa01-4385-8c44-41410a56df6c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:92d97c10-8186-46ce-9dc9-899a279f0baf"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:6025fddc-8388-4b20-b2a8-f612a9bc4dea"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "depicts",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AssociationMatrix",
+   "source_id": "doc:cq:673cae63-27cb-47b3-b778-f303a67a459e"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:ac453fb0-74e4-4af9-b7e1-20ad9de90770"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesignation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Area",
+   "source_id": "doc:cq:d4d61fd6-3e8c-4f3e-938a-3acb8ce7cc94"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "GeospatialSituationTemplate",
+   "source_id": "doc:cq:08b5702b-5437-4e19-a384-7caf67837bae"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EventTemplate",
+   "source_id": "doc:cq:b89ecb90-d3c8-4e9c-9542-8a841914cf02"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:b89ecb90-d3c8-4e9c-9542-8a841914cf02"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Event",
+   "source_id": "doc:cq:601b20b9-4dad-4751-9f3f-dc053741b379"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Jipoe",
+   "source_id": "doc:cq:02827f3f-35cf-40db-97e7-7aa63d30baec"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasComposition",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryForce",
+   "source_id": "doc:cq:52849d3d-4370-440a-8b01-bbf25c4d009f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStrength",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryForce",
+   "source_id": "doc:cq:d5ea05a9-9565-4e11-9116-0caa7aec621d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasTraining",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryForce",
+   "source_id": "doc:cq:d90bf823-cec1-48c1-9d0b-22b5054d9a2f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Entity",
+   "source_id": "doc:cq:0ce7a62c-1d76-44d2-ac65-435d9168f61f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OperationalApproach",
+   "source_id": "doc:cq:2d5714e3-b49a-4977-ad3d-2ca6188c1993"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Briefing",
+   "source_id": "doc:cq:5ecb9c45-9807-4a34-b296-98669857b83a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCoa",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCoa",
+   "source_id": "doc:cq:920294fd-072f-4c03-b9be-d3ec8d6e463c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:43de6684-3ff3-4df3-8026-9c41a0fd0cd1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeStep",
+   "source_id": "doc:cq:8c439b10-cae5-4431-8c26-ac10b8208531"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:b58b57ed-c8ee-4f3c-bbd2-606a6a3655c8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Prioritization",
+   "source_id": "doc:cq:cdb75ad0-8281-4e77-bf4f-c94d2ff29404"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WargamingForecast",
+   "source_id": "doc:cq:11825f0b-18a2-4c15-b86e-e96fd1032c86"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:722c6c97-37ff-49e6-a605-2122cb9267e9"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:5ecb56d8-fa6d-4945-ba0c-de0820be19a7"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:72ca11ac-95e2-4d5b-9602-aa64a0c828ae"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:af3babf9-273f-4471-9ae4-2ae2ba4314e0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:1b7c1b70-1039-45a0-95c6-33514c5d6fe6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:7ece7934-ca29-4ab6-8f87-46def809e739"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:8bdff9a4-4470-4921-bc4d-5d542780ba04"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesVulnerability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CommandRedTeam",
+   "source_id": "doc:cq:584ee43c-46af-425e-b0b9-fbef30d00cb8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesOpportunity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CommandRedTeam",
+   "source_id": "doc:cq:584ee43c-46af-425e-b0b9-fbef30d00cb8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceCollection",
+   "source_id": "doc:cq:51cfdea9-11b8-4854-ba46-a9f07152aab6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:d39cbdf2-81d8-4452-be22-fdfa6de36830"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:e4544bd3-a486-487a-9062-7066aaa3a116"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FriendlyCOA",
+   "source_id": "doc:cq:e4544bd3-a486-487a-9062-7066aaa3a116"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "takesAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JointForceStaffElement",
+   "source_id": "doc:cq:23d75ec6-cc2f-4ec7-aef0-b7b8484d264c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PlanOrOrderDevelopment",
+   "source_id": "doc:cq:b01a4f83-43ce-4164-8934-de1f5741035b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentItem",
+   "source_id": "doc:cq:f1aef893-f8dc-4f0d-bd8c-362727d52287"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Section",
+   "source_id": "doc:cq:90e9b114-a912-47e4-9c02-f845ecac4a14"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Nai",
+   "source_id": "doc:cq:a17f3a3e-f118-434f-9cee-57ffc25273f6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Phasing",
+   "source_id": "doc:cq:70f168e0-22a8-4896-8fd4-64df72e6d45b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "requires",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoePlanner",
+   "source_id": "doc:cq:69b8584d-69e0-4c25-b70d-1f29ab860cf2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:aab8a92c-3897-429f-af4f-92431e5b4f6b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceActivity",
+   "source_id": "doc:cq:50b4daba-63ce-40a7-8663-4c8e52e3aea9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "focusesOn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeEffort",
+   "source_id": "doc:cq:82bee30f-da03-4e21-917d-cb2678987985"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCoa",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCoa",
+   "source_id": "doc:cq:8648841c-6b7e-4c2c-95b3-09f23ad9893e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "focusesOn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeEffort",
+   "source_id": "doc:cq:8dc1792e-f2a2-41df-840e-59f07af3591f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Action",
+   "source_id": "doc:cq:9ebcc804-cb91-49d0-9d67-b481c1c924be"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:91080365-9e54-4981-9549-a09a8d3b9c38"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:436f87fc-b62b-4557-a61a-60e0834f68c4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "assessesCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JIPOE",
+   "source_id": "doc:cq:abc5b9da-ea4b-4a59-915e-ac7d09a68d53"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:e94b0cbb-05a9-4609-940f-3c3327b67dc1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Country",
+   "source_id": "doc:cq:fbc53fc0-197d-4ddf-9c55-0a7b816dbc48"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AssessmentConsideration",
+   "source_id": "doc:cq:6c1ca2dd-7895-420c-9579-df3f5b8cd716"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MeasureOfPerformance",
+   "source_id": "doc:cq:0830fbf8-a8e2-4c63-8959-430f78ecc88e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RelevanceCriterion",
+   "source_id": "doc:cq:959c2562-60d3-4431-bae8-63fd634436f4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AssessmentProcess",
+   "source_id": "doc:cq:f0f5248f-f384-40fb-bd9d-39cdfb5a7eb7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "analyzesVulnerability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeSupport",
+   "source_id": "doc:cq:39d24044-18c9-4020-8d53-300bca072565"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TacticalTaskResult",
+   "source_id": "doc:cq:6bd19f5e-1073-4208-94fa-576c846fd3f5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Adversary",
+   "source_id": "doc:cq:a3d8d511-62a1-4345-a13e-2251213bcd6a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasConsideration",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Jipoe",
+   "source_id": "doc:cq:4296f582-38df-4e89-8490-ad0c438bb539"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasReligion",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EthnicGroup",
+   "source_id": "doc:cq:44396cfc-fea0-42a8-a654-dc45ff2ff6b6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "playsRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RacialOrEthnicGroup",
+   "source_id": "doc:cq:bb090dfa-dc54-4bc0-9fee-7a161c3b49ca"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasValue",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Topic",
+   "source_id": "doc:cq:a02844ab-4a3a-4cef-b2ef-7086d673a13b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFunction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "BeliefSystem",
+   "source_id": "doc:cq:3a3cbd46-91c8-43aa-92fb-668e38ff513c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Language",
+   "source_id": "doc:cq:bf9a3096-cd22-4ff9-b976-81f8f2746fa1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Myth",
+   "source_id": "doc:cq:7373b36e-8e2b-43c8-b0fa-1c5331bbad31"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Individual",
+   "source_id": "doc:cq:23afffe8-3e9d-458a-88b1-963d6ed29d78"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "includesActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformalEconomy",
+   "source_id": "doc:cq:aa70ae55-8364-4930-9540-ff68ecc1ecc3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "prevents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RiskMitigationStrategy",
+   "source_id": "doc:cq:1be7767b-5f19-4929-a521-f59417f54ab9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "BusinessEnvironment",
+   "source_id": "doc:cq:5aeb6f44-9719-4442-8be9-08c41fae0358"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Person",
+   "source_id": "doc:cq:68f6fe76-254e-4c00-9dd8-48ff0f15a5dc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResponsibility",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JointForceGeointStaffOfficer",
+   "source_id": "doc:cq:fc95db3a-6bc1-4c9c-9be1-aedc7890e97b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "detects",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumintCollectionActivity",
+   "source_id": "doc:cq:b7e383d5-f105-4b6a-9498-05f4395c5f52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifies",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumintCollectionActivity",
+   "source_id": "doc:cq:b7e383d5-f105-4b6a-9498-05f4395c5f52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "assesses",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumintCollectionActivity",
+   "source_id": "doc:cq:b7e383d5-f105-4b6a-9498-05f4395c5f52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "exploits",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumintCollectionActivity",
+   "source_id": "doc:cq:b7e383d5-f105-4b6a-9498-05f4395c5f52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "counters",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumintCollectionActivity",
+   "source_id": "doc:cq:b7e383d5-f105-4b6a-9498-05f4395c5f52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "neutralizes",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HumintCollectionActivity",
+   "source_id": "doc:cq:b7e383d5-f105-4b6a-9498-05f4395c5f52"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Organization",
+   "source_id": "doc:cq:813a5ae6-5e9c-46d4-b54a-cf6cf6287fe5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Analyst",
+   "source_id": "doc:cq:d2d5fffd-20d2-48f2-89b0-d31ff1e01131"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "JipoeAnalyst",
+   "source_id": "doc:cq:e88f5d0d-a5f6-4a02-a86d-ac8f450cfe0c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "GraphicProduct",
+   "source_id": "doc:cq:ae18f61a-fadf-4735-88f5-9918519aeb57"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MilitaryThreat",
+   "source_id": "doc:cq:10c1c8e1-e4d7-4a11-bde8-7e1dbe6a3086"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Membership",
+   "source_id": "doc:cq:27d97d82-f18d-4948-82ea-5e61f343d493"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Opponent",
+   "source_id": "doc:cq:4436428d-7030-4257-8caa-22ddf8807670"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Adversary",
+   "source_id": "doc:cq:e390a2e8-ec6c-48b5-b346-21a518653cb4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AirDefenseSystem",
+   "source_id": "doc:cq:93417fd9-1b63-461a-ae96-b37b5bd43ddb"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "targetLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DeploymentLocation",
+   "source_id": "doc:cq:03c51544-5965-4d2f-abd9-a5f617a38b77"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Area",
+   "source_id": "doc:cq:2e4a619d-ad80-4ce4-ae72-be71bd6d0276"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:132d4201-6ece-47b9-bd65-b2996573737b"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:8314ea25-1a97-456c-9e0d-a15ff85aaeee"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFirstStep",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:9143709a-cb03-449e-9de8-4a5063b133ef"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "determinesCharacteristicsOf",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Activity",
+   "source_id": "doc:cq:877548af-9c29-43db-be5b-c427c82e2a94"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentStep",
+   "source_id": "doc:cq:2c74fb9f-e5f7-46b3-9613-9a8f97f86f6f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Action",
+   "source_id": "doc:cq:1b63fdc8-4f59-4b98-b62d-67da206a3329"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesiredEndState",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Activity",
+   "source_id": "doc:cq:0b5f81ef-898a-4c7e-a2ad-06602a2423e0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:a943a803-7b9a-4984-a959-bd2fb04626f8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AssessmentActivity",
+   "source_id": "doc:cq:6e27571d-f647-4841-9160-99c034e15910"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStrength",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerroristIsrCapability",
+   "source_id": "doc:cq:1dec8cbe-7fdd-4f0a-9209-9fd6196eaf08"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasWeakness",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerroristIsrCapability",
+   "source_id": "doc:cq:1dec8cbe-7fdd-4f0a-9209-9fd6196eaf08"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasVulnerability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryExternalSupport",
+   "source_id": "doc:cq:25743e21-4d84-4494-89e3-0f9c3cf5dc5d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:d460b395-389c-4377-bfb7-5f140145143c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Activity",
+   "source_id": "doc:cq:2d5d2b08-a0fb-425e-bdff-ce305b558a9d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Activity",
+   "source_id": "doc:cq:a15c75bc-3b97-4d87-930d-9839767fb68f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "encompasses",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AreaOfInterest",
+   "source_id": "doc:cq:054aac84-ffbe-4533-b1f4-3f9609ba5ca0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "encompasses",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AreaOfInterest",
+   "source_id": "doc:cq:828f512a-4d52-4f33-93b7-6a9eb57c063d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:f661355b-5a2e-4323-b1ee-ee80dbf231b7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentStep",
+   "source_id": "doc:cq:025c4f1e-9b70-4810-884b-69ce72e679eb"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:0492a8bf-c12e-413e-b037-9185c1b0ebc8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAttitude",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CivilPopulace",
+   "source_id": "doc:cq:78c2adaa-0488-4a0f-875d-e549b47d9e7d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasValue",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CivilPopulace",
+   "source_id": "doc:cq:78c2adaa-0488-4a0f-875d-e549b47d9e7d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasMotivation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CivilPopulace",
+   "source_id": "doc:cq:78c2adaa-0488-4a0f-875d-e549b47d9e7d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Group",
+   "source_id": "doc:cq:0d962087-5330-4fd6-85cd-40326bb7c6a0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Substep",
+   "source_id": "doc:cq:150dd509-861c-43a1-8041-e5466e1732ac"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Substep",
+   "source_id": "doc:cq:60d6c60f-7c1c-40b5-a592-9a9a2ba3c995"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Substep",
+   "source_id": "doc:cq:67e0677a-c239-4d29-9670-eb3f58fa826e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Substep",
+   "source_id": "doc:cq:6bcc2946-d19d-48d5-85c0-6604b935385b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasConsideration",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Substep",
+   "source_id": "doc:cq:82227f93-4e9f-4ab4-8f49-8bf73d504739"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CbrnWeapon",
+   "source_id": "doc:cq:422a1438-00e5-4cd7-8ba7-a8a77e0eb800"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CbrnDeliverySystem",
+   "source_id": "doc:cq:f920d47e-0f1c-4b19-8b6e-fde25fa759c3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Substep",
+   "source_id": "doc:cq:28285439-facc-4b7a-849e-0536c728c3f2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryWmdCbrnAsset",
+   "source_id": "doc:cq:50eac2d7-1a90-45e0-abbe-078ed660f1d8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WmdDeliverySystem",
+   "source_id": "doc:cq:2edc9d93-ccb8-4a64-824c-f2295b7cefc5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:d98cefbb-f0d1-4966-98ba-4a86363a6c04"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:6bd1f097-85b0-4e18-a582-6e066ebe34d0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:bd7fa3c3-b4e8-4b92-b28c-b9fa9946d127"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFlightProfile",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CruiseMissile",
+   "source_id": "doc:cq:7461eaf9-5f4b-49e6-9159-de6500c3739c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Target",
+   "source_id": "doc:cq:eb88eedf-7b28-4533-a11f-aa7c62e92555"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Activity",
+   "source_id": "doc:cq:3cd716d2-76aa-4c37-93c1-f6d337477d6a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:8e59a387-50e8-4fc0-9ae5-c0bc48988302"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:78ec2504-d0d5-4585-ae59-3127e06f87ac"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Warhead",
+   "source_id": "doc:cq:b22637f3-f041-4f34-9d54-c319d0a7be8c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Coordination",
+   "source_id": "doc:cq:2087ef0a-09fa-4d21-b58c-c63e7fb6dd9c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "mustConsider",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CommanderAndStaff",
+   "source_id": "doc:cq:02b11bef-e326-4116-9872-7a33cb49d123"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "conductedDuring",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Action",
+   "source_id": "doc:cq:dd3ef43c-1858-47ab-8571-43a1baa7ead9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "locatedIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Resource",
+   "source_id": "doc:cq:b5320449-1610-42dd-974b-c0b902d6f3c3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Coastline",
+   "source_id": "doc:cq:21c09f18-dec8-4c15-bf57-b8794cdfd274"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:9f64556c-bd60-4bca-b27c-84471826efd5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Recapture",
+   "source_id": "doc:cq:76795850-f2ae-4a66-a37c-48f725fba600"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AircraftCarrier",
+   "source_id": "doc:cq:7aa59f72-c5eb-4f76-b78f-3b92af214580"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:1542c081-6b1c-4eb9-abcc-fcc863617a14"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:32b551e5-f283-4f11-88c5-5390983fa162"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:64f4fd9e-4c3b-438c-880c-991da83eb536"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "reinforces",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:76fa73c0-074f-44f1-85b1-0bc959d8799d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "supports",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:76fa73c0-074f-44f1-85b1-0bc959d8799d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isolates",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AirForceObjective",
+   "source_id": "doc:cq:8c716c48-7342-48ec-87e4-7431aeb47d47"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBelief",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Japanese",
+   "source_id": "doc:cq:3f340345-33a2-4c30-83d4-a08895c5b766"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TaskForce",
+   "source_id": "doc:cq:59f2469f-7956-4366-986f-6f78c235ccf7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "tookAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Admiral",
+   "source_id": "doc:cq:216a0395-6a4d-418d-9010-87427eb3c702"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBeliefValue",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Admiral",
+   "source_id": "doc:cq:da6a9e20-cb9c-42d3-a047-ad5ed4398a0c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBelief",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Status",
+   "source_id": "doc:cq:5dba644f-c39e-4fde-b12b-276e0883ec36"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAssessment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Admiral",
+   "source_id": "doc:cq:3c0ebbc4-2d0f-41c9-a40d-ee51aa543b1e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRequirement",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Condition",
+   "source_id": "doc:cq:54069f1a-86b5-43d4-b659-2b74f41ae2d0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "shouldAvoid",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdversaryTemplating",
+   "source_id": "doc:cq:3597ca8c-6e78-4b85-8e2f-49c7e6c5e0fe"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Experience",
+   "source_id": "doc:cq:994ba3d2-ab44-43d9-9b72-b2c9fec93a3a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:e9e88b6b-f836-41e4-8618-bf5489316603"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Event",
+   "source_id": "doc:cq:1b6353e1-9781-43c2-8922-8d8d448a91c3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Mine",
+   "source_id": "doc:cq:4ca10683-2a62-47f2-8a53-c204001b9c5c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Observer",
+   "source_id": "doc:cq:6f10dec4-bed9-4b40-af55-921ef045a223"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Ngo",
+   "source_id": "doc:cq:bf6fe1cf-2c4e-4007-8470-84c70146f210"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Clan",
+   "source_id": "doc:cq:da6ee2d5-b4e4-4cf0-9c7e-d712742cf890"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MilitaryForce",
+   "source_id": "doc:cq:5bada628-7d5c-4576-b8da-ca5e07a7566d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Action",
+   "source_id": "doc:cq:3ed42750-c0e7-4267-a747-c38e2aba2243"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "describesAction",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:3ed42750-c0e7-4267-a747-c38e2aba2243"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasTerrain",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MountainRange",
+   "source_id": "doc:cq:6fb7e9a0-4d51-4997-ba72-d1216b2529c7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isLocatedIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "River",
+   "source_id": "doc:cq:879aca95-8193-4bdf-9236-c5fa7a2b3bb5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasComposition",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Road",
+   "source_id": "doc:cq:ac847754-929a-484f-b32e-924b72e8697b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasClimate",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Airman",
+   "source_id": "doc:cq:01ab2cd0-af77-4f5d-960c-1529925517c9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBehavior",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FactionMember",
+   "source_id": "doc:cq:47edc5ff-bc58-477c-8339-20aefef8a9d3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "occurredIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Event",
+   "source_id": "doc:cq:7c07e7d1-d283-4783-8ebc-f4f9fa77457e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFormat",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MassCommunication",
+   "source_id": "doc:cq:d42d458b-81e2-405d-b9d2-a9191fba0da5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Season",
+   "source_id": "doc:cq:2f92dd63-729e-42a5-88e2-312029a2e8b4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Season",
+   "source_id": "doc:cq:b4d1606b-89d7-4cb4-ad00-7477da2a104c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Society",
+   "source_id": "doc:cq:6324e01e-c0c0-4296-8e2a-64f9719c3529"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasReligion",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "National",
+   "source_id": "doc:cq:236561eb-6e26-4268-b7e7-36f1496a6862"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MilitantGroup",
+   "source_id": "doc:cq:406c10ba-54e2-422c-b0a6-df978fb8bd1f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBasis",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WarringFaction",
+   "source_id": "doc:cq:ce18a2a9-0c56-42a2-accd-42f174629f6b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFormat",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Template",
+   "source_id": "doc:cq:9f7056e6-b925-4c16-a2e5-b71618c9bfa4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Location",
+   "source_id": "doc:cq:20ab4df9-c3c5-49e2-9599-48c0c9a6f694"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Analyst",
+   "source_id": "doc:cq:ae1e36d2-4ab1-4a27-900d-8d96d66a5fb5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CogAnalysis",
+   "source_id": "doc:cq:f3f146d8-cddd-4505-956a-35bbd47fa1c5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:4f30b3fc-50e9-471d-bdde-c87bd9cea014"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "AdversaryCOA",
+   "reason": "ambiguous",
+   "candidates": [
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCOA",
+    "http://example.org/doctrine/Joint_Intelligence_Preparation_of_the_Operational_Environment_20260929T011743Z_r0#AdversaryCenterOfGravity"
+   ],
+   "class_name": "AdversaryCOA",
+   "source_id": "doc:cq:aa51e73f-92cd-4848-9211-6f7e2f7aee47"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Mission",
+   "source_id": "doc:cq:b8dcd83c-812b-42f1-acbb-5363a6e19d03"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Mission",
+   "source_id": "doc:cq:b8dcd83c-812b-42f1-acbb-5363a6e19d03"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:cb9f6ac7-a48b-4334-82de-f58b10c4a099"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "requires",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:3a11b3b5-559b-454a-a8d5-bed6d627a546"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Effort",
+   "source_id": "doc:cq:3e7783e3-a846-45ba-aad8-6698cdca8573"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:944d17cf-ee44-4af8-adeb-e5a6ef298362"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "assistsIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DepartmentOfDefense",
+   "source_id": "doc:cq:4ff53991-66d2-4b26-bb92-042fe1eab117"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Section",
+   "source_id": "doc:cq:f3a9127e-0c65-41e2-8087-1c7ba137a9d3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PoliticalScene",
+   "source_id": "doc:cq:c3111b52-32a2-4b8d-8629-6e5f095bb3e0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasResult",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Decision",
+   "source_id": "doc:cq:0d29a441-17bd-4b24-a00b-5275f71f1063"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "conductsActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Organization",
+   "source_id": "doc:cq:614eac9f-3feb-4d0b-a257-05bc09450860"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Group",
+   "source_id": "doc:cq:efad7407-5584-41cf-acc3-6be956828b4b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Actor",
+   "source_id": "doc:cq:b47a320b-5809-4718-8d76-228232f8b0de"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "defendsAgainst",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Iraqi",
+   "source_id": "doc:cq:774311db-8bb0-4314-bceb-ea06a1b898f1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "assessesBehavior",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Actor",
+   "source_id": "doc:cq:c6268599-66c4-49c2-a48c-60d3591021a1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Component",
+   "source_id": "doc:cq:4920b4a0-9dd5-427d-989b-edf610509e33"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:249aa572-9f80-4b93-874f-d212b8df2162"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OpiumBroker",
+   "source_id": "doc:cq:ca07451f-d38c-46db-b655-d76127d8fdce"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasObjective",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformationalAction",
+   "source_id": "doc:cq:66d1a033-b4a8-44ec-baa5-d29ea021b40f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Collaboration",
+   "source_id": "doc:cq:a0f884ba-b52b-48e6-983d-240d6ef27442"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Agency",
+   "source_id": "doc:cq:4a30df0f-cade-4e4e-827b-a3f7a1cf6f66"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:85c8b3af-884e-4275-a67b-6ac88a11e670"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Agency",
+   "source_id": "doc:cq:88b71699-a633-4081-93bc-2bc3bcd50e8f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Analysis",
+   "source_id": "doc:cq:a401257a-f3a0-4dc9-8208-6b6fd0d704ba"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "NetworkAnalysisEffort",
+   "source_id": "doc:cq:fff87b87-679d-4f78-9c8d-6b9ff6fb31df"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "System",
+   "source_id": "doc:cq:36f73b0b-57f1-4696-b289-ac7633ac657d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAnalysisConsideration",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PoliticalSystem",
+   "source_id": "doc:cq:5fbec06d-1f11-4172-9ba9-07736ec3e4d0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "appliesTo",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EconomicSystem",
+   "source_id": "doc:cq:27fc316a-5e66-449e-8ba9-cf09d78572f7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEconomicRelationship",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "System",
+   "source_id": "doc:cq:c0f46f4c-dae8-48ff-ac52-ee5187c48e5b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasRole",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Organization",
+   "source_id": "doc:cq:47ef5e9a-d555-4f31-9673-a4bb66c9ba6e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "supportsEffort",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "GraphicDisplay",
+   "source_id": "doc:cq:5a8921d2-da42-41db-9f69-cc166e2365a9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TransportationInfrastructure",
+   "source_id": "doc:cq:fb678ac0-4a51-47de-b347-a68ff6b0ce33"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TransportationInfrastructure",
+   "source_id": "doc:cq:fb678ac0-4a51-47de-b347-a68ff6b0ce33"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PatternAnalysisPlotSheet",
+   "source_id": "doc:cq:85a1b11b-1157-4a9e-9446-4d80742dc76b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isUsefulFor",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CbrnConsequenceManagementOperation",
+   "source_id": "doc:cq:ddd9504c-9a71-4f6c-b6b9-ebbc8a7eec50"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Overlay",
+   "source_id": "doc:cq:e05954d0-dc4d-4a05-bc65-b46b08620be9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PerceptionsAssessmentMatrix",
+   "source_id": "doc:cq:cdd9ee55-513b-4ed0-bea2-0c082b49e0ad"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LinkDiagram",
+   "source_id": "doc:cq:69ee565a-5eb6-46c9-bc14-3025cf8c35df"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "BiometricWatchList",
+   "source_id": "doc:cq:e5580dd6-6ec3-4b8b-a086-dc1a537f353c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Diagram",
+   "source_id": "doc:cq:32045b78-3890-434a-ad33-299101f39b39"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "citedAs",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:32bc09d6-541e-44e5-852d-8268dce817bc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:fddf956a-9602-4750-aa2f-fa414ea38098"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:01b3c43f-8764-471f-850f-d9c51469a1bf"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:fffa1857-4ea3-428d-b396-dbec52f4d2c0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSection",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:a96c0f85-d24f-4847-8660-441a23fddc7c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:d04b824b-f971-4706-878b-dbbc3f3fec7c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:5b4cf668-5e8a-4030-98a9-dcb0292990f1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:396765ac-7beb-461c-865d-c1c47902445a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:81cdc19c-5bf3-448f-a1c5-bc0a605d82a3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesignation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:1b7f07d5-0c3c-4806-8f9c-c156c585ae64"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesignation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:ad314571-04c5-47ea-9d34-7c1f882882b6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasDesignation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:c6fac5cf-7b20-49f4-bfbe-c3382803c7d8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:eb5ce269-046c-4322-a126-b642b0fcf769"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAuthor",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:1e95f641-e24e-49c1-8680-23319886239b"
+  }
+ ]
+}

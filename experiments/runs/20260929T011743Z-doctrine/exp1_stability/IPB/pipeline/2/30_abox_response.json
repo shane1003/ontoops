@@ -1,0 +1,2170 @@
+{
+ "base_iri": "http://example.org/doctrine/Intelligence_Preparation_of_the_Battlefield_20260929T011743Z_r2#",
+ "base_iri_source": "request",
+ "base_iri_pieces": {
+  "root": "http://example.org",
+  "domain": "doctrine",
+  "document": "Intelligence_Preparation_of_the_Battlefield_20260929T011743Z_r2"
+ },
+ "individuals": 5091,
+ "individuals_upserted": 3313,
+ "individuals_deduped": 390,
+ "individuals_dropped": 0,
+ "individuals_skipped": 1388,
+ "assertions_built": 1633,
+ "assertions_inserted": 1579,
+ "assertions_deduped": 54,
+ "assertions_dropped": 0,
+ "object_assertions_received": 2996,
+ "object_assertions_skipped": 2996,
+ "miss": 188,
+ "ambiguous": 0,
+ "skip_counts": {
+  "empty": 1388,
+  "miss": 188
+ },
+ "skips": [
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:00993543-41a0-4245-b874-01343320d510"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "ArmyPublication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "ArmyPublication",
+   "source_id": "doc:cq:2f56c94e-e8b2-45cd-8080-c6e13e6b39aa"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:4ef8fc42-136a-4926-886d-4cf7a20c9153"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:745f60bd-209d-42c6-9053-63dfec2821a0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:89a755d6-3541-4e63-aafd-bacc7652cd0a"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:b3add6be-cae4-4834-94dd-d76e37fcdd9c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Manual",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Manual",
+   "source_id": "doc:cq:d768d1df-b5a0-457a-9deb-f621ce28c2e0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Document",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:ddeb6b91-d543-40d9-a564-1f3fec088a7d"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:eb9b7450-5063-42f5-ad9b-778ffd6b11ba"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Methodology",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Methodology",
+   "source_id": "doc:cq:cfd0ae1c-d95e-4960-a677-a02944cda814"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:01a4e6b3-bbf7-478b-830a-7bad83c02130"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:01a4e6b3-bbf7-478b-830a-7bad83c02130"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Chapter",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Chapter",
+   "source_id": "doc:cq:087ad96a-ebdf-4fa9-b40f-a514cd3a37a2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IpbProcessStep",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IpbProcessStep",
+   "source_id": "doc:cq:0dab4ff8-806a-47af-8141-56f840070b04"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Chapter",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Chapter",
+   "source_id": "doc:cq:1313ac93-0705-4b00-a0f4-8c56ab8e9ea8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Revision",
+   "source_id": "doc:cq:5648fa8e-25b0-4c2b-9928-ddb20144d2c0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Revision",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Revision",
+   "source_id": "doc:cq:5648fa8e-25b0-4c2b-9928-ddb20144d2c0"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Appendix",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Appendix",
+   "source_id": "doc:cq:5e414f63-505c-48ba-81f3-91f7f46b03b8"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Step",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:655146c9-3dfd-4b69-8f3a-6417b0ca9e08"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Appendix",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Appendix",
+   "source_id": "doc:cq:7172a487-c46d-4d13-bc0f-c6ff0ce953b1"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalEnvironment",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalEnvironment",
+   "source_id": "doc:cq:8f68c4ae-87df-4d40-b4d5-140d62ba6a13"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Holding",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Holding",
+   "source_id": "doc:cq:954edc0c-1d12-4c8d-8aa7-a47bbf7b6570"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Appendix",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Appendix",
+   "source_id": "doc:cq:9ac41bab-6294-40c0-8409-098e3d553c06"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:b35cb2e0-d826-4b3a-aaca-595ee4522efc"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IpbProcess",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IpbProcess",
+   "source_id": "doc:cq:b903d9ab-e947-4c3a-838d-ca50874a7a0c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "USForce",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "USForce",
+   "source_id": "doc:cq:d35fa707-8ccd-4062-a6dc-c02246687b67"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Publication",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Publication",
+   "source_id": "doc:cq:dbe7286b-0ac3-4648-b245-de95410e6c60"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Chapter",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Chapter",
+   "source_id": "doc:cq:e7da2eef-13ce-47c1-8ade-4949787f15d3"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Chapter",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Chapter",
+   "source_id": "doc:cq:fb08ee90-7d93-4ba7-ae98-a338a6e5162b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentifier",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Appendix",
+   "source_id": "doc:cq:fef6d6bd-f530-4102-aa09-d2fc972642e6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Appendix",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Appendix",
+   "source_id": "doc:cq:fef6d6bd-f530-4102-aa09-d2fc972642e6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Data",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Data",
+   "source_id": "doc:cq:092166bc-7856-447b-bd25-e11412761813"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Echelon",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Echelon",
+   "source_id": "doc:cq:0bf79279-6f9c-48ae-ad3c-3fee6448105c"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntelligenceStaff",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntelligenceStaff",
+   "source_id": "doc:cq:0cb16b5d-2f7b-47e5-a564-7c80d11eda06"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IPB",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:1b0a52a0-5479-4315-ba72-c1b86c4c4541"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IPB",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:1bd13659-b5eb-4645-b78f-051cc7acd9bd"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "TacticalEchelon",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "TacticalEchelon",
+   "source_id": "doc:cq:2e473288-b09e-4ca6-9a35-da13bd1cfc37"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IPB",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:3d3db038-124c-49ff-a9fe-40b3cd3abc40"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IPB",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:4802d16f-9af4-4c2c-b21a-b7f7d71a6588"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "describes",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HolisticApproach",
+   "source_id": "doc:cq:51ee8570-16b9-4090-bef9-cec18fe824c2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "HolisticApproach",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "HolisticApproach",
+   "source_id": "doc:cq:51ee8570-16b9-4090-bef9-cec18fe824c2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IPB",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:5365e64a-1a5d-4653-b097-6dd583bd5ec6"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "BaselineDataFile",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "BaselineDataFile",
+   "source_id": "doc:cq:57c461e8-dbac-4363-9d3c-6a88e215dfd2"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "CommanderAndStaff",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "CommanderAndStaff",
+   "source_id": "doc:cq:5bdd4285-510d-4358-a301-0040f4fc3107"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "Phase",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "Phase",
+   "source_id": "doc:cq:6016e88a-7112-4e73-821a-28f0d8714e2f"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntelligenceStaff",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntelligenceStaff",
+   "source_id": "doc:cq:62bdcb36-5a66-4bcb-b509-e40dd5503f65"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IntelligenceProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IntelligenceProduct",
+   "source_id": "doc:cq:6628e77e-e130-4745-a16d-8a0d2f2010f7"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "OperationalFrameworkConsideration",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "OperationalFrameworkConsideration",
+   "source_id": "doc:cq:78c29d4a-f1a8-4104-95df-d0118b365729"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IPB",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:862828f8-5240-455d-9ce8-133fc8f2bfe1"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "RefinedInformation",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "RefinedInformation",
+   "source_id": "doc:cq:9cf6b583-34a6-47e9-ae57-129b999a4449"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "HolisticApproach",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "HolisticApproach",
+   "source_id": "doc:cq:a4661ad3-e612-4e80-a9bf-d8d9dce39561"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "HolisticApproach",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "HolisticApproach",
+   "source_id": "doc:cq:bddeca79-4fb9-484d-9a42-a93cf331e228"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "HolisticApproach",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "HolisticApproach",
+   "source_id": "doc:cq:c4fc33fd-0728-4ead-b756-3441654ae70f"
+  },
+  {
+   "scope": "individual",
+   "kind": "CLASS",
+   "token": "IpbProduct",
+   "reason": "empty",
+   "candidates": [],
+   "class_name": "IpbProduct",
+   "source_id": "doc:cq:ca92a02d-39a8-4a62-9904-ec9cf2e47592"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IPB",
+   "source_id": "doc:cq:fcf17fe6-c893-4a35-aa07-500d1b56fbd0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesGap",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceStaff",
+   "source_id": "doc:cq:2b1c1265-7cfe-49f4-9caa-0221cd81191c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatEvaluation",
+   "source_id": "doc:cq:a817867e-7bf2-41c5-87f6-8561a947286a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesCivilConsideration",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Staff",
+   "source_id": "doc:cq:7265aa75-24c8-4a41-b87b-67d708ad78f4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Product",
+   "source_id": "doc:cq:8fc52f05-6a46-49a6-9aa0-0b54639d0b24"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentifier",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Document",
+   "source_id": "doc:cq:9702ae25-b9cb-4107-a259-db9d5fcbab22"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubjectMatterExpertise",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "StaffSection",
+   "source_id": "doc:cq:0e6cb747-65f3-48d7-bc35-71663024928c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubjectMatterExpertise",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AdaOfficer",
+   "source_id": "doc:cq:1f18e7c8-fd36-4477-968f-3cfb8072b488"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "usedFor",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WaterSource",
+   "source_id": "doc:cq:33b8b6e0-1233-4969-a12d-116ddba7ff6f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCOAStatement",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "G2S2Product",
+   "source_id": "doc:cq:4d6660a8-833e-4ec9-991a-e2f38ac94e2c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasHVTList",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "G2S2Product",
+   "source_id": "doc:cq:4d6660a8-833e-4ec9-991a-e2f38ac94e2c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubjectMatterExpertise",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Entity",
+   "source_id": "doc:cq:92e1c147-2ecd-4421-9f00-8bccf7997092"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubjectMatterExpertise",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformationOperations",
+   "source_id": "doc:cq:c511f44f-1981-4f8c-90f8-650f4213ee54"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "determinesDisposition",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "G2S2",
+   "source_id": "doc:cq:f19c0843-d161-4a08-89b6-41882cb83369"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "identifiesRisk",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RiskManagement",
+   "source_id": "doc:cq:aa36ed89-c331-4487-91d7-55861b43ff57"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:61922a21-8ae8-4ae8-9eee-ec0b831c2550"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "occursWithin",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:1e9b426f-c559-482d-9150-2802128e5c6a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "occursDuring",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:1e9b426f-c559-482d-9150-2802128e5c6a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SituationDevelopmentProcess",
+   "source_id": "doc:cq:97d01362-ae9b-43bc-acd5-82e7869ec6ca"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentifier",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ResponsibleParty",
+   "source_id": "doc:cq:088e2705-dbff-450c-8cf7-a32575cf63d6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "shapes",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Army",
+   "source_id": "doc:cq:87338ab3-a2cf-4d4f-8ba1-ceedb1907e9c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "prevents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Army",
+   "source_id": "doc:cq:87338ab3-a2cf-4d4f-8ba1-ceedb1907e9c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfActionDevelopment",
+   "source_id": "doc:cq:246851f3-6c9d-47ca-abc9-e28a5fb59b56"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "COAAnalysis",
+   "source_id": "doc:cq:2d1e5874-bdc0-4908-9176-429a5644bf1e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:987cf05b-cbab-4ee6-8d1d-eeed591ffb17"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "occursDuring",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Action",
+   "source_id": "doc:cq:a8a8b47f-d1e2-4567-be56-e52b4c30e516"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Enemy",
+   "source_id": "doc:cq:cf17b8c5-21a0-41eb-9549-72f8a413d32f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Process",
+   "source_id": "doc:cq:6d27c2a3-cc02-40b4-b6e4-f2337a02d158"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceDataFile",
+   "source_id": "doc:cq:e7314453-1d58-499d-a288-7b90295e9bb8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCurrentLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Militia",
+   "source_id": "doc:cq:f8372236-674a-4e44-b16d-204c0931c509"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Militia",
+   "source_id": "doc:cq:f8372236-674a-4e44-b16d-204c0931c509"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasConsequence",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Staff",
+   "source_id": "doc:cq:dd2e8eaf-884c-48c8-881c-bb8a205a5dd8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AreaOfOperations",
+   "source_id": "doc:cq:b747d4b5-d6fc-496c-8c85-3cbc9bee3bbd"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasKeyTerrain",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Framework",
+   "source_id": "doc:cq:d82a1c5b-ca34-48b7-9f1e-f11e1226bcd7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Briefing",
+   "source_id": "doc:cq:1195c7a6-d10d-424b-93e3-db8e3cc260e5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "occursDuring",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Fog",
+   "source_id": "doc:cq:c482921e-fb3a-4b26-bc82-3906bf295d3a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceGap",
+   "source_id": "doc:cq:6de0fbcd-5abe-443d-81ce-afb2b27c82c9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IpbProduct",
+   "source_id": "doc:cq:b9fa86dd-adb6-4f19-b529-60f558204947"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:cd9046ff-afe2-47bb-9488-12275bbca75f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatDescriptionTable",
+   "source_id": "doc:cq:74e66467-26df-4144-bb2f-667b329d4d9f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesConcealment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Feature",
+   "source_id": "doc:cq:16253038-b919-4cee-8691-b2ee13cee267"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "reflects",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ObstacleType",
+   "source_id": "doc:cq:f82b5ae0-147e-4d5e-a9c5-a11b33cb3c4c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "UrbanArea",
+   "source_id": "doc:cq:d5ced959-dc42-4835-a86a-e78d7e7c4a74"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:5a560e00-cb26-45fa-80b2-05b1675b0e4e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:90438021-3e16-4dbe-b533-57be191f5f24"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:fd602a9a-bc36-408f-a0bf-94dc6b2c7afe"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AmbushSite",
+   "source_id": "doc:cq:56c3a165-1f16-40cc-a4eb-df73d90c686a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "represents",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EngagementArea",
+   "source_id": "doc:cq:ed98d528-a14a-4252-ac18-71281175a7ac"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CloudCover",
+   "source_id": "doc:cq:f1443870-c66a-4b57-9d26-ed6ae2128acc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThermalOptics",
+   "source_id": "doc:cq:8cd0ecaf-e24b-4db0-9d80-4182f249e25f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffectOn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Temperature",
+   "source_id": "doc:cq:dd7a3d30-f5c2-4f21-a328-29370b03d617"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DirectFireWeapon",
+   "source_id": "doc:cq:ed251f6f-7243-4656-87ce-f0a9d89af04a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Troop",
+   "source_id": "doc:cq:f05935a6-99a7-45af-8e82-982917a5a7a5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AtmosphericPressure",
+   "source_id": "doc:cq:5f5852ff-9e00-4d45-b94c-0ff81dc6b2eb"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WeatherEffectsMatrix",
+   "source_id": "doc:cq:db6ff35a-7df6-4336-bb50-7c26100350fa"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LightAndIlluminationDataTable",
+   "source_id": "doc:cq:e1cd4f7e-4032-4b6c-b619-e62e7f6825c7"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Model",
+   "source_id": "doc:cq:7e2f1944-0132-4d07-a142-02486593fea8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "determinesCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CommanderAndStaff",
+   "source_id": "doc:cq:3ff65905-5659-443f-9cb6-a93084423270"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Requirement",
+   "source_id": "doc:cq:c7152b68-0d82-4daa-a6be-f7d5da928a2a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Party",
+   "source_id": "doc:cq:e8f48897-af99-4bad-a18c-a52abb47255e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CivilConsiderationsDataFile",
+   "source_id": "doc:cq:232528b8-2081-4f29-835c-4b25583d2c6d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PeerThreat",
+   "source_id": "doc:cq:caabba6b-f106-4f98-834d-4ded0e8e944b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "usesTactic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProxyForceCapability",
+   "source_id": "doc:cq:bbd37bae-3cee-4d6b-b1d8-4e79b49480e0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:4f2bffc3-e280-41f5-b80a-6fa26e391628"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "GraphicTrainingAid",
+   "source_id": "doc:cq:c8d432fe-0c59-4809-8a74-dc8ff0e90f86"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isCollected",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Modality",
+   "source_id": "doc:cq:5c05fa3c-3e6b-449f-ac71-99e7fa3dfb6d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isAnalyzed",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Modality",
+   "source_id": "doc:cq:5c05fa3c-3e6b-449f-ac71-99e7fa3dfb6d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isProtected",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Modality",
+   "source_id": "doc:cq:5c05fa3c-3e6b-449f-ac71-99e7fa3dfb6d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isExploited",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Modality",
+   "source_id": "doc:cq:5c05fa3c-3e6b-449f-ac71-99e7fa3dfb6d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isManaged",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Modality",
+   "source_id": "doc:cq:5c05fa3c-3e6b-449f-ac71-99e7fa3dfb6d"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IdentityActivity",
+   "source_id": "doc:cq:e8f58152-ccae-4876-9ee0-529c45e7a9a0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPrimaryUse",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Sequel",
+   "source_id": "doc:cq:7bad5abd-18ee-4863-8001-ab14a4dd31cb"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatObjective",
+   "source_id": "doc:cq:949e0427-6dfa-4809-bceb-9c8c0b220352"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEndState",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatObjective",
+   "source_id": "doc:cq:949e0427-6dfa-4809-bceb-9c8c0b220352"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TargetValueAnalysis",
+   "source_id": "doc:cq:fa7c5cf5-987d-4481-96e3-e054e0d9f9f6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerroristCapability",
+   "source_id": "doc:cq:5086f40f-f474-4534-a840-a1a7692ec6ec"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "TerroristCapability",
+   "source_id": "doc:cq:5086f40f-f474-4534-a840-a1a7692ec6ec"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:b8727444-690d-4b71-a8af-cda883264d92"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFormat",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatCapabilityStatement",
+   "source_id": "doc:cq:3b0c1317-060f-44f6-9fed-539de7931c47"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SoWhat",
+   "source_id": "doc:cq:f506b47a-28cf-4990-b2cf-ec5b72cca430"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FixingFunction",
+   "source_id": "doc:cq:941f4965-99f2-4f36-8717-468e7d8cc629"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasExample",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DeceptionAction",
+   "source_id": "doc:cq:0d8dc28f-29a5-41b7-93be-fb86a8d44652"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ReserveDesignation",
+   "source_id": "doc:cq:8e7b1f88-3068-430a-a007-1e02aa1db7f3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasTask",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:a88043b9-7a3b-4d69-aa77-393f0015319c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:a88043b9-7a3b-4d69-aa77-393f0015319c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEndState",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CourseOfAction",
+   "source_id": "doc:cq:a88043b9-7a3b-4d69-aa77-393f0015319c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "addresses",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "WhenQuestion",
+   "source_id": "doc:cq:fdbe87a8-1809-4ff0-96ae-e17fe311421e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:04ed64c9-763c-4fe5-beb6-bd41a2002191"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:1090040d-2bba-46e3-8e44-0a3a3f62ef83"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:217e9f8a-daef-43a7-9026-9ea964795db9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isPartOfProcess",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:217e9f8a-daef-43a7-9026-9ea964795db9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:2e2106a5-c0d8-477a-b8db-7c7c7d0c24fe"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:3b248347-52eb-47d0-801d-7f3d89552f60"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:49817953-f65d-42db-834a-61b4a8d20609"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:4eedcdcf-fe02-49c0-9a76-2b851cd12671"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:4f2a8647-5649-45ab-9a44-12643bab5073"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:692d50a5-2ece-401f-bb86-f176129a2721"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:6fd45c98-5e07-442c-9627-f854f2156961"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "restricts",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EnemyCommanderPurpose",
+   "source_id": "doc:cq:7ab4a2b2-39b3-4dab-97db-2095263035c2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "gains",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "EnemyCommanderPurpose",
+   "source_id": "doc:cq:7ab4a2b2-39b3-4dab-97db-2095263035c2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:809f8a7b-3622-4847-a56a-8a2c8077631b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:86a6e419-5607-4694-aeea-fa4d96262893"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:948753b3-4a91-490a-8898-61f1b286566e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:b40d3e2d-8e66-485b-9091-b4aac365fe87"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:c0a3da3a-959c-4a59-818f-344aa63e1ca4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:d4e95141-8e91-46c5-aa86-e992d1335cf9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasGoal",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:decf8de8-296a-4c64-a4e1-657ddd561d20"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isPartOfProcess",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:f3e007ab-65a0-47d5-8b97-a02ec8288ba5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Step",
+   "source_id": "doc:cq:f69685df-3fc2-467c-a6c3-d625ee0464b4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "develops",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Staff",
+   "source_id": "doc:cq:726c24f6-fe4d-4a00-8355-4ac70078390e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:5f160fc1-bd81-416e-9fb9-8b49273de9af"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "definedIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "OffensiveTask",
+   "source_id": "doc:cq:84facfc6-e9b6-41cc-a2df-68fb1f2a0c35"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ForceRelationship",
+   "source_id": "doc:cq:915ad4cf-ce7b-463c-8dde-ec4f3d7b8947"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntelligenceRequirement",
+   "source_id": "doc:cq:ca3d70cc-ad9c-461b-b37b-fa154ea0a1c0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SecurityForce",
+   "source_id": "doc:cq:d2201c57-9271-47d5-aee5-3735805de6fe"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasWeatherEffectsMatrix",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DefensiveTaskPlanning",
+   "source_id": "doc:cq:528f1e8d-e46a-4703-bb66-bcae77889e38"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAssessment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IndigenousNation",
+   "source_id": "doc:cq:2663d36a-1d77-4c25-80f4-09d69872f21f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasInfrastructureType",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Infrastructure",
+   "source_id": "doc:cq:91b8bddb-4aa2-496e-9f38-495bc57fe2d4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "determinesCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Commander",
+   "source_id": "doc:cq:f5dddc58-9325-44e1-a40f-0551a2e1d925"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesInformation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "InformationProvider",
+   "source_id": "doc:cq:5ca60e89-f355-46c0-b902-929a3cc106fc"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Command",
+   "source_id": "doc:cq:aef0b08e-7c77-4abc-9b88-587951722ddf"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasInfrastructureType",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Infrastructure",
+   "source_id": "doc:cq:51729c0a-f849-4f03-b4ab-b5d946ef1320"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ReliefEffort",
+   "source_id": "doc:cq:763cea71-6350-4e30-8216-6e8eb65b6cf1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FinancialService",
+   "source_id": "doc:cq:fde0d1bd-7a3d-4bfb-9281-9c0b72dc63cf"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Task",
+   "source_id": "doc:cq:003b0de1-69c2-49a9-99bf-093e985096a8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "LittoralEnvironment",
+   "source_id": "doc:cq:fbc416a6-873b-41b9-ae6f-e11b9c162dc3"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Obstacle",
+   "source_id": "doc:cq:2639db28-2f82-4db7-9c64-2656804ac196"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "UrbanOperation",
+   "source_id": "doc:cq:68196b6d-3583-4f5d-b89e-4f8d4207b668"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAlternativeName",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Organization",
+   "source_id": "doc:cq:c7d469b2-a6ae-425e-99b7-5c5a7383a84f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Information",
+   "source_id": "doc:cq:c00243ea-4169-425d-816c-6e8663fb65d5"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "requiresExpertise",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Operation",
+   "source_id": "doc:cq:25c4067e-7e39-4302-b780-88a18a8d7c88"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Population",
+   "source_id": "doc:cq:caa63fa5-d11a-4b1c-8765-ff7ae35423a9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCategory",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SubterraneanEnvironment",
+   "source_id": "doc:cq:048be8f8-49a9-4614-8b79-b9b98c00ea15"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCharacteristic",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RudimentarySystem",
+   "source_id": "doc:cq:6e391a6a-607c-4c89-933e-7e8b1e19e901"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCategory",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "SubterraneanEnvironment",
+   "source_id": "doc:cq:6e391a6a-607c-4c89-933e-7e8b1e19e901"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "FortificationLine",
+   "source_id": "doc:cq:e713b28e-7cea-41dc-90f0-24cd3125998c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "usedIn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DefensiveCapability",
+   "source_id": "doc:cq:ec5b0599-91d7-4c73-b72e-218705b7d81f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Overlay",
+   "source_id": "doc:cq:849a4e11-64c1-40e0-add7-4ae008ad131c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "extendsTo",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AirDomain",
+   "source_id": "doc:cq:fa659804-9dcb-470f-8ac4-194da273bc3f"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasMotivation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "MaritimeThreatForce",
+   "source_id": "doc:cq:3fc8b9bb-08c0-4b5a-b958-d168ba5f913c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "causesRadarInterference",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "XRay",
+   "source_id": "doc:cq:8e2948ff-41c3-4456-b2ec-0387511a66f4"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "causesInterference",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RadioBurst",
+   "source_id": "doc:cq:f348e473-0ad1-4670-954c-cff500fe813c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "causesError",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RadioBurst",
+   "source_id": "doc:cq:f348e473-0ad1-4670-954c-cff500fe813c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStep",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IpbProcess",
+   "source_id": "doc:cq:37982c03-3665-410d-b410-77056b8f5e4e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasAbility",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AtmosphericActivity",
+   "source_id": "doc:cq:60f0fba1-0aa8-4e65-b6e0-41a25f1bd201"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "depicts",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "IntegrationProcess",
+   "source_id": "doc:cq:897d123e-f0ba-4d2b-8e92-1725d764bd71"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Table",
+   "source_id": "doc:cq:c9b03d9e-2bd2-4202-b2c7-147f645c12c0"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIdentifier",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Table",
+   "source_id": "doc:cq:c251d9db-288d-4618-81bc-ff559ce10abd"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "describes",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentTable",
+   "source_id": "doc:cq:e0194e65-8dcb-4cab-b1f9-45ddfb201bde"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentTable",
+   "source_id": "doc:cq:750f6d72-ba23-4186-a55a-29f77340fe0c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Table",
+   "source_id": "doc:cq:c567f33d-b042-4cb6-84ee-f3cb1cb816e2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Table",
+   "source_id": "doc:cq:83514f82-6e6d-43a1-afa2-765711b0346e"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasContent",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Table",
+   "source_id": "doc:cq:f22104d5-28e9-467f-84f3-afeeb5bb1e8c"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasContent",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Table",
+   "source_id": "doc:cq:fea399e5-bff6-41cd-9cb2-5405249caf95"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBasis",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HybridThreatDoctrine",
+   "source_id": "doc:cq:ee80493b-0d89-401d-a1cc-9747ce12af10"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasExample",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "AffiliatedOrganization",
+   "source_id": "doc:cq:1199d92e-be41-4eab-a2f4-e0d821e6db79"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "producesOutput",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ProductionProcess",
+   "source_id": "doc:cq:8a41759e-21b3-4db9-9cc5-d4fc7662a075"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "attacks",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RegularThreat",
+   "source_id": "doc:cq:4ae2ade6-09bf-4055-9551-a61b9bbd33f9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "defends",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "RegularThreat",
+   "source_id": "doc:cq:4ae2ade6-09bf-4055-9551-a61b9bbd33f9"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "isBasedOn",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Knowledge",
+   "source_id": "doc:cq:3b018b6f-f902-41d9-a3ba-0def7555a493"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNature",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "HybridThreatModel",
+   "source_id": "doc:cq:eecb8a11-a7d3-456d-8980-1b5c7754fa02"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesDoctrine",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspaceElectromagneticActivitiesSection",
+   "source_id": "doc:cq:164cd836-3881-4140-ae9b-2903f24f1a1b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "providesEquipment",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspaceElectromagneticActivitiesSection",
+   "source_id": "doc:cq:164cd836-3881-4140-ae9b-2903f24f1a1b"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasPurpose",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "PhysicalNetworkLayer",
+   "source_id": "doc:cq:009cb337-dee0-496b-8b78-3edb9abb6698"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSystemType",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatSystem",
+   "source_id": "doc:cq:7a314b61-6dff-4f35-9670-e1c23d0a9ef2"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNodeType",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:552152d6-0e00-4520-94e1-1621f3367b94"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasNodeType",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Node",
+   "source_id": "doc:cq:9fd271ae-43ca-4eb6-9f4c-f88780649276"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStep",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberCentricActivity",
+   "source_id": "doc:cq:c7a84133-1fc4-4059-9ab0-6e48224c9210"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "evaluatesPhysicalLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspacePerspective",
+   "source_id": "doc:cq:9d4cbeac-3af5-43a9-ab32-31554c9a9397"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "evaluatesLogicalLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspacePerspective",
+   "source_id": "doc:cq:9d4cbeac-3af5-43a9-ab32-31554c9a9397"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "evaluatesPhysicalLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspacePerspective",
+   "source_id": "doc:cq:f24343fc-9bbb-4dea-a8c9-fa4d47bd4df1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "evaluatesLogicalLocation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspacePerspective",
+   "source_id": "doc:cq:f24343fc-9bbb-4dea-a8c9-fa4d47bd4df1"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "conductsActivity",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CriminalOrganization",
+   "source_id": "doc:cq:07b73056-46da-4972-afb7-47acaaeeeff8"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasBehavior",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Actor",
+   "source_id": "doc:cq:2e960bb5-147e-4ee0-ab23-c90bf8cf4355"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasMotivation",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Actor",
+   "source_id": "doc:cq:b169b7f8-e3e4-4f7a-b2ca-171301c89089"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasLayer",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CyberspaceAssessment",
+   "source_id": "doc:cq:376e4966-ed09-4d80-912f-da190a67f141"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasStatus",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CriticalVulnerability",
+   "source_id": "doc:cq:bf10d72c-38e7-4e72-a453-13f7bec99c66"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasEffect",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "CriticalVulnerability",
+   "source_id": "doc:cq:bf10d72c-38e7-4e72-a453-13f7bec99c66"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasFormat",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "ThreatCapabilityStatement",
+   "source_id": "doc:cq:21a03bae-5a12-4a5b-856b-a2580bdf73f6"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasIntent",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:48461de7-c727-4c3d-b5af-05666e6b3161"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasCapability",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Threat",
+   "source_id": "doc:cq:48461de7-c727-4c3d-b5af-05666e6b3161"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:0dd09d57-47db-4fad-8a4e-8e4f1f24ac08"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "Figure",
+   "source_id": "doc:cq:6b321b82-67b2-47c9-91f8-96a8a069eb4a"
+  },
+  {
+   "scope": "value",
+   "kind": "DATA_PROP",
+   "token": "hasSubject",
+   "reason": "miss",
+   "candidates": [],
+   "class_name": "DocumentTable",
+   "source_id": "doc:cq:2c94fe90-671e-42a5-a7e5-6794812d6a15"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+# Experiment 3 again over the same five cells, with k=50 instead of the
+# pre-registered 5 (2026-09-29, user decision, after the k=5 probe was seen).
+# The service searches the whole store, where earlier runs (IPB r1/r2, the
+# pilot, attempt 1) share IPB's labels; with five slots they crowded the
+# probed namespaces out of 134 of 402 judged typo queries, a test-store effect
+# production (one namespace per manual) does not have. 50 is the service's
+# maximum. OOD.Leak counts suggestions, so it grows with k by construction and
+# is reported from the k=5 probe. Score into separate files:
+#   harness score <run> --results experiments/results/results_probe_k50.jsonl
+#   harness aggregate --results experiments/results/results_probe_k50.jsonl
+#                     --out experiments/results/aggregates_probe_k50.jsonl
+run:
+  model_weights: google/gemma-4-31B-it
+exp3_router:
+  from_run: 20260929T011743Z-doctrine
+  cells:
+  - experiment: exp1_stability
+    dataset: IPB
+  - experiment: exp2_generality
+    dataset: JP2
+  - experiment: exp2_generality
+    dataset: ADP
+  - experiment: exp2_generality
+    dataset: JP3
+  - experiment: exp2_generality
+    dataset: ADRP
+  ood_terms: ood_terms.txt
+  typo_seed: 42
+  k: 50

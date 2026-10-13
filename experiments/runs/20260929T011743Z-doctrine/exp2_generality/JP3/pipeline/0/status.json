@@ -1,0 +1,9 @@
+{
+ "status": "ok",
+ "stage": null,
+ "reason": "",
+ "elapsed_s": 3897.364,
+ "run_id": "Joint_Operations_20260929T011743Z_r0",
+ "base_iri": "http://example.org/doctrine/Joint_Operations_20260929T011743Z_r0#",
+ "graph": "doctrine/Joint_Operations_20260929T011743Z_r0"
+}
