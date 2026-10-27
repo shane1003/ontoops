@@ -69,10 +69,11 @@ Fix every line that is not OK (most live in `.env`) and run it again.
 uv run evaluation up      # build the images, start the stack, wait until healthy
 ```
 
-`evaluation up` builds the service images from `services/`. This repository
-carries no release tags, so `evaluation run` takes `--allow-untagged`; the
-manifest records the commit, any changed files and the stack settings, so a
-run is still traceable to its source. Stop the stack with `uv run evaluation down`
+`evaluation up` builds the service images from `services/`. `evaluation run`
+then starts only from a tagged, unmodified checkout, and takes
+`--allow-untagged` otherwise; either way the manifest records the commit, any
+changed files and the stack settings, so a run is traceable to its source.
+Stop the stack with `uv run evaluation down`
 (`--volumes` also drops its data).
 
 Continue with "Experiments" in the README.
