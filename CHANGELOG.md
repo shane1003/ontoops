@@ -228,6 +228,12 @@ added after the data they describe had been seen. `METRICS.md` and the configs
 say so at the point of definition. Only experiments 1 to 3 at k=5 are
 pre-registered.
 
+The stored config of `experiments/runs/20260929T011743Z-doctrine/` was edited
+after the run (#2): its `pdf`, `glossary` and `index` paths were repointed
+from the upstream `data_source/` layout to this repository's `corpus/`, so it
+can be re-run here. Only those paths changed, but the file's SHA-256 no longer
+matches the `config_sha256` its manifest records.
+
 #### Limits a reader should know
 
 - `experiments/pins.yaml` pins the three third-party images by digest, and
