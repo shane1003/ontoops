@@ -63,13 +63,14 @@ and index are the gold standard. Metrics are defined in
 With the stack running (see [SETUP.md](SETUP.md)):
 
 ```sh
-uv run evaluation run --allow-untagged experiments/configs/doctrine.yaml          # experiments 1-3
-uv run evaluation run --allow-untagged experiments/configs/faithfulness_ipb.yaml  # experiment 4
+uv run evaluation run experiments/configs/doctrine.yaml          # experiments 1-3
+uv run evaluation run experiments/configs/faithfulness_ipb.yaml  # experiment 4
 ```
 
-`--allow-untagged` lets the run start from a checkout without a release tag
-(this repository has none); the manifest still records the exact commit and
-any changed files.
+A run starts only from a checkout whose HEAD carries a release tag and whose
+tracked files are unchanged, so the manifest records a source anyone can check
+out. Add `--allow-untagged` to run from an untagged or modified tree; the
+manifest then still records the exact commit and the changed files.
 
 Experiments 3 and 4 read a finished `doctrine.yaml` run. The three configs
 (`doctrine_probe.yaml`, `doctrine_probe_k50.yaml`, `faithfulness_ipb.yaml`)
