@@ -57,11 +57,11 @@ before trusting a number or re-running an experiment.
 - A Typer CLI published as the `evaluation` console script with seven
   subcommands: `prep`, `envcheck`, `up`, `down`, `run`, `score`, `aggregate`.
 - `evaluation run <config.yaml>` executes every cell of an experiment config
-  against the running stack. A doc2onto cell walks the twelve pipeline steps
-  from document registration to graph upload and then exports its rows,
-  writing each service answer as it
-  arrives (`00_document.json` through `40_graph.json`, `21_tbox.ttl`) together
-  with `timings.json`, `vllm.json` and `status.json`. A cell ends as `ok`,
+  against the running stack. A `doc2onto` cell (the end-to-end pipeline run
+  type) walks the twelve pipeline steps from document registration to graph
+  upload and then exports its rows, writing each service answer as it arrives
+  (`00_document.json` through `40_graph.json`, `21_tbox.ttl`) together with
+  `timings.json`, `vllm.json` and `status.json`. A cell ends as `ok`,
   `parse_failure`, `inconsistent` or `timeout`, and a failed cell keeps
   everything written before the failure.
 - A freeze gate on provenance: `run` refuses to start unless HEAD carries an
